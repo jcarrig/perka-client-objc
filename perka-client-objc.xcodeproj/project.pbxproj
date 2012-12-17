@@ -10,7 +10,14 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>004aa9107ce90f805b1e96dd</key>
+		<key>01b1d7a1fd9c1e5c5d59923c</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5b6b75f667d4d6914db3100c</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05a0cc70183308e776235d74</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -19,25 +26,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>SocialListTarget.m</string>
+			<string>PerkaListTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0125b17fdb5269a9642ada0b</key>
+		<key>06429d4f99e5f5f01eb4989c</key>
 		<dict>
-			<key>fileRef</key>
-			<string>5d9e51a03cee10e58dc2ba98</string>
+			<key>FileEncoding</key>
+			<string>4</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaProgram.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>01e2a28b23e7827b93b97bd1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>661ac7a5828e708e97380389</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>02681c177137b71e4aebf66e</key>
+		<key>0864c53dcb4fae9fc3724a47</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -46,25 +52,37 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>VisitConfirmation.m</string>
+			<string>PerkaCompositeTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0298e873cb764b29c6c18c39</key>
+		<key>08ad71ea1c38a9ecb49e812a</key>
 		<dict>
-			<key>fileRef</key>
-			<string>1ab2f1e2a512903994bed490</string>
+			<key>FileEncoding</key>
+			<string>4</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaMerchantDashboardMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0308113e7f97435b9b7f3a9c</key>
+		<key>09e60a177ae108b6098422a4</key>
 		<dict>
-			<key>fileRef</key>
-			<string>02681c177137b71e4aebf66e</string>
+			<key>FileEncoding</key>
+			<string>4</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaRewardGrant.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>03b6e11e57e090af542da7d5</key>
+		<key>0b43a1d6b8af3b16b6040e68</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -73,11 +91,37 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ProgramType.m</string>
+			<string>PerkaSmsOutboundMessage.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>03bdcb2eda933e4c03bf63b5</key>
+		<key>0b77b7298286f9d3cc4ee7c6</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaProgramType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0c898e8a854e403716f6c1e4</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaUserCredentials.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0db4667b80ff164c574b5030</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -86,11 +130,64 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>CouponVisibility.m</string>
+			<string>PerkaNobodyTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>03fc0fa8b2ddc36960ea32fa</key>
+		<key>0ebe92ccf2e6c26c3c82577b</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaSocialListTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0ee3acfdce538f3934c684e9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0db4667b80ff164c574b5030</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>104a9a99590a8f640a83f13e</key>
+		<dict>
+			<key>fileRef</key>
+			<string>43e8e9394d1ed4cc9d5118cc</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>10ec3df7f5ab27b07d3d4345</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaPointsCatalogItem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>11ac69207c72faa61c88f433</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaCouponRedemption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>11f937d2128c3d2a4826e48a</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -99,25 +196,32 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>MerchantDashboardMessage.m</string>
+			<string>PerkaRedemptionRewardConfirmation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>058c67d7531f907b820a071a</key>
+		<key>170efc52093b20f6edd18214</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2c615bb5b6765e6ac2524cfb</string>
+			<string>d51d2ddaf15efd401968a751</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>060a46dc9565f868efa07b6f</key>
+		<key>199a924754f56a0cf2e6246b</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6f15bbf0307db7a2c4fbc1c5</string>
+			<string>3d07a414cf7ec84734ce989b</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>06fd28b6d9d0b7dc456ca12f</key>
+		<key>199b74c3705abbac3b7ba2a6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4996a4e410308b072e560e7f</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1a06d99ecaaab01fef51ae6d</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -126,32 +230,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>BaseEntityGlobal.m</string>
+			<string>PerkaBounceBackTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0799fe2ec2eec398469411ad</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6609dd8ca44977700c685481</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0987cf0145f018a7241392d2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>45aef04bb02ac2427e53d290</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09bf80b790c01d6fe1e74c46</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5587171801ce21a787dcdda2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0b07adae0b08e16f9f3040b2</key>
+		<key>1cb765972504a5a9b8aa06d0</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -160,11 +243,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>TierTarget.h</string>
+			<string>PerkaProgramTier.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0b8eb0650838dc9f9e0e25b4</key>
+		<key>1e320c620277736eb118db28</key>
+		<dict>
+			<key>fileRef</key>
+			<string>96182da2adb83cc4dae9f823</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23c6682142ed4c4663970ae7</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -173,18 +263,38 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>TierTarget.m</string>
+			<string>PerkaTierTraversal.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0bcce2affa61f5b4f8f8a1e4</key>
+		<key>253d4ccfdeef3442dc82fa68</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaTierTraversalConfirmation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2b613f0193c270dcc03aeb47</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3582a6d461d54033cba9c320</string>
+			<string>fec5bd7140180c4ac26c3c4a</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0d7f3a6716a7609bfc7f4780</key>
+		<key>2f5ddec44ad56a51a91a2f5b</key>
+		<dict>
+			<key>fileRef</key>
+			<string>d349a077019ec1b183c84d07</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>30c90bd86579bcb0cb5df387</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -193,11 +303,31 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>RedemptionRewardConfirmation.m</string>
+			<string>PerkaProgramTier.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0f2c8361ef2047a123b981f1</key>
+		<key>322128a623f039b163a63f46</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaMerchantUser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>343bdf8482be3533e7f5233c</key>
+		<dict>
+			<key>fileRef</key>
+			<string>c4360e28af000d62c3af1d96</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>348d0ad19bbc9749bb40704c</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -206,31 +336,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>RewardGrant.m</string>
+			<string>PerkaUserCredentials.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1036255535620465a1fb1d8f</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>VisitConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10d660e948119a49a1ed810a</key>
+		<key>351fc61240d81c054593ee82</key>
 		<dict>
 			<key>fileRef</key>
-			<string>43a9c237cf3905382c30515a</string>
+			<string>c5eabdadd4cd8049d56dc229</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>12ca23b26bab6fdbf37eecae</key>
+		<key>3666e90edacadb018751afe8</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -239,18 +356,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>MerchantUser.m</string>
+			<string>PerkaRedemptionCouponConfirmation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>14d822895038bba1e02043ca</key>
+		<key>3704ae4c66958e480757d6e6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>004aa9107ce90f805b1e96dd</string>
+			<string>76830f6ed79c629a52498566</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>156f8e1c097ccd09d2e35c2e</key>
+		<key>375cfd1288fab956b3f41403</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -259,38 +376,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Program.m</string>
+			<string>PerkaEverybodyTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1668e9f991fb6288d6506657</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>InternalUser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>173e3e03abdf4a6cd7d8a9ee</key>
-		<dict>
-			<key>fileRef</key>
-			<string>b70e869f18a276a583db20aa</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>17c61590526e303365da4e4f</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2b274c67fa19ad22102d8455</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>184f4d8a91725289be1c6988</key>
+		<key>3d07a414cf7ec84734ce989b</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -299,11 +389,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>PointsCatalogItem.m</string>
+			<string>PerkaOutboundMessage.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1901a3977ad69e3985218b7a</key>
+		<key>402352bb8fca8ceb615ca738</key>
+		<dict>
+			<key>fileRef</key>
+			<string>969070cf50a4bd5120b60dab</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4104e2788398deb8e33e9696</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -312,11 +409,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Reward.h</string>
+			<string>PerkaCustomerDevice.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1ab2f1e2a512903994bed490</key>
+		<key>422af9caf584f051746a7092</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -325,57 +422,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>InternalUser.m</string>
+			<string>PerkaProgram.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1cd14b2cdfce1151adf8e68b</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Visit.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1d657f35eb9533f7c9f0972c</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UserCredentials.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1df5dd0badd3523ec115daad</key>
-		<dict>
-			<key>fileRef</key>
-			<string>d64fbda3be3ae3ccab9c706d</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1f5ff2328b5fe96e4a432e51</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MerchantDevice.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>20acb2b8600392071b1f43c7</key>
+		<key>43ae8dafb6cbd327ca6a327f</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -384,31 +435,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>EntityAnnotation.m</string>
+			<string>PerkaVisit.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>20ffcc733c1f70ce0347b6dc</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4c6a2a46013ef8e3e3b7a9e8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>278537f0d38756cd8fcf16ee</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>BaseEntityGlobal.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2902d7ee33cde9d8572a575e</key>
+		<key>43e8e9394d1ed4cc9d5118cc</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -417,37 +448,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Visit.m</string>
+			<string>PerkaRewardGrant.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2969a930aa9312134d1c2259</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CustomerDevice.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2b010a55b1e5de130648c41c</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>EverybodyTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2b274c67fa19ad22102d8455</key>
+		<key>441752132a2087eda5acd999</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -456,11 +461,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>FeedbackItem.m</string>
+			<string>PerkaMerchantUser.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2c615bb5b6765e6ac2524cfb</key>
+		<key>461f40b16a8f62deb02a9f15</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaEntityAnnotation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>475bffc0f02d199536376024</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -469,11 +487,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ParticipationTarget.m</string>
+			<string>PerkaPointsActivity.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2da5f32cae46f1f193fbba76</key>
+		<key>495eba58db8a2b6e9fdc54d7</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -482,11 +500,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>MerchantUser.h</string>
+			<string>PerkaAbstractUser.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>34fab9ca31bbad574f533469</key>
+		<key>4996a4e410308b072e560e7f</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -495,11 +513,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>PointsActivity.m</string>
+			<string>PerkaMerchantLocation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3582a6d461d54033cba9c320</key>
+		<key>4cb99d93f555a5a5a5a16026</key>
+		<dict>
+			<key>fileRef</key>
+			<string>f7fc79d2621ff61ff263b05d</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4d2d57846a8ca08f2fc588d6</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -508,78 +533,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>PunchRewardConfirmation.m</string>
+			<string>PerkaWeatherTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>37da17e13e844055fae47d56</key>
-		<dict>
-			<key>fileRef</key>
-			<string>de338e3da77a15ba7d4205e3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38e18a0bc66e22b3459ac593</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NobodyTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3e91f310ffd8c773580c720f</key>
-		<dict>
-			<key>fileRef</key>
-			<string>b66824284a8e193910382dd2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3ed3eb5c10d838cc3054c8fc</key>
-		<dict>
-			<key>fileRef</key>
-			<string>c6fe2bfd71c01170edba96cf</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>40fd1090a7ef3a169167d601</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PunchRewardConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4237ca54140b6060691d47dc</key>
-		<dict>
-			<key>fileRef</key>
-			<string>984aa966ed6df1a88fc7fb87</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>433f0b5a1d230b15ff92811e</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CouponRedemption.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43a9c237cf3905382c30515a</key>
+		<key>4e3007887f71b51b6da2244f</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -588,11 +546,37 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ConsoleMessage.m</string>
+			<string>PerkaCustomer.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>455daeb66c29092e06b5bfdf</key>
+		<key>4f79ccc7d693ae3a4bcb14f3</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaPhysicalRedemptionTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50b4fcfeb0fa7fac2ec4e4d0</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaEverybodyTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52c49c5a938fa242986cb434</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -601,11 +585,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>BounceBackTarget.m</string>
+			<string>PerkaPointsActivityConfirmation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>45aef04bb02ac2427e53d290</key>
+		<key>538ce57f4fff097b91b7d710</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -614,25 +598,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Merchant.m</string>
+			<string>PerkaEntityAnnotation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>48fd46beda6c1fc437964615</key>
+		<key>5422507cc8d5ebe293f90cf7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>34fab9ca31bbad574f533469</string>
+			<string>475bffc0f02d199536376024</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4ac41e1304ccded809e17cee</key>
-		<dict>
-			<key>fileRef</key>
-			<string>184f4d8a91725289be1c6988</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4c525ceeaa19d523d9f5a3c2</key>
+		<key>5555cac2e68a5164e556c620</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -641,11 +618,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>CannedEmailOutboundMessage.h</string>
+			<string>PerkaPushMessage.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4c6a2a46013ef8e3e3b7a9e8</key>
+		<key>56b6f5d1d8ee4ee89e8af706</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -654,18 +631,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>MerchantCapability.m</string>
+			<string>PerkaMerchantDevice.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4cee43c6b209cb3e0a6518e7</key>
+		<key>574be51766422da06164f2ca</key>
 		<dict>
 			<key>fileRef</key>
-			<string>cdbd73f9237675d06d330420</string>
+			<string>82e9b77af4849f5c3f7e3420</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>506319c4621200fce1264089</key>
+		<key>5765d3d1b88990cb95aea89d</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -674,11 +651,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>PointsActivityConfirmation.h</string>
+			<string>PerkaMerchant.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>50682860997746935c1f3b69</key>
+		<key>576de755be1796baa770a50b</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -687,11 +664,25 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FirstVisitTarget.h</string>
+			<string>PerkaIntegratorUser.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>513bc6af4ae90c9030202bee</key>
+		<key>5801a2fcfde4a8e8c41f77f7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>c241cef59a9364c85e0abff1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>59a31a229231cfe770ebf06a</key>
+		<dict>
+			<key>fileRef</key>
+			<string>85d9e623b2a606215ddc9e27</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5a995e34e130bde41c094cb9</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -700,11 +691,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>OutboundMessage.m</string>
+			<string>PerkaBaseEntityGlobal.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>52303daa9a3137fd2a709fa8</key>
+		<key>5ab3d2e29a6953738389ea1e</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -713,18 +704,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>IntegratorUser.h</string>
+			<string>PerkaCannedEmailOutboundMessage.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>52e84dca8f2e29b61161efbb</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ec1180c769d969bd4debd5e1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>53f5b69cd9ac17c1b310656a</key>
+		<key>5ad76143496d2fad20036d1f</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -733,18 +717,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>ParticipationTarget.h</string>
+			<string>PerkaClerk.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>54b6b1f6e3441547b7ef2e9e</key>
-		<dict>
-			<key>fileRef</key>
-			<string>e42054877b10f4e047359461</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5587171801ce21a787dcdda2</key>
+		<key>5b6b75f667d4d6914db3100c</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -753,18 +730,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>SmsMessage.m</string>
+			<string>PerkaSocialServiceSubscription.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5752ba7e4a045f20769fe868</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9d5aa7d0162083c9bae49a9b</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>58733a23a6bbb3420fac98bf</key>
+		<key>5bfe0ea8c2dbbec9f0da8b2c</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -773,25 +743,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>YieldManagementTarget.h</string>
+			<string>PerkaStreetAddress.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5c489eab9dfff2d72204a1bd</key>
-		<dict>
-			<key>fileRef</key>
-			<string>71a546d1f8d7a3015680f6ec</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5d5e45aee52f113bacdb1c6a</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ee9368d1c109a2f82c166f65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5d9e51a03cee10e58dc2ba98</key>
+		<key>5ddc48b5a692ab3ecf50768f</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -800,11 +756,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Coupon.m</string>
+			<string>PerkaMerchantCapability.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5e8ed05147fd91f7d9d021f0</key>
+		<key>5ff0649cac2544e49e0456d9</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -813,37 +769,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>RewardGrant.h</string>
+			<string>PerkaCouponTarget.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5ee7badb28b2de1ce29bd45b</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PushMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63db12b7653930c473da1c56</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PointsActivity.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6609dd8ca44977700c685481</key>
+		<key>615c9cfe1ffff497732f6339</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -852,11 +782,91 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>PhysicalRedemptionTarget.m</string>
+			<string>PerkaParticipationTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>661ac7a5828e708e97380389</key>
+		<key>6222128e079a0c7252d1be89</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaMerchantDevice.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6271b14d44611a97cd0db687</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1a06d99ecaaab01fef51ae6d</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>62eb8779c521e47f06bdc6b8</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaVisit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>639bb6c7630422e19f1b27cf</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52c49c5a938fa242986cb434</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>640edf3b6dcae85fccd4b7f7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>a7475f737c2e3f09e29e0dd1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6b4539ad7f82aaf507cbe085</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaBaseEntityGlobal.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6b5e506c2530ddebe830f420</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaListTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6ba661ad2ae75017fbba1da3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>db855d40ee846a0fd6e69026</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6bf88268da3cecaa9f68e231</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -865,11 +875,25 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>PointsActivityConfirmation.m</string>
+			<string>PerkaPunchRewardConfirmation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>67cec7d9aa40b57cd02a4f27</key>
+		<key>6cfe20c1929911a4153c97c8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6bf88268da3cecaa9f68e231</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6eb8ea3ec7425747d3570366</key>
+		<dict>
+			<key>fileRef</key>
+			<string>76f935e8e9e7a5718f95a21f</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>70f126c510ad3baa792a4d32</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -878,37 +902,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Clerk.h</string>
+			<string>PerkaRedemptionCouponConfirmation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>68b46f36a4d01e58b55d5066</key>
+		<key>717c3f730c8f2e1d036c71f0</key>
 		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
+			<key>fileRef</key>
+			<string>99786b50c503f414a02b128e</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CouponVisibility.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>6d99edcc7c6e950d81e9c2e3</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ConsoleMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6f15bbf0307db7a2c4fbc1c5</key>
+		<key>720eb4d5e703bd41f8879b5a</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -917,11 +922,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>LikeToUnlockTarget.m</string>
+			<string>PerkaFirstVisitTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>71a546d1f8d7a3015680f6ec</key>
+		<key>723c444f100c3df5cc4c9aab</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaCustomer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>76830f6ed79c629a52498566</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -930,18 +948,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>TierTraversal.m</string>
+			<string>PerkaTierTraversalConfirmation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>71c9dd3f1b31d2c14ecd7be5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>455daeb66c29092e06b5bfdf</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>736f1e7a0d9ceec46872c866</key>
+		<key>76f935e8e9e7a5718f95a21f</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -950,11 +961,63 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>NobodyTarget.m</string>
+			<string>PerkaMerchant.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>73c9697b972ca24a394789f8</key>
+		<key>777c77b6695d4f88f15a2f8b</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaCompositeTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7b6b866eb436c85a64e63302</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaWeatherTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7bb93624d2c40c8decca0f30</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaFeedbackItem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7c7b8da677458bed1be00db0</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaSmsOutboundMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7d51a1fe6c1bfe43f91b869d</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -963,11 +1026,32 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>EverybodyTarget.m</string>
+			<string>PerkaCannedEmailOutboundMessage.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7765361154d1aa7c6f45355c</key>
+		<key>7dfdcb35ad18c05ad67c8288</key>
+		<dict>
+			<key>fileRef</key>
+			<string>720eb4d5e703bd41f8879b5a</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7e4fa93728ca2a5f81ab9072</key>
+		<dict>
+			<key>fileRef</key>
+			<string>f834e7d2e303f1879dbc6e73</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7f1626eb5b07800118c574a3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>348d0ad19bbc9749bb40704c</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7ffd006c21572edaa5f4f974</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -976,11 +1060,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>MerchantCapability.h</string>
+			<string>PerkaCoupon.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7b91cca89413da23c0b79c77</key>
+		<key>80b526310e37fa10bab8512b</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4d2d57846a8ca08f2fc588d6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>81b75dbd935632a3f880518f</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -989,51 +1080,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>CompositeTarget.m</string>
+			<string>PerkaTierTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7bd8f1f55686032cc6d742bf</key>
+		<key>8250d9dd4e44ba881c40765c</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0d7f3a6716a7609bfc7f4780</string>
+			<string>a26392a92a9a278f4c4226d2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>7d1cc3bfe769d8dccf724d03</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RewardAdvancement.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7dc12a673ef351af9bd4622c</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ProgramType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8002da60548676aea665468b</key>
-		<dict>
-			<key>fileRef</key>
-			<string>e43e8c4d20d37ac8d8d08a3b</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>812464ddd7873d0931d6450a</key>
+		<key>82e9b77af4849f5c3f7e3420</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -1042,11 +1100,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>AbstractUser.m</string>
+			<string>PerkaVisitConfirmation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>81742961f1e4a359fb327a86</key>
+		<key>84064f98879ccf5ab626b358</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -1055,18 +1113,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>MerchantLocation.h</string>
+			<string>PerkaTierTraversal.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>81aa720c9b910e11cd6c750c</key>
-		<dict>
-			<key>fileRef</key>
-			<string>dbb897a374ef254f3fae00bb</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>828ab9ac9ec6e58bf904e61d</key>
+		<key>85d9e623b2a606215ddc9e27</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -1075,18 +1126,130 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>PushMessage.m</string>
+			<string>PerkaRewardAdvancement.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>843015e05ee858e12a644eaf</key>
+		<key>88e049a73114facfffc88e86</key>
 		<dict>
 			<key>fileRef</key>
-			<string>e32cc71005883f0bede6b838</string>
+			<string>422af9caf584f051746a7092</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>8658ea2edd427ca3b581f6d8</key>
+		<key>8c7412246944607559d11811</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaReward.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8dce03434b58dde567e8bb9d</key>
+		<dict>
+			<key>fileRef</key>
+			<string>fd55a4ea0d137237370a35d6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8f0a133f5fb0053d5ece99d4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>f7db480ffdf423100692ea35</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>900d4b4014383cf858828615</key>
+		<dict>
+			<key>fileRef</key>
+			<string>11f937d2128c3d2a4826e48a</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9015ce3e7d765f7c569c5974</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaInternalUser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>91aa8660fa146e16c1ba0fe7</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaCouponVisibility.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>92dddeeebaa53ff83616aa55</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaMerchantCapability.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93739a21706f9d19ddb3c1ac</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaYieldManagementTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>937c74256a640bc93a31096c</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaSocialServiceSubscription.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>940d3a52019542be2d8638c9</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaParticipationTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>96182da2adb83cc4dae9f823</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -1095,18 +1258,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ProgramTier.m</string>
+			<string>PerkaStreetAddress.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8737e5b1a8c89a63ad4997e7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0f2c8361ef2047a123b981f1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>892419137e5275e8fb48d99e</key>
+		<key>96411c4de192fdc5caaa643a</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -1115,130 +1271,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Customer.h</string>
+			<string>PerkaMerchantLocation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8a9625cdbfff5e8089dac5d1</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AbstractRewardConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8c156e3b23bb54863ddbc3ec</key>
-		<dict>
-			<key>fileRef</key>
-			<string>d5f616916fe0d547b2dbe1af</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8ddc497785ff8f3e1b612f1a</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PointsCatalogItem.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8ec180623c331a0179bb9f81</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PhysicalRedemptionTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>923d660d1059680d1d067b11</key>
-		<dict>
-			<key>fileRef</key>
-			<string>c1a3210669ef11a6499b9aa3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9328859a5dbfd1d9a05db605</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>BounceBackTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93942df96dac48ec0f2af2d7</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OutboundMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93cd6efcab8c4bf9ef33bb78</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TierTraversal.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>94644d109258363a9c39148b</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RedemptionRewardConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>960dad6a39aa66d53220b467</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03b6e11e57e090af542da7d5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96bef652b3e1dc11f5f3a25b</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06fd28b6d9d0b7dc456ca12f</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>984aa966ed6df1a88fc7fb87</key>
+		<key>969070cf50a4bd5120b60dab</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -1247,11 +1284,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>SocialServiceSubscription.m</string>
+			<string>PerkaConsoleMessage.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>988ca4ad85f70202655d9cb2</key>
+		<key>96baa0a54e30126d1703c539</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -1260,32 +1297,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>CompositeTarget.h</string>
+			<string>PerkaSmsMessage.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>99c6dd05c999c8e4300227a7</key>
+		<key>96d1f738aba8c9b796d29ca7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>c3751b07ff4d2f7ce47fd45d</string>
+			<string>f640e69d61cc872ab379ba68</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9a42c78e181c9f6fcb7f8e09</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0b8eb0650838dc9f9e0e25b4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9b2f7793a87e506fc17c9c1d</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20acb2b8600392071b1f43c7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9d5aa7d0162083c9bae49a9b</key>
+		<key>97724e62ca41160cb9f02e8b</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -1294,31 +1317,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>StreetAddress.m</string>
+			<string>PerkaLikeToUnlockTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9ea4b87f1449af047f0903d9</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CouponRedemption.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9eb96b49f45598e76cb90ec2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>b027ee34aca164b842643a51</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9f15217dd7550ffd4e413a33</key>
+		<key>984766a5556e69e503ff0fe3</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -1327,7 +1330,67 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>SmsMessage.h</string>
+			<string>PerkaAbstractRewardConfirmation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>99786b50c503f414a02b128e</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaProgramType.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9a5eb06ec2663891f5fd8d4b</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaPointsActivityConfirmation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9aa4a89ec844754917ee0723</key>
+		<dict>
+			<key>fileRef</key>
+			<string>615c9cfe1ffff497732f6339</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9ae0d68b7dca41df64ba06d4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05a0cc70183308e776235d74</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9d88e2c4d94ebade10e1fded</key>
+		<dict>
+			<key>fileRef</key>
+			<string>eb5c93fa9da9e8b5a0e09a96</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9d99818412a526bbb80994dd</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaPhysicalRedemptionTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1335,126 +1398,126 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>8a9625cdbfff5e8089dac5d1</string>
-				<string>c3751b07ff4d2f7ce47fd45d</string>
-				<string>d43b01bf002c67b6e26d674f</string>
-				<string>812464ddd7873d0931d6450a</string>
-				<string>278537f0d38756cd8fcf16ee</string>
-				<string>06fd28b6d9d0b7dc456ca12f</string>
-				<string>9328859a5dbfd1d9a05db605</string>
-				<string>455daeb66c29092e06b5bfdf</string>
-				<string>4c525ceeaa19d523d9f5a3c2</string>
-				<string>de338e3da77a15ba7d4205e3</string>
-				<string>67cec7d9aa40b57cd02a4f27</string>
-				<string>d64fbda3be3ae3ccab9c706d</string>
-				<string>988ca4ad85f70202655d9cb2</string>
-				<string>7b91cca89413da23c0b79c77</string>
-				<string>6d99edcc7c6e950d81e9c2e3</string>
-				<string>43a9c237cf3905382c30515a</string>
-				<string>b9bbacaa9b90c9d66dc92ceb</string>
-				<string>5d9e51a03cee10e58dc2ba98</string>
-				<string>b1d5656f9691398ba3b6324c</string>
-				<string>ec1180c769d969bd4debd5e1</string>
-				<string>433f0b5a1d230b15ff92811e</string>
-				<string>9ea4b87f1449af047f0903d9</string>
-				<string>e307639429fdb0b8fd85c364</string>
-				<string>c1a3210669ef11a6499b9aa3</string>
-				<string>68b46f36a4d01e58b55d5066</string>
-				<string>03bdcb2eda933e4c03bf63b5</string>
-				<string>892419137e5275e8fb48d99e</string>
-				<string>d5f616916fe0d547b2dbe1af</string>
-				<string>2969a930aa9312134d1c2259</string>
-				<string>b66824284a8e193910382dd2</string>
-				<string>d8d044430e87948d646d438f</string>
-				<string>20acb2b8600392071b1f43c7</string>
-				<string>2b010a55b1e5de130648c41c</string>
-				<string>73c9697b972ca24a394789f8</string>
-				<string>fff05d1374132ab3565c0668</string>
-				<string>2b274c67fa19ad22102d8455</string>
-				<string>50682860997746935c1f3b69</string>
-				<string>d58c4c092321ad878ad7e2f0</string>
-				<string>dd1025aa9f3e1ed64286ae9b</string>
-				<string>e43e8c4d20d37ac8d8d08a3b</string>
-				<string>52303daa9a3137fd2a709fa8</string>
-				<string>c6fe2bfd71c01170edba96cf</string>
-				<string>1668e9f991fb6288d6506657</string>
-				<string>1ab2f1e2a512903994bed490</string>
-				<string>f0770afe92a7592c6aca519e</string>
-				<string>6f15bbf0307db7a2c4fbc1c5</string>
-				<string>c341f58fb3f16dd901aa9668</string>
-				<string>dbb897a374ef254f3fae00bb</string>
-				<string>fce3100df299fb7036efb7a1</string>
-				<string>45aef04bb02ac2427e53d290</string>
-				<string>7765361154d1aa7c6f45355c</string>
-				<string>4c6a2a46013ef8e3e3b7a9e8</string>
-				<string>da248cb7801c612640209ed2</string>
-				<string>03fc0fa8b2ddc36960ea32fa</string>
-				<string>1f5ff2328b5fe96e4a432e51</string>
-				<string>b027ee34aca164b842643a51</string>
-				<string>81742961f1e4a359fb327a86</string>
-				<string>e42054877b10f4e047359461</string>
-				<string>2da5f32cae46f1f193fbba76</string>
-				<string>12ca23b26bab6fdbf37eecae</string>
-				<string>38e18a0bc66e22b3459ac593</string>
-				<string>736f1e7a0d9ceec46872c866</string>
-				<string>93942df96dac48ec0f2af2d7</string>
-				<string>513bc6af4ae90c9030202bee</string>
-				<string>53f5b69cd9ac17c1b310656a</string>
-				<string>2c615bb5b6765e6ac2524cfb</string>
-				<string>8ec180623c331a0179bb9f81</string>
-				<string>6609dd8ca44977700c685481</string>
-				<string>63db12b7653930c473da1c56</string>
-				<string>34fab9ca31bbad574f533469</string>
-				<string>506319c4621200fce1264089</string>
-				<string>661ac7a5828e708e97380389</string>
-				<string>8ddc497785ff8f3e1b612f1a</string>
-				<string>184f4d8a91725289be1c6988</string>
-				<string>b43584c76a0c58618965927f</string>
-				<string>156f8e1c097ccd09d2e35c2e</string>
-				<string>cc2694829f76e609cd235885</string>
-				<string>8658ea2edd427ca3b581f6d8</string>
-				<string>7dc12a673ef351af9bd4622c</string>
-				<string>03b6e11e57e090af542da7d5</string>
-				<string>40fd1090a7ef3a169167d601</string>
-				<string>3582a6d461d54033cba9c320</string>
-				<string>5ee7badb28b2de1ce29bd45b</string>
-				<string>828ab9ac9ec6e58bf904e61d</string>
-				<string>e8e8efbb82512bfdf68d92f7</string>
-				<string>b70e869f18a276a583db20aa</string>
-				<string>94644d109258363a9c39148b</string>
-				<string>0d7f3a6716a7609bfc7f4780</string>
-				<string>1901a3977ad69e3985218b7a</string>
-				<string>cdbd73f9237675d06d330420</string>
-				<string>7d1cc3bfe769d8dccf724d03</string>
-				<string>e32cc71005883f0bede6b838</string>
-				<string>5e8ed05147fd91f7d9d021f0</string>
-				<string>0f2c8361ef2047a123b981f1</string>
-				<string>9f15217dd7550ffd4e413a33</string>
-				<string>5587171801ce21a787dcdda2</string>
-				<string>a19adebdc7b9af9d0ab9bdd6</string>
-				<string>ee9368d1c109a2f82c166f65</string>
-				<string>d1668e5008697101c53b23be</string>
-				<string>004aa9107ce90f805b1e96dd</string>
-				<string>b6b9d8fac69bf6f1aac0db34</string>
-				<string>984aa966ed6df1a88fc7fb87</string>
-				<string>c5bb21ca9d2d467a2259ad4e</string>
-				<string>9d5aa7d0162083c9bae49a9b</string>
-				<string>0b07adae0b08e16f9f3040b2</string>
-				<string>0b8eb0650838dc9f9e0e25b4</string>
-				<string>93cd6efcab8c4bf9ef33bb78</string>
-				<string>71a546d1f8d7a3015680f6ec</string>
-				<string>a794d0e2e4dc381c4a249bad</string>
-				<string>ee6b9e1b74fba2264e6c5fbc</string>
-				<string>1d657f35eb9533f7c9f0972c</string>
-				<string>c48111104db141272655079d</string>
-				<string>1cd14b2cdfce1151adf8e68b</string>
-				<string>2902d7ee33cde9d8572a575e</string>
-				<string>1036255535620465a1fb1d8f</string>
-				<string>02681c177137b71e4aebf66e</string>
-				<string>ab3fbb2fda651a5901f5a476</string>
-				<string>e4f1f10216565b796843fb97</string>
-				<string>58733a23a6bbb3420fac98bf</string>
-				<string>be9fdeadcd518d7b6be9e5c2</string>
+				<string>984766a5556e69e503ff0fe3</string>
+				<string>f7fc79d2621ff61ff263b05d</string>
+				<string>495eba58db8a2b6e9fdc54d7</string>
+				<string>eb63d8c06efc4aad61419387</string>
+				<string>6b4539ad7f82aaf507cbe085</string>
+				<string>5a995e34e130bde41c094cb9</string>
+				<string>e93ceaef5af2926303b2b649</string>
+				<string>1a06d99ecaaab01fef51ae6d</string>
+				<string>5ab3d2e29a6953738389ea1e</string>
+				<string>7d51a1fe6c1bfe43f91b869d</string>
+				<string>5ad76143496d2fad20036d1f</string>
+				<string>db855d40ee846a0fd6e69026</string>
+				<string>777c77b6695d4f88f15a2f8b</string>
+				<string>0864c53dcb4fae9fc3724a47</string>
+				<string>b1e468156073edc8c5dd6364</string>
+				<string>969070cf50a4bd5120b60dab</string>
+				<string>7ffd006c21572edaa5f4f974</string>
+				<string>c5eabdadd4cd8049d56dc229</string>
+				<string>fc42fb42fbf153d4a8c2473a</string>
+				<string>d349a077019ec1b183c84d07</string>
+				<string>11ac69207c72faa61c88f433</string>
+				<string>a7475f737c2e3f09e29e0dd1</string>
+				<string>5ff0649cac2544e49e0456d9</string>
+				<string>fec5bd7140180c4ac26c3c4a</string>
+				<string>91aa8660fa146e16c1ba0fe7</string>
+				<string>a26392a92a9a278f4c4226d2</string>
+				<string>723c444f100c3df5cc4c9aab</string>
+				<string>4e3007887f71b51b6da2244f</string>
+				<string>4104e2788398deb8e33e9696</string>
+				<string>f834e7d2e303f1879dbc6e73</string>
+				<string>461f40b16a8f62deb02a9f15</string>
+				<string>538ce57f4fff097b91b7d710</string>
+				<string>50b4fcfeb0fa7fac2ec4e4d0</string>
+				<string>375cfd1288fab956b3f41403</string>
+				<string>7bb93624d2c40c8decca0f30</string>
+				<string>f518ca8422477edde7f71bad</string>
+				<string>dab34163cef30b841b874a73</string>
+				<string>720eb4d5e703bd41f8879b5a</string>
+				<string>a182b9921c76620280606003</string>
+				<string>c241cef59a9364c85e0abff1</string>
+				<string>576de755be1796baa770a50b</string>
+				<string>eb5c93fa9da9e8b5a0e09a96</string>
+				<string>9015ce3e7d765f7c569c5974</string>
+				<string>f7db480ffdf423100692ea35</string>
+				<string>d9e02f627186e09338d8a100</string>
+				<string>97724e62ca41160cb9f02e8b</string>
+				<string>6b5e506c2530ddebe830f420</string>
+				<string>05a0cc70183308e776235d74</string>
+				<string>5765d3d1b88990cb95aea89d</string>
+				<string>76f935e8e9e7a5718f95a21f</string>
+				<string>92dddeeebaa53ff83616aa55</string>
+				<string>5ddc48b5a692ab3ecf50768f</string>
+				<string>08ad71ea1c38a9ecb49e812a</string>
+				<string>d51d2ddaf15efd401968a751</string>
+				<string>6222128e079a0c7252d1be89</string>
+				<string>56b6f5d1d8ee4ee89e8af706</string>
+				<string>96411c4de192fdc5caaa643a</string>
+				<string>4996a4e410308b072e560e7f</string>
+				<string>322128a623f039b163a63f46</string>
+				<string>441752132a2087eda5acd999</string>
+				<string>a36a6fabacc16722941c24bd</string>
+				<string>0db4667b80ff164c574b5030</string>
+				<string>d7506529edd4a81da41e1398</string>
+				<string>3d07a414cf7ec84734ce989b</string>
+				<string>940d3a52019542be2d8638c9</string>
+				<string>615c9cfe1ffff497732f6339</string>
+				<string>4f79ccc7d693ae3a4bcb14f3</string>
+				<string>9d99818412a526bbb80994dd</string>
+				<string>ae4d2ac13b09aa7a19a2b7f6</string>
+				<string>475bffc0f02d199536376024</string>
+				<string>9a5eb06ec2663891f5fd8d4b</string>
+				<string>52c49c5a938fa242986cb434</string>
+				<string>10ec3df7f5ab27b07d3d4345</string>
+				<string>c4360e28af000d62c3af1d96</string>
+				<string>06429d4f99e5f5f01eb4989c</string>
+				<string>422af9caf584f051746a7092</string>
+				<string>1cb765972504a5a9b8aa06d0</string>
+				<string>30c90bd86579bcb0cb5df387</string>
+				<string>0b77b7298286f9d3cc4ee7c6</string>
+				<string>99786b50c503f414a02b128e</string>
+				<string>d41aba658c58f0fc3e74494b</string>
+				<string>6bf88268da3cecaa9f68e231</string>
+				<string>5555cac2e68a5164e556c620</string>
+				<string>d7849d98cd6cd4624dbb48a0</string>
+				<string>70f126c510ad3baa792a4d32</string>
+				<string>3666e90edacadb018751afe8</string>
+				<string>c2296d2b488d1f797e81d6b1</string>
+				<string>11f937d2128c3d2a4826e48a</string>
+				<string>8c7412246944607559d11811</string>
+				<string>ec5b78bdc501155ff1951a15</string>
+				<string>e36b2ba225727d6bf18fa410</string>
+				<string>85d9e623b2a606215ddc9e27</string>
+				<string>09e60a177ae108b6098422a4</string>
+				<string>43e8e9394d1ed4cc9d5118cc</string>
+				<string>96baa0a54e30126d1703c539</string>
+				<string>eb1699e88d368e58aceee401</string>
+				<string>7c7b8da677458bed1be00db0</string>
+				<string>0b43a1d6b8af3b16b6040e68</string>
+				<string>0ebe92ccf2e6c26c3c82577b</string>
+				<string>fd55a4ea0d137237370a35d6</string>
+				<string>937c74256a640bc93a31096c</string>
+				<string>5b6b75f667d4d6914db3100c</string>
+				<string>5bfe0ea8c2dbbec9f0da8b2c</string>
+				<string>96182da2adb83cc4dae9f823</string>
+				<string>cf2b5d39ca23d401ac3ae928</string>
+				<string>81b75dbd935632a3f880518f</string>
+				<string>84064f98879ccf5ab626b358</string>
+				<string>23c6682142ed4c4663970ae7</string>
+				<string>253d4ccfdeef3442dc82fa68</string>
+				<string>76830f6ed79c629a52498566</string>
+				<string>0c898e8a854e403716f6c1e4</string>
+				<string>348d0ad19bbc9749bb40704c</string>
+				<string>62eb8779c521e47f06bdc6b8</string>
+				<string>43ae8dafb6cbd327ca6a327f</string>
+				<string>dbf7635ef573222a1874adf3</string>
+				<string>82e9b77af4849f5c3f7e3420</string>
+				<string>7b6b866eb436c85a64e63302</string>
+				<string>4d2d57846a8ca08f2fc588d6</string>
+				<string>93739a21706f9d19ddb3c1ac</string>
+				<string>f640e69d61cc872ab379ba68</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1462,6 +1525,35 @@
 			<string>generated</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8533F2D167FA31100519F0A</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D8A8A6DB16792266008DDF39</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D8BD1B6E166D03F7008AB3FF</string>
+			<key>remoteInfo</key>
+			<string>flatpack-objc</string>
+		</dict>
+		<key>D8533F2E167FA31100519F0A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>flatpack-objc</string>
+			<key>targetProxy</key>
+			<string>D8533F2D167FA31100519F0A</string>
+		</dict>
+		<key>D8533F40167FA3EF00519F0A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8A8A6E216792266008DDF39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D8A8A5B01678E66D008DDF39</key>
 		<dict>
@@ -1545,66 +1637,66 @@
 			<key>files</key>
 			<array>
 				<string>D8A8A5C61678E66D008DDF39</string>
-				<string>99c6dd05c999c8e4300227a7</string>
-				<string>f3ffef35cb36868fcb4bdfcf</string>
-				<string>96bef652b3e1dc11f5f3a25b</string>
-				<string>71c9dd3f1b31d2c14ecd7be5</string>
-				<string>37da17e13e844055fae47d56</string>
-				<string>1df5dd0badd3523ec115daad</string>
-				<string>f31fe69c7240ec0f9263b4a8</string>
-				<string>10d660e948119a49a1ed810a</string>
-				<string>0125b17fdb5269a9642ada0b</string>
-				<string>52e84dca8f2e29b61161efbb</string>
-				<string>d63b189981c3cb047c931cbe</string>
-				<string>923d660d1059680d1d067b11</string>
-				<string>cf5408eb7ca5e8d2e7a71888</string>
-				<string>8c156e3b23bb54863ddbc3ec</string>
-				<string>3e91f310ffd8c773580c720f</string>
-				<string>9b2f7793a87e506fc17c9c1d</string>
-				<string>dd6fa6f309ce2fdd985d59e3</string>
-				<string>17c61590526e303365da4e4f</string>
-				<string>f505723d44dc85217bad22b9</string>
-				<string>8002da60548676aea665468b</string>
-				<string>3ed3eb5c10d838cc3054c8fc</string>
-				<string>0298e873cb764b29c6c18c39</string>
-				<string>060a46dc9565f868efa07b6f</string>
-				<string>81aa720c9b910e11cd6c750c</string>
-				<string>0987cf0145f018a7241392d2</string>
-				<string>20ffcc733c1f70ce0347b6dc</string>
-				<string>f93e641a009b9e5ab7a9994e</string>
-				<string>9eb96b49f45598e76cb90ec2</string>
-				<string>54b6b1f6e3441547b7ef2e9e</string>
-				<string>bfcca09e95a81c91a39abe19</string>
-				<string>b01ac55cfba97b3963fc2275</string>
-				<string>d5ebd575e896c6fc354202d1</string>
-				<string>058c67d7531f907b820a071a</string>
-				<string>0799fe2ec2eec398469411ad</string>
-				<string>48fd46beda6c1fc437964615</string>
-				<string>01e2a28b23e7827b93b97bd1</string>
-				<string>4ac41e1304ccded809e17cee</string>
-				<string>efe68d99ee225accb1dd083a</string>
-				<string>d25b00b3a2e6769e3bb852b6</string>
-				<string>960dad6a39aa66d53220b467</string>
-				<string>0bcce2affa61f5b4f8f8a1e4</string>
-				<string>c1cc5c0ab8fbbdfec5403cc3</string>
-				<string>173e3e03abdf4a6cd7d8a9ee</string>
-				<string>7bd8f1f55686032cc6d742bf</string>
-				<string>4cee43c6b209cb3e0a6518e7</string>
-				<string>843015e05ee858e12a644eaf</string>
-				<string>8737e5b1a8c89a63ad4997e7</string>
-				<string>09bf80b790c01d6fe1e74c46</string>
-				<string>5d5e45aee52f113bacdb1c6a</string>
-				<string>14d822895038bba1e02043ca</string>
-				<string>4237ca54140b6060691d47dc</string>
-				<string>5752ba7e4a045f20769fe868</string>
-				<string>9a42c78e181c9f6fcb7f8e09</string>
-				<string>5c489eab9dfff2d72204a1bd</string>
-				<string>ad2444d58afe9846d65a54bb</string>
-				<string>c72e649275120e66c4dedac9</string>
-				<string>c9363b01a3346bd8d87537a0</string>
-				<string>0308113e7f97435b9b7f3a9c</string>
-				<string>c376df533c26cd181d3cd7bc</string>
-				<string>a7c6011f125f2f296c1e1bf6</string>
+				<string>4cb99d93f555a5a5a5a16026</string>
+				<string>c5e16e0ecd70d8cd19066b36</string>
+				<string>ae9fc2cc5bcd7ecde7d21f8f</string>
+				<string>6271b14d44611a97cd0db687</string>
+				<string>e7cf5802d4ef85cacbad41d4</string>
+				<string>6ba661ad2ae75017fbba1da3</string>
+				<string>d9a093b395749ba82b8e0207</string>
+				<string>402352bb8fca8ceb615ca738</string>
+				<string>351fc61240d81c054593ee82</string>
+				<string>2f5ddec44ad56a51a91a2f5b</string>
+				<string>640edf3b6dcae85fccd4b7f7</string>
+				<string>2b613f0193c270dcc03aeb47</string>
+				<string>8250d9dd4e44ba881c40765c</string>
+				<string>baa35f1bd4c37394347676b5</string>
+				<string>7e4fa93728ca2a5f81ab9072</string>
+				<string>fb5f3e166ca93b3f21b336a8</string>
+				<string>ae78bc4ce4db413b5dd8e2cb</string>
+				<string>f7bb248d521e2932abe55ef7</string>
+				<string>7dfdcb35ad18c05ad67c8288</string>
+				<string>5801a2fcfde4a8e8c41f77f7</string>
+				<string>9d88e2c4d94ebade10e1fded</string>
+				<string>8f0a133f5fb0053d5ece99d4</string>
+				<string>d14f2a7f0f1ca4fb2eebefe4</string>
+				<string>9ae0d68b7dca41df64ba06d4</string>
+				<string>6eb8ea3ec7425747d3570366</string>
+				<string>ba6f307195fa0a5fb4460f71</string>
+				<string>170efc52093b20f6edd18214</string>
+				<string>caf6c87c000d5444a91a243e</string>
+				<string>199b74c3705abbac3b7ba2a6</string>
+				<string>e8095c5704461063d3db665c</string>
+				<string>0ee3acfdce538f3934c684e9</string>
+				<string>199a924754f56a0cf2e6246b</string>
+				<string>9aa4a89ec844754917ee0723</string>
+				<string>b718b4c84e7b3b1137a9c466</string>
+				<string>5422507cc8d5ebe293f90cf7</string>
+				<string>639bb6c7630422e19f1b27cf</string>
+				<string>343bdf8482be3533e7f5233c</string>
+				<string>88e049a73114facfffc88e86</string>
+				<string>bb27007240b8b489ca10ec4a</string>
+				<string>717c3f730c8f2e1d036c71f0</string>
+				<string>6cfe20c1929911a4153c97c8</string>
+				<string>d37382b80bcc30c1abd71d9a</string>
+				<string>d7fdef487585e3dc7691eee2</string>
+				<string>900d4b4014383cf858828615</string>
+				<string>b2603d4a8941aaa780703dcd</string>
+				<string>59a31a229231cfe770ebf06a</string>
+				<string>104a9a99590a8f640a83f13e</string>
+				<string>b3ba714a7b0add4588671b7a</string>
+				<string>a7a2b82155e8a6c8192d6b39</string>
+				<string>8dce03434b58dde567e8bb9d</string>
+				<string>01b1d7a1fd9c1e5c5d59923c</string>
+				<string>1e320c620277736eb118db28</string>
+				<string>f99b017fc17247fb27264de4</string>
+				<string>cff720253a06de5c8a687144</string>
+				<string>3704ae4c66958e480757d6e6</string>
+				<string>7f1626eb5b07800118c574a3</string>
+				<string>cf2282ed0cd0b2dddcb3f9c5</string>
+				<string>574be51766422da06164f2ca</string>
+				<string>80b526310e37fa10bab8512b</string>
+				<string>96d1f738aba8c9b796d29ca7</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
@@ -1617,6 +1709,7 @@
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
+				<string>D8533F40167FA3EF00519F0A</string>
 				<string>D8A8A5BF1678E66D008DDF39</string>
 			</array>
 			<key>isa</key>
@@ -1654,7 +1747,9 @@
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
-			<array/>
+			<array>
+				<string>D8533F2E167FA31100519F0A</string>
+			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
@@ -2191,6 +2286,8 @@
 		<dict>
 			<key>buildSettings</key>
 			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>YES</string>
 				<key>DSTROOT</key>
 				<string>/tmp/perka_client_objc.dst</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
@@ -2203,6 +2300,8 @@
 				<string>$(TARGET_NAME)</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>"$(SRCROOT)/../flatpack-objc/"/**</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
@@ -2213,6 +2312,8 @@
 		<dict>
 			<key>buildSettings</key>
 			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>YES</string>
 				<key>DSTROOT</key>
 				<string>/tmp/perka_client_objc.dst</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
@@ -2225,6 +2326,8 @@
 				<string>$(TARGET_NAME)</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>"$(SRCROOT)/../flatpack-objc/"/**</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
@@ -2401,7 +2504,7 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>a19adebdc7b9af9d0ab9bdd6</key>
+		<key>a182b9921c76620280606003</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2410,11 +2513,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>SmsOutboundMessage.h</string>
+			<string>PerkaIdleCustomerTarget.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>a794d0e2e4dc381c4a249bad</key>
+		<key>a26392a92a9a278f4c4226d2</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaCouponVisibility.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>a36a6fabacc16722941c24bd</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2423,18 +2539,31 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>TierTraversalConfirmation.h</string>
+			<string>PerkaNobodyTarget.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>a7c6011f125f2f296c1e1bf6</key>
+		<key>a7475f737c2e3f09e29e0dd1</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaCouponRedemption.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>a7a2b82155e8a6c8192d6b39</key>
 		<dict>
 			<key>fileRef</key>
-			<string>be9fdeadcd518d7b6be9e5c2</string>
+			<string>0b43a1d6b8af3b16b6040e68</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>ab3fbb2fda651a5901f5a476</key>
+		<key>ae4d2ac13b09aa7a19a2b7f6</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2443,38 +2572,25 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>WeatherTarget.h</string>
+			<string>PerkaPointsActivity.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ad2444d58afe9846d65a54bb</key>
+		<key>ae78bc4ce4db413b5dd8e2cb</key>
 		<dict>
 			<key>fileRef</key>
-			<string>ee6b9e1b74fba2264e6c5fbc</string>
+			<string>375cfd1288fab956b3f41403</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>b01ac55cfba97b3963fc2275</key>
+		<key>ae9fc2cc5bcd7ecde7d21f8f</key>
 		<dict>
 			<key>fileRef</key>
-			<string>736f1e7a0d9ceec46872c866</string>
+			<string>5a995e34e130bde41c094cb9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>b027ee34aca164b842643a51</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MerchantDevice.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>b1d5656f9691398ba3b6324c</key>
+		<key>b1e468156073edc8c5dd6364</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2483,116 +2599,53 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>CouponCampaign.h</string>
+			<string>PerkaConsoleMessage.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>b43584c76a0c58618965927f</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Program.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>b66824284a8e193910382dd2</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CustomerDevice.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>b6b9d8fac69bf6f1aac0db34</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SocialServiceSubscription.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>b70e869f18a276a583db20aa</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RedemptionCouponConfirmation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>b9bbacaa9b90c9d66dc92ceb</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Coupon.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>be9fdeadcd518d7b6be9e5c2</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>YieldManagementTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>bfcca09e95a81c91a39abe19</key>
+		<key>b2603d4a8941aaa780703dcd</key>
 		<dict>
 			<key>fileRef</key>
-			<string>12ca23b26bab6fdbf37eecae</string>
+			<string>ec5b78bdc501155ff1951a15</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>c1a3210669ef11a6499b9aa3</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CouponTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>c1cc5c0ab8fbbdfec5403cc3</key>
+		<key>b3ba714a7b0add4588671b7a</key>
 		<dict>
 			<key>fileRef</key>
-			<string>828ab9ac9ec6e58bf904e61d</string>
+			<string>eb1699e88d368e58aceee401</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>c341f58fb3f16dd901aa9668</key>
+		<key>b718b4c84e7b3b1137a9c466</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9d99818412a526bbb80994dd</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ba6f307195fa0a5fb4460f71</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5ddc48b5a692ab3ecf50768f</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>baa35f1bd4c37394347676b5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4e3007887f71b51b6da2244f</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>bb27007240b8b489ca10ec4a</key>
+		<dict>
+			<key>fileRef</key>
+			<string>30c90bd86579bcb0cb5df387</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>c2296d2b488d1f797e81d6b1</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2601,11 +2654,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>ListTarget.h</string>
+			<string>PerkaRedemptionRewardConfirmation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>c3751b07ff4d2f7ce47fd45d</key>
+		<key>c241cef59a9364c85e0abff1</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2614,18 +2667,31 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>AbstractRewardConfirmation.m</string>
+			<string>PerkaIdleCustomerTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>c376df533c26cd181d3cd7bc</key>
+		<key>c4360e28af000d62c3af1d96</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaPointsCatalogItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>c5e16e0ecd70d8cd19066b36</key>
 		<dict>
 			<key>fileRef</key>
-			<string>e4f1f10216565b796843fb97</string>
+			<string>eb63d8c06efc4aad61419387</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>c48111104db141272655079d</key>
+		<key>c5eabdadd4cd8049d56dc229</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2634,11 +2700,25 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>UserCredentials.m</string>
+			<string>PerkaCoupon.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>c5bb21ca9d2d467a2259ad4e</key>
+		<key>caf6c87c000d5444a91a243e</key>
+		<dict>
+			<key>fileRef</key>
+			<string>56b6f5d1d8ee4ee89e8af706</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>cf2282ed0cd0b2dddcb3f9c5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>43ae8dafb6cbd327ca6a327f</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>cf2b5d39ca23d401ac3ae928</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2647,11 +2727,25 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>StreetAddress.h</string>
+			<string>PerkaTierTarget.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>c6fe2bfd71c01170edba96cf</key>
+		<key>cff720253a06de5c8a687144</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23c6682142ed4c4663970ae7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d14f2a7f0f1ca4fb2eebefe4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>97724e62ca41160cb9f02e8b</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d349a077019ec1b183c84d07</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2660,25 +2754,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>IntegratorUser.m</string>
+			<string>PerkaCouponCampaign.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>c72e649275120e66c4dedac9</key>
+		<key>d37382b80bcc30c1abd71d9a</key>
 		<dict>
 			<key>fileRef</key>
-			<string>c48111104db141272655079d</string>
+			<string>d7849d98cd6cd4624dbb48a0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>c9363b01a3346bd8d87537a0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2902d7ee33cde9d8572a575e</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>cc2694829f76e609cd235885</key>
+		<key>d41aba658c58f0fc3e74494b</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2687,11 +2774,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>ProgramTier.h</string>
+			<string>PerkaPunchRewardConfirmation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>cdbd73f9237675d06d330420</key>
+		<key>d51d2ddaf15efd401968a751</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2700,18 +2787,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Reward.m</string>
+			<string>PerkaMerchantDashboardMessage.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>cf5408eb7ca5e8d2e7a71888</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03bdcb2eda933e4c03bf63b5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>d1668e5008697101c53b23be</key>
+		<key>d7506529edd4a81da41e1398</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2720,18 +2800,38 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>SocialListTarget.h</string>
+			<string>PerkaOutboundMessage.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>d25b00b3a2e6769e3bb852b6</key>
+		<key>d7849d98cd6cd4624dbb48a0</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaPushMessage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>d7fdef487585e3dc7691eee2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8658ea2edd427ca3b581f6d8</string>
+			<string>3666e90edacadb018751afe8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>d43b01bf002c67b6e26d674f</key>
+		<key>d9a093b395749ba82b8e0207</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0864c53dcb4fae9fc3724a47</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d9e02f627186e09338d8a100</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2740,64 +2840,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>AbstractUser.h</string>
+			<string>PerkaLikeToUnlockTarget.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>d58c4c092321ad878ad7e2f0</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FirstVisitTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>d5ebd575e896c6fc354202d1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>513bc6af4ae90c9030202bee</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>d5f616916fe0d547b2dbe1af</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Customer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>d63b189981c3cb047c931cbe</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9ea4b87f1449af047f0903d9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>d64fbda3be3ae3ccab9c706d</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Clerk.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>d8d044430e87948d646d438f</key>
+		<key>dab34163cef30b841b874a73</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2806,24 +2853,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>EntityAnnotation.h</string>
+			<string>PerkaFirstVisitTarget.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>da248cb7801c612640209ed2</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MerchantDashboardMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>dbb897a374ef254f3fae00bb</key>
+		<key>db855d40ee846a0fd6e69026</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2832,11 +2866,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ListTarget.m</string>
+			<string>PerkaClerk.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>dd1025aa9f3e1ed64286ae9b</key>
+		<key>dbf7635ef573222a1874adf3</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2845,31 +2879,38 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>IdleCustomerTarget.h</string>
+			<string>PerkaVisitConfirmation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>dd6fa6f309ce2fdd985d59e3</key>
+		<key>e36b2ba225727d6bf18fa410</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaRewardAdvancement.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>e7cf5802d4ef85cacbad41d4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>73c9697b972ca24a394789f8</string>
+			<string>7d51a1fe6c1bfe43f91b869d</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>de338e3da77a15ba7d4205e3</key>
+		<key>e8095c5704461063d3db665c</key>
 		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
+			<key>fileRef</key>
+			<string>441752132a2087eda5acd999</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CannedEmailOutboundMessage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>e307639429fdb0b8fd85c364</key>
+		<key>e93ceaef5af2926303b2b649</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2878,11 +2919,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>CouponTarget.h</string>
+			<string>PerkaBounceBackTarget.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>e32cc71005883f0bede6b838</key>
+		<key>eb1699e88d368e58aceee401</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2891,11 +2932,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>RewardAdvancement.m</string>
+			<string>PerkaSmsMessage.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>e42054877b10f4e047359461</key>
+		<key>eb5c93fa9da9e8b5a0e09a96</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2904,11 +2945,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>MerchantLocation.m</string>
+			<string>PerkaIntegratorUser.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>e43e8c4d20d37ac8d8d08a3b</key>
+		<key>eb63d8c06efc4aad61419387</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2917,11 +2958,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>IdleCustomerTarget.m</string>
+			<string>PerkaAbstractUser.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>e4f1f10216565b796843fb97</key>
+		<key>ec5b78bdc501155ff1951a15</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2930,11 +2971,97 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>WeatherTarget.m</string>
+			<string>PerkaReward.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>e8e8efbb82512bfdf68d92f7</key>
+		<key>f518ca8422477edde7f71bad</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaFeedbackItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f640e69d61cc872ab379ba68</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaYieldManagementTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f7bb248d521e2932abe55ef7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>f518ca8422477edde7f71bad</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>f7db480ffdf423100692ea35</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaInternalUser.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f7fc79d2621ff61ff263b05d</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaAbstractRewardConfirmation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f834e7d2e303f1879dbc6e73</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaCustomerDevice.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f99b017fc17247fb27264de4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>81b75dbd935632a3f880518f</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>fb5f3e166ca93b3f21b336a8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>538ce57f4fff097b91b7d710</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>fc42fb42fbf153d4a8c2473a</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2943,11 +3070,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>RedemptionCouponConfirmation.h</string>
+			<string>PerkaCouponCampaign.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ec1180c769d969bd4debd5e1</key>
+		<key>fd55a4ea0d137237370a35d6</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2956,11 +3083,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>CouponCampaign.m</string>
+			<string>PerkaSocialListTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ee6b9e1b74fba2264e6c5fbc</key>
+		<key>fec5bd7140180c4ac26c3c4a</key>
 		<dict>
 			<key>FileEncoding</key>
 			<string>4</string>
@@ -2969,94 +3096,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>TierTraversalConfirmation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ee9368d1c109a2f82c166f65</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SmsOutboundMessage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>efe68d99ee225accb1dd083a</key>
-		<dict>
-			<key>fileRef</key>
-			<string>156f8e1c097ccd09d2e35c2e</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>f0770afe92a7592c6aca519e</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LikeToUnlockTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>f31fe69c7240ec0f9263b4a8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7b91cca89413da23c0b79c77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>f3ffef35cb36868fcb4bdfcf</key>
-		<dict>
-			<key>fileRef</key>
-			<string>812464ddd7873d0931d6450a</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>f505723d44dc85217bad22b9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>d58c4c092321ad878ad7e2f0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>f93e641a009b9e5ab7a9994e</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03fc0fa8b2ddc36960ea32fa</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>fce3100df299fb7036efb7a1</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Merchant.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>fff05d1374132ab3565c0668</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FeedbackItem.h</string>
+			<string>PerkaCouponTarget.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
