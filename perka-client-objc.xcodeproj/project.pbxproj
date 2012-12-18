@@ -327,6 +327,13 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>347b18ae7f094f28b39e2d41</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ae6a5cf6435f949171d09e8c</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>348d0ad19bbc9749bb40704c</key>
 		<dict>
 			<key>FileEncoding</key>
@@ -1518,6 +1525,8 @@
 				<string>4d2d57846a8ca08f2fc588d6</string>
 				<string>93739a21706f9d19ddb3c1ac</string>
 				<string>f640e69d61cc872ab379ba68</string>
+				<string>adcf8da6d09b916c76c841a1</string>
+				<string>ae6a5cf6435f949171d09e8c</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1525,6 +1534,72 @@
 			<string>generated</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D81D88EC168103F40042DB2C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaClientApi.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D81D88ED168103F40042DB2C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaClientApi.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D81D88EE168103F40042DB2C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D81D88ED168103F40042DB2C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D81D890E168114810042DB2C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaTokenRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D81D890F168114810042DB2C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaTokenRequest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D81D8910168114810042DB2C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D81D890F168114810042DB2C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D8533F2D167FA31100519F0A</key>
 		<dict>
@@ -1636,7 +1711,6 @@
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>D8A8A5C61678E66D008DDF39</string>
 				<string>4cb99d93f555a5a5a5a16026</string>
 				<string>c5e16e0ecd70d8cd19066b36</string>
 				<string>ae9fc2cc5bcd7ecde7d21f8f</string>
@@ -1697,6 +1771,9 @@
 				<string>574be51766422da06164f2ca</string>
 				<string>80b526310e37fa10bab8512b</string>
 				<string>96d1f738aba8c9b796d29ca7</string>
+				<string>D81D88EE168103F40042DB2C</string>
+				<string>347b18ae7f094f28b39e2d41</string>
+				<string>D81D8910168114810042DB2C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
@@ -1726,9 +1803,7 @@
 			<key>dstSubfolderSpec</key>
 			<string>16</string>
 			<key>files</key>
-			<array>
-				<string>D8A8A5C41678E66D008DDF39</string>
-			</array>
+			<array/>
 			<key>isa</key>
 			<string>PBXCopyFilesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
@@ -1827,9 +1902,11 @@
 		<dict>
 			<key>children</key>
 			<array>
+				<string>D81D88EC168103F40042DB2C</string>
+				<string>D81D88ED168103F40042DB2C</string>
+				<string>D81D890E168114810042DB2C</string>
+				<string>D81D890F168114810042DB2C</string>
 				<string>D804F01E167C281900E73BC3</string>
-				<string>D8A8A5C31678E66D008DDF39</string>
-				<string>D8A8A5C51678E66D008DDF39</string>
 				<string>D8A8A5C11678E66D008DDF39</string>
 			</array>
 			<key>isa</key>
@@ -1862,42 +1939,6 @@
 			<string>perka-client-objc-Prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8A8A5C31678E66D008DDF39</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>perka_client_objc.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8A8A5C41678E66D008DDF39</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D8A8A5C31678E66D008DDF39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D8A8A5C51678E66D008DDF39</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>perka_client_objc.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8A8A5C61678E66D008DDF39</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D8A8A5C51678E66D008DDF39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>D8A8A5C71678E66D008DDF39</key>
 		<dict>
@@ -2577,6 +2618,19 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>adcf8da6d09b916c76c841a1</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PerkaBaseApi.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>ae4d2ac13b09aa7a19a2b7f6</key>
 		<dict>
 			<key>FileEncoding</key>
@@ -2587,6 +2641,19 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>PerkaPointsActivity.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ae6a5cf6435f949171d09e8c</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PerkaBaseApi.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
