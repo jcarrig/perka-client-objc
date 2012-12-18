@@ -2363,8 +2363,15 @@
 				<string>perka-client-objc/perka-client-objc-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
 				<string>perka-client-objcTests/perka-client-objcTests-Info.plist</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>-Objc</string>
+					<string>-all_load</string>
+				</array>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>"$(SRCROOT)/../flatpack-objc/"/**</string>
 				<key>WRAPPER_EXTENSION</key>
 				<string>octest</string>
 			</dict>
@@ -2388,8 +2395,15 @@
 				<string>perka-client-objc/perka-client-objc-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
 				<string>perka-client-objcTests/perka-client-objcTests-Info.plist</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>-Objc</string>
+					<string>-all_load</string>
+				</array>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>"$(SRCROOT)/../flatpack-objc/"/**</string>
 				<key>WRAPPER_EXTENSION</key>
 				<string>octest</string>
 			</dict>
