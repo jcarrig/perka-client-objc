@@ -8,7 +8,7 @@
 
 #import "FPJsonRequest.h"
 
-@interface PerkaTokenRequest : FPJsonRequest
+@interface PKTokenRequest : FPJsonRequest
 
 @property (strong) NSString *payload;
 

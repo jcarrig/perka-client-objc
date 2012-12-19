@@ -6,18 +6,18 @@
 //  Copyright (c) 2012 Perka Inc. All rights reserved.
 //
 
-#import "PerkaClientApi.h"
-#import "PerkaTokenRequest.h"
+#import "PKClientApi.h"
+#import "PKTokenRequest.h"
 #import "NSString+FP.h"
 #import "NSObject+FP.h"
 
-@interface PerkaClientApi ()
+@interface PKClientApi ()
 @property (strong, readonly) NSString *integratorId;
 @property (strong, readonly) NSString *integratorSecret;
 @property (strong, readonly) NSString *role;
 @end
 
-@implementation PerkaClientApi
+@implementation PKClientApi
 
 - (BOOL)sessionActive {
   return _accessToken == nil || [_accessExpiration timeIntervalSinceNow] > 0;
@@ -58,7 +58,7 @@
                        @"grant_type=client_credentials&scope=%@:%@",
                        [role urlEncode], uuid];
   
-  PerkaClientApi *newApi = [PerkaClientApi newWithDictionary:@{
+  PKClientApi *newApi = [PKClientApi newWithDictionary:@{
                             @"serverBase":[self serverBase],
                             @"flatpack":[self flatpack],
                             @"accessToken":[self accessToken],
@@ -79,8 +79,8 @@
 
 #pragma mark private
 
-- (void)executeTokenRequestWithApi:(PerkaClientApi *)api payload:(NSString *)payload {
-  PerkaTokenRequest *request = [[PerkaTokenRequest alloc] initWithApi:api payload:payload];
+- (void)executeTokenRequestWithApi:(PKClientApi *)api payload:(NSString *)payload {
+  PKTokenRequest *request = [[PKTokenRequest alloc] initWithApi:api payload:payload];
   [request executeUsingBlock:^(id result) {
     [api setAccessExpiration:[NSDate dateWithTimeIntervalSinceNow:[result[@"expires_in"] intValue]]];
     [api setAccessToken:result[@"access_token"]];

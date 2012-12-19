@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Perka Inc. All rights reserved.
 //
 
-#import "PerkaTokenRequest.h"
+#import "PKTokenRequest.h"
 
-@implementation PerkaTokenRequest
+@implementation PKTokenRequest
 
 -(id)initWithApi:(FPBaseApi *)api payload:(NSString *)payload {
   

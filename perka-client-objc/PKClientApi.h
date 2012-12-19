@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PerkaBaseApi.h"
+#import "PKBaseApi.h"
 
 @class FPFlatpack, FPBaseHasUuid;
 
-@interface PerkaClientApi : PerkaBaseApi
+@interface PKClientApi : PKBaseApi
 
 @property (strong) NSString *accessToken;
 @property (strong) NSDate *accessExpiration;
