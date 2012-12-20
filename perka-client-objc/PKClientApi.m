@@ -88,7 +88,7 @@
                         usingBlock:(FPRequestFinishedBlock)block {
   
   PKTokenRequest *request = [[PKTokenRequest alloc] initWithApi:api payload:payload];
-  [request executeUsingBlock:^(id result) {
+  [request genericExecuteUsingBlock:^(id result) {
     [api setAccessExpiration:[NSDate dateWithTimeIntervalSinceNow:[result[@"expires_in"] intValue]]];
     [api setAccessToken:result[@"access_token"]];
     [api setRefreshToken:result[@"refresh_token"]];

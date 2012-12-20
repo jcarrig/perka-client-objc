@@ -97,8 +97,9 @@ static NSString *API_BASE = @"http://localhost";
                                 @"email":@"joe@getperka.com",
                                 @"phone":@"+17777777777"}];
     
-    [[_api postIntegratorCustomer:creds] executeUsingBlock:^(id result) {
-      //NSLog(@"%@", result);
+    [[_api postIntegratorCustomer:creds] executeUsingBlock:^(PKCustomer *customer) {
+      NSLog(@"%@", customer);
+      
       stop = YES;
     }];
   }];
