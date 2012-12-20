@@ -20,9 +20,9 @@
 
 // our session is considered active if we've never received an access
 // token, or our token expiration as after now
-- (BOOL)sessionActive;
+- (BOOL)isSessionActive;
 
-- (void)refreshSession;
+- (void)refreshSessionUsingBlock:(FPRequestFinishedBlock)block;
 
 // Concrete implementations that require authentication should implement
 // this method if authenticated requests require custom request headers
@@ -30,13 +30,15 @@
 
 // Grants an integrator access token
 - (void)oauthIntegratorLoginWithId:(NSString *)integratorId
-                            secret:(NSString *)integratorSecret;
+                            secret:(NSString *)integratorSecret
+                        usingBlock:(FPRequestFinishedBlock)block;
 
 // returns a new PerkaApi authorized as the given role and user
 - (void)oauthIntegratorBecomeRole:(NSString *)role
-                                       uuid:(NSString *)uuid;
+                                       uuid:(NSString *)uuid
+                       usingBlock:(FPRequestFinishedBlock)block;
 
 // Obtain a new access token using integrator credentials and a refresh token.
-- (void)oauthRefreshToken;
+- (void)oauthRefreshTokenUsingBlock:(FPRequestFinishedBlock)block;
 
 @end

@@ -19,12 +19,12 @@
 
 @implementation PKClientApi
 
-- (BOOL)sessionActive {
+- (BOOL)isSessionActive {
   return _accessToken == nil || [_accessExpiration timeIntervalSinceNow] > 0;
 }
 
-- (void)refreshSession {
-  [self oauthRefreshToken];
+- (void)refreshSessionUsingBlock:(FPRequestFinishedBlock)block {
+  [self oauthRefreshTokenUsingBlock:block];
 }
 
 - (NSDictionary *)authHeaders {
@@ -37,7 +37,8 @@
 }
 
 - (void)oauthIntegratorLoginWithId:(NSString *)integratorId
-                            secret:(NSString *)integratorSecret {
+                            secret:(NSString *)integratorSecret
+                        usingBlock:(FPRequestFinishedBlock)block {
   
   _integratorId = integratorId;
   _integratorSecret = integratorSecret;
@@ -48,11 +49,12 @@
                        [self integratorId],
                        [[self integratorSecret] urlEncode]];
   
-  [self executeTokenRequestWithApi:self payload:payload];
+  [self executeTokenRequestWithApi:self payload:payload usingBlock:block];
 }
 
 - (void)oauthIntegratorBecomeRole:(NSString *)role
-                                       uuid:(NSString *)uuid {
+                             uuid:(NSString *)uuid
+                       usingBlock:(FPRequestFinishedBlock)block {
   _role = role;
   NSString *payload = [NSString stringWithFormat:
                        @"grant_type=client_credentials&scope=%@:%@",
@@ -65,21 +67,26 @@
                             @"accessExpiration":[self accessExpiration],
                             @"verbose":[self isVerbose]}];
   
-  [self executeTokenRequestWithApi:newApi payload:payload];
+  [self executeTokenRequestWithApi:newApi payload:payload usingBlock:block];
 }
 
-- (void)oauthRefreshToken {
+- (void)oauthRefreshTokenUsingBlock:(FPRequestFinishedBlock)block {
   NSString *payload = [NSString stringWithFormat:
                        @"grant_type=refresh_token&client_id=%@&client_secret=%@&refresh_token=%@",
                        _integratorId,
                        [[self integratorSecret] urlEncode],
                        [self refreshToken]];
-  [self executeTokenRequestWithApi:self payload:payload];
+  [self executeTokenRequestWithApi:self payload:payload usingBlock:^(id result) {
+    if(block != nil) block(result);
+  }];
 }
 
 #pragma mark private
 
-- (void)executeTokenRequestWithApi:(PKClientApi *)api payload:(NSString *)payload {
+- (void)executeTokenRequestWithApi:(PKClientApi *)api
+                           payload:(NSString *)payload
+                        usingBlock:(FPRequestFinishedBlock)block {
+  
   PKTokenRequest *request = [[PKTokenRequest alloc] initWithApi:api payload:payload];
   [request executeUsingBlock:^(id result) {
     [api setAccessExpiration:[NSDate dateWithTimeIntervalSinceNow:[result[@"expires_in"] intValue]]];
@@ -88,6 +95,7 @@
     if(result[@"uuid"] != nil) {
       [api setUserUuid:result[@"uuid"]];
     }
+    if(block != nil) block(result);
   }];
 }
 

@@ -10,8 +10,6 @@
 
 @interface PKTokenRequest : FPJsonRequest
 
-@property (strong) NSString *payload;
-
 -(id)initWithApi:(FPBaseApi *)api payload:(NSString *)payload;
 
 @end
