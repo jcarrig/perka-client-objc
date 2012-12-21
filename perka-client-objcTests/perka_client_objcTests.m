@@ -10,6 +10,7 @@
 #import "PKClientApi.h"
 #import "PKCustomer.h"
 #import "PKVisit.h"
+#import "PKMerchant.h"
 #import "PKUserCredentials.h"
 #import "NSObject+FP.h"
 #import "NSDictionary+FP.h"
@@ -26,21 +27,25 @@ static NSString *API_BASE = @"http://localhost";
 //static NSString *INTEGRATOR_SECRET = @"foobar";
 //static NSString *API_BASE = @"https://sandbox.getperka.com";
 
-@interface perka_client_objcTests ()
-@property (strong) PKClientApi *api;
-@end
+static PKClientApi *api;
 
 @implementation perka_client_objcTests
 
-- (void)setUp {
-  [super setUp];
-
-  _api = [PKClientApi newWithDictionary:@{
++ (void)setUp {
+  api = [PKClientApi newWithDictionary:@{
           @"flatpack":[FPFlatpack newWithDictionary:@{
                        @"pretty":@YES,
                        @"verbose":@YES}],
           @"serverBase":API_BASE,
           @"verbose":@YES}];
+  [api oauthIntegratorLoginWithId:INTEGRATOR_ID secret:INTEGRATOR_SECRET];
+}
+
+- (void)setUp {
+  [super setUp];
+  
+  // clear out all customer data before each test
+  [[api deleteIntegratorDestroy] execute];
 }
 
 - (void)tearDown {
@@ -48,7 +53,8 @@ static NSString *API_BASE = @"http://localhost";
   [super tearDown];
 }
 
-// Simple smoke test to ensure that our generated models can be packed and unpacked correctly
+// Simple serialization smoke test to ensure that our generated models
+// can be packed and unpacked correctly
 - (void)testSerialization {
   PKCustomer *customer = [PKCustomer newWithDictionary:@{
                           @"uuid":@"4fece2d0-4942-11e2-bcfd-0800200c9a66",
@@ -62,7 +68,6 @@ static NSString *API_BASE = @"http://localhost";
                     @"validatedAt":now}];
   
   [[customer visits] addObject:visit];
-  
   
   // pack some objects into some JSON
   FPFlatpack *flatpack = [FPFlatpack newWithDictionary:@{
@@ -90,14 +95,72 @@ static NSString *API_BASE = @"http://localhost";
   STAssertTrue([[customer lastName] isEqualToString:@"Stelmach"], @"unpacked first name");
 }
 
+/**
+ * Tests the creation of managed customers
+ */
 - (void)testManagedCustomerCreation {
-  [_api oauthIntegratorLoginWithId:INTEGRATOR_ID secret:INTEGRATOR_SECRET];
+  [api oauthIntegratorLoginWithId:INTEGRATOR_ID secret:INTEGRATOR_SECRET];
+  
   PKUserCredentials *creds = [PKUserCredentials newWithDictionary:@{
                               @"email":@"joe@getperka.com",
-                              @"phone":@"+17777777777"}];
+                              @"phone":@"+15555555555"}];
     
-  PKCustomer *customer = [[_api postIntegratorCustomer:creds] execute];
-  NSLog(@"%@", customer);
+  PKCustomer *customer = [[api postIntegratorCustomer:creds] execute];
+  
+  STAssertTrue([[customer unconfirmedEmail] isEqualToString:@"joe@getperka.com"], @"correct email");
+  STAssertTrue([[customer unconfirmedPhone] isEqualToString:@"+15555555555"], @"correct phone");
+  
+  // another request with the same credentials should yield the same customer
+  PKCustomer *newCustomer = [[api postIntegratorCustomer:creds] execute];
+  STAssertTrue([[customer uuid] isEqualToString:[newCustomer uuid]], @"customer should be the same");
+
+  // another request with the same email and different phone should
+  // also yield the same customer
+  creds = [PKUserCredentials newWithDictionary:@{
+           @"email":@"joe@getperka.com",
+           @"phone":@"+17777777777"}];
+  newCustomer = [[api postIntegratorCustomer:creds] execute];
+  STAssertTrue([[customer uuid] isEqualToString:[newCustomer uuid]], @"customer should be the same");
+
+  // similarly, same phone and different email
+  creds = [PKUserCredentials newWithDictionary:@{
+           @"email":@"joe+another@getperka.com",
+           @"phone":@"+15555555555"}];
+  newCustomer = [[api postIntegratorCustomer:creds] execute];
+  STAssertTrue([[customer uuid] isEqualToString:[newCustomer uuid]], @"customer should be the same");
+  
+  // another request with unique values should yield a new customer
+  creds = [PKUserCredentials newWithDictionary:@{
+           @"email":@"joe+yet_another@getperka.com"}];
+  newCustomer = [[api postIntegratorCustomer:creds] execute];
+  STAssertFalse([[customer uuid] isEqualToString:[newCustomer uuid]], @"customer should be new");
+}
+
+/**
+ * Rewards punches to a new customer
+ */
+- (void)testManagedRewardPunches {
+  [api oauthIntegratorLoginWithId:INTEGRATOR_ID secret:INTEGRATOR_SECRET];
+  
+  //we'll first create a new customer
+  PKUserCredentials *creds = [PKUserCredentials newWithDictionary:@{
+                              @"email":@"joe@getperka.com"}];
+  
+  PKCustomer *customer = [[api postIntegratorCustomer:creds] execute];
+
+  // determine the merchants associated with this integrator account
+  NSArray *merchants = [[api getIntegratorManagedMerchants] execute];
+  
+  // lets assume this integrator has only one managed merchant
+  PKMerchant *merchant = merchants[0];
+  
+  // By default, API endpoints DO NOT return a full object graph of data.
+  // For example, the above integrator_managed_merchants_get endpoint returns
+  // only the merchant with no associated location or program data.  The
+  // describe_type_uuid_get endpoint is an exception to this rule, and will
+  // always peform a deep serialization of the entity being described.  We'll
+  // now describe our merchant to gain access to our location and program data.
+  merchant = [[api getDescribeType:@"merchant" uuid:[merchant uuid]] execute];
 }
 
 @end
