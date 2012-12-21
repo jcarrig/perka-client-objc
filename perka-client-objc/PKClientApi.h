@@ -29,16 +29,24 @@
 - (NSDictionary *)authHeaders;
 
 // Grants an integrator access token
+- (id)oauthIntegratorLoginWithId:(NSString *)integratorId
+                          secret:(NSString *)integratorSecret;
+
 - (void)oauthIntegratorLoginWithId:(NSString *)integratorId
                             secret:(NSString *)integratorSecret
                         usingBlock:(FPRequestFinishedBlock)block;
 
 // returns a new PerkaApi authorized as the given role and user
+- (id)oauthIntegratorBecomeRole:(NSString *)role
+                           uuid:(NSString *)uuid;
+
 - (void)oauthIntegratorBecomeRole:(NSString *)role
                                        uuid:(NSString *)uuid
                        usingBlock:(FPRequestFinishedBlock)block;
 
 // Obtain a new access token using integrator credentials and a refresh token.
+- (id)oauthRefreshToken;
+
 - (void)oauthRefreshTokenUsingBlock:(FPRequestFinishedBlock)block;
 
 @end

@@ -91,22 +91,13 @@ static NSString *API_BASE = @"http://localhost";
 }
 
 - (void)testManagedCustomerCreation {
-  __block BOOL stop = NO;
-  [_api oauthIntegratorLoginWithId:INTEGRATOR_ID secret:INTEGRATOR_SECRET usingBlock:^(id result) {
-    PKUserCredentials *creds = [PKUserCredentials newWithDictionary:@{
-                                @"email":@"joe@getperka.com",
-                                @"phone":@"+17777777777"}];
+  [_api oauthIntegratorLoginWithId:INTEGRATOR_ID secret:INTEGRATOR_SECRET];
+  PKUserCredentials *creds = [PKUserCredentials newWithDictionary:@{
+                              @"email":@"joe@getperka.com",
+                              @"phone":@"+17777777777"}];
     
-    [[_api postIntegratorCustomer:creds] executeUsingBlock:^(PKCustomer *customer) {
-      NSLog(@"%@", customer);
-      
-      stop = YES;
-    }];
-  }];
-  
-  while(!stop) {
-    [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:0.5]];
-  }
+  PKCustomer *customer = [[_api postIntegratorCustomer:creds] execute];
+  NSLog(@"%@", customer);
 }
 
 @end
