@@ -1126,6 +1126,19 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>811851d8fee3c1a5c16da292</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKMerchantDashboardMessage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>817e564bee74b5655f4a74c6</key>
 		<dict>
 			<key>FileEncoding</key>
@@ -1571,8 +1584,6 @@
 				<string>a83bf54468600c7f3dd27296</string>
 				<string>d79b4bf41640c88b590ea6c9</string>
 				<string>ce9b8edcc31971ac8aa705ce</string>
-				<string>f7d403d300067fa8260c39be</string>
-				<string>811851d8fee3c1a5c16da292</string>
 				<string>f80e6d5c005f721ebc1e67e7</string>
 				<string>885488a72cbc5feaff850f93</string>
 				<string>27fcf05ae48a550ac9ddc782</string>
@@ -1639,6 +1650,8 @@
 				<string>863f7d511f508997f13c63e7</string>
 				<string>6115e9fec1cd79886a93190c</string>
 				<string>fb98cd0b5326a2c545140525</string>
+				<string>f7d403d300067fa8260c39be</string>
+				<string>811851d8fee3c1a5c16da292</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -3398,6 +3411,19 @@
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>f7d403d300067fa8260c39be</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKMerchantDashboardMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>f80e6d5c005f721ebc1e67e7</key>
 		<dict>
