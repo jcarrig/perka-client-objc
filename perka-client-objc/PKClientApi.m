@@ -59,7 +59,8 @@
   _role = role;
   NSString *payload = [self buildBecomePayloadWithUuid:uuid];
   PKClientApi *newApi = [self clone];
-  return [self executeTokenRequestWithApi:newApi payload:payload];
+  [self executeTokenRequestWithApi:newApi payload:payload];
+  return newApi;
 }
 
 - (void)oauthIntegratorBecomeRole:(NSString *)role
