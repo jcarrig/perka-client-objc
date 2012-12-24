@@ -15,77 +15,12 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>01c5c2fb78d18a5f5113e2e8</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKRewardGrant.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>04d7cbf756ef29a1698b2239</key>
 		<dict>
 			<key>fileRef</key>
 			<string>1e8dacd944b415a484272b85</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>05051cd7a9994b39609924b8</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKPunchRewardConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0556ab8586fba3b365432747</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKClerk.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09f036b316a2f3bd5e092818</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKInternalUser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0c5ab3f081c17c8f7c717ff4</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKBaseApi.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0e4e22eb63099c251897764b</key>
 		<dict>
@@ -125,19 +60,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>11bef3c6e6011440bef854a7</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKRewardAdvancement.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>11ead2210b450781652d0d94</key>
 		<dict>
 			<key>fileRef</key>
@@ -152,38 +74,12 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>163c3420bd9e94db2813509c</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKMerchantLocation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1682bc98f29a28b650dde414</key>
 		<dict>
 			<key>fileRef</key>
 			<string>1f2a5152a6838c170b9705f8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>16e662010ca042f92c05afd7</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKAbstractRewardConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>170efc52093b20f6edd18214</key>
 		<dict>
@@ -200,58 +96,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>19a6fbc25b8a91c9c79615e8</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKClerk.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1b5ce15eaff3ea466d5bdf23</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKOutboundMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1b97a69656565890012d1c97</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKCompositeTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1cecfc296c258084f2359068</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKBaseEntityGlobal.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1dd94817b9e9d42a756838de</key>
 		<dict>
 			<key>fileRef</key>
@@ -263,32 +107,6 @@
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>1e8dacd944b415a484272b85</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKBaseEntityGlobal.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1f2a5152a6838c170b9705f8</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKStreetAddress.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1f5035998617cd537a1af32b</key>
 		<dict>
@@ -304,64 +122,12 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>206b9beaedf5b04bedb0fca8</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKPushMessage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23dbc89c01b42fb26c08722f</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKSocialListTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>257f2a8fe059add2dcecb6f1</key>
 		<dict>
 			<key>fileRef</key>
 			<string>23dbc89c01b42fb26c08722f</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>26e556f50529a0e27a1b9214</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKSmsOutboundMessage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27fcf05ae48a550ac9ddc782</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKMerchantLocation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2a3ab9b02e354d6dce7b6f33</key>
 		<dict>
@@ -370,19 +136,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2abbbb5c6b49d5bf8550e946</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKCouponVisibility.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2abc94fec2c86f67ee9eff73</key>
 		<dict>
 			<key>fileRef</key>
@@ -390,49 +143,10 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2ace7d010132c0148f266ce6</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKTierTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2b613f0193c270dcc03aeb47</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>2b7870b0e023f4d65e815644</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKPointsActivityConfirmation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2beca0a1e817c1679b0ea148</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKPointsActivityConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2c5cac0d3c56b24a2f9d8a6e</key>
 		<dict>
@@ -441,36 +155,8 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2d4d6d70ce29a5fc50a74433</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKPointsCatalogItem.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2db3c1797f056dd11021304d</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKEntityAnnotation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2e1a5639961a4b35603b0533</key>
 		<dict>
-			<key>fileRef</key>
-			<string>811851d8fee3c1a5c16da292</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -478,32 +164,6 @@
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>30e949178e8348e1b3eb6514</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKCoupon.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>339fae2b20de8c38b86a1df4</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKBaseApi.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>343bdf8482be3533e7f5233c</key>
 		<dict>
@@ -524,45 +184,6 @@
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>39be48ade450184e60a25916</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKAbstractUser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3b9a21bac0eed24579a19b08</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKPhysicalRedemptionTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3baa457fa159b8ca1b46d37c</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKNobodyTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3bcc6ce44ed744a45a268c21</key>
 		<dict>
@@ -590,90 +211,12 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4311e00b89734e9b68104511</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKIdleCustomerTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4461b6aadcf9e041c8c3eb17</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKTierTraversalConfirmation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>44bc7279ffeb03fafb206b7a</key>
 		<dict>
 			<key>fileRef</key>
 			<string>d98b5346c96b7798aaaa2dab</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>46b17a9e9c70fafabdb74952</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKConsoleMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>472de69835f0a158fd21712d</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKMerchant.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>47537a57e7bca31bcb779501</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKParticipationTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>497328caadbd19225a5450be</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKVisit.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4a18e67cb88e9ca76d5ebd17</key>
 		<dict>
@@ -682,38 +225,12 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4a354757d7e697192b2b6494</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKIntegratorUser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>4bfd5ceb618b1454ddd3c698</key>
 		<dict>
 			<key>fileRef</key>
 			<string>0556ab8586fba3b365432747</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>4c253bd3881097ff7367628d</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKWeatherTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4c495176e736b549aa624082</key>
 		<dict>
@@ -727,19 +244,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4e47367b534111459f79aee4</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKConsoleMessage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>50b8d2989e9819c88d388ab1</key>
 		<dict>
 			<key>fileRef</key>
@@ -747,90 +251,25 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>528329098255afe3fb799b14</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKRedemptionRewardConfirmation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5422507cc8d5ebe293f90cf7</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>571306ac51013c2c9f5a2c25</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKProgramType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>574be51766422da06164f2ca</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>57c093899c8e220beb78186d</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKProgram.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5801a2fcfde4a8e8c41f77f7</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>598cc11d691a6875b69e3aab</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKTierTraversalConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>59a31a229231cfe770ebf06a</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>5a31c3860540b7ac277830a4</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKSocialServiceSubscription.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5b7cf303d9440763cee96ede</key>
 		<dict>
@@ -838,19 +277,6 @@
 			<string>9a3826d1ab19b92f6b0d49c3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>5ba684ef639ddca4f29b37cf</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKCustomerDevice.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5bb42b208ea095e235657c30</key>
 		<dict>
@@ -865,58 +291,6 @@
 			<string>6e778c3fa60a53a04e7cd758</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>5d2eb6906542f2369fd302c9</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKMerchantUser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5db80da6cc75506bb68f4c1a</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKVisitConfirmation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6115e9fec1cd79886a93190c</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKYieldManagementTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6146abad43334e031d31675d</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKIntegratorUser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>625d7e3c251b16f38c55e19f</key>
 		<dict>
@@ -940,58 +314,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>64c005e0569f6518be3b7026</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKBounceBackTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>666920baff908ff946444ff5</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKSocialListTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66b761cd3a5cc14afe3f3664</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKPointsActivity.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6b732b482514f8de65db527e</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKVisitConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>6ba661ad2ae75017fbba1da3</key>
 		<dict>
 			<key>isa</key>
@@ -1001,19 +323,6 @@
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>6e778c3fa60a53a04e7cd758</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKFeedbackItem.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6eb8ea3ec7425747d3570366</key>
 		<dict>
@@ -1060,45 +369,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>7ccb2bfb9a67ea94fc2cccea</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKBounceBackTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7ce95de0df5590ae0df23933</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKTierTraversal.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7df6ed490c5622a42a977f5d</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKInternalUser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>7dfdcb35ad18c05ad67c8288</key>
 		<dict>
 			<key>isa</key>
@@ -1126,106 +396,15 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>817e564bee74b5655f4a74c6</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKMerchantUser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>8250d9dd4e44ba881c40765c</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>863f7d511f508997f13c63e7</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKWeatherTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86f19ff6f4371f4da96267b8</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKFirstVisitTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8772d6d83da2066ead031d5d</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKRedemptionRewardConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>885488a72cbc5feaff850f93</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKMerchantDevice.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>88e049a73114facfffc88e86</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>89e74ec582ed1d68cff3f619</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKNobodyTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8a876bfc4e2016f9427e3c04</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKCouponVisibility.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8bef9c3a1f40eadcca710f9a</key>
 		<dict>
@@ -1234,62 +413,10 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>8c9c076faa3a66804a51ce62</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKPushMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8cf01ab1055e3802d49b2c76</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKFirstVisitTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>8dce03434b58dde567e8bb9d</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>8e11b38341491641aad1a6f8</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKProgram.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8e15322143e2aab5df148815</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKEverybodyTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8f0a133f5fb0053d5ece99d4</key>
 		<dict>
@@ -1307,32 +434,6 @@
 			<string>a70751f385a2a12a67b9aeef</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>92f49a4cf74db6fc5b77138c</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKFeedbackItem.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92f732509cb3669539a2fee6</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKPhysicalRedemptionTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>949aa1b6abcb08657b95e170</key>
 		<dict>
@@ -1367,71 +468,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>98661e17c581ffb060b17108</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKSmsMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>99e41b4f26df2f5eb6a03211</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKPointsActivity.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>99f4746b0113f0102c840ea5</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKPointsCatalogItem.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9a3826d1ab19b92f6b0d49c3</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKLikeToUnlockTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9a7bda1cb16900e8b102ba49</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKCouponCampaign.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>9aa4a89ec844754917ee0723</key>
 		<dict>
 			<key>isa</key>
@@ -1441,32 +477,6 @@
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>9b1e69486bd5a3fdef25188a</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKCouponRedemption.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9baa3c6d973fbd80e9feec58</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKSmsMessage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9d787ab2ff8e49a439a3e2da</key>
 		<dict>
@@ -1486,32 +496,6 @@
 			<string>dc102a552bdacecf50d2d133</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>9f81c53d7e876476002a92ff</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKRedemptionCouponConfirmation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9fa18cba07508483a2b164f8</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKProgramTier.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D804F01E167C281900E73BC3</key>
 		<dict>
@@ -1637,8 +621,6 @@
 				<string>863f7d511f508997f13c63e7</string>
 				<string>6115e9fec1cd79886a93190c</string>
 				<string>fb98cd0b5326a2c545140525</string>
-				<string>f7d403d300067fa8260c39be</string>
-				<string>811851d8fee3c1a5c16da292</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -2739,88 +1721,10 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>a35819d6696b92cfeb624913</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKReward.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>a45f1967c14260067f45ca3b</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKCompositeTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>a70751f385a2a12a67b9aeef</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKCoupon.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>a7a2b82155e8a6c8192d6b39</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>a7e1fcbfdb0e85f2e78be90b</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKOutboundMessage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>a81012379330eadc39f9b4af</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKListTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>a83bf54468600c7f3dd27296</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKMerchant.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>ae78bc4ce4db413b5dd8e2cb</key>
 		<dict>
@@ -2838,19 +1742,6 @@
 			<string>a35819d6696b92cfeb624913</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>af65b6abdc61666c762d351d</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKCouponTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>afda4b7b03d8737d2b04450d</key>
 		<dict>
@@ -2876,45 +1767,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>b4ccecae735b51a48057b5a4</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKTierTraversal.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>b4e32ac83faa700f73eb2331</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKCouponRedemption.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>b4eaccee5e6592b6304efb6e</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKCouponTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>b718b4c84e7b3b1137a9c466</key>
 		<dict>
 			<key>isa</key>
@@ -2926,19 +1778,6 @@
 			<string>a7e1fcbfdb0e85f2e78be90b</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>b9b245461a0ceeaa141aa001</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKPunchRewardConfirmation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>ba6f307195fa0a5fb4460f71</key>
 		<dict>
@@ -2954,45 +1793,6 @@
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>bc762df92426e1b2c84d9f4c</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKSmsOutboundMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>c1074e61c3fb4d8995d49812</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKSocialServiceSubscription.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>c22a8af469822c97da0bcb9b</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKCannedEmailOutboundMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>c2e8ef1756326c021d19efcb</key>
 		<dict>
@@ -3013,38 +1813,12 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>c990a7ea3e26cc9744cbf2b8</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKRedemptionCouponConfirmation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>ca2e273ba97bb42eca21e7e1</key>
 		<dict>
 			<key>fileRef</key>
 			<string>47537a57e7bca31bcb779501</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>caba168945575511f1ab1444</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKCustomer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>caf6c87c000d5444a91a243e</key>
 		<dict>
@@ -3057,19 +1831,6 @@
 			<string>817e564bee74b5655f4a74c6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>ce9b8edcc31971ac8aa705ce</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKMerchantCapability.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>cf2282ed0cd0b2dddcb3f9c5</key>
 		<dict>
@@ -3091,32 +1852,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>d436218f0cf54821fa3cf6ea</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKAbstractUser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>d630b9023ecb3eaf8fec34e0</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKParticipationTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>d7558a776c90ca8ac4041822</key>
 		<dict>
 			<key>fileRef</key>
@@ -3124,54 +1859,15 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>d79b4bf41640c88b590ea6c9</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKMerchantCapability.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>d7fdef487585e3dc7691eee2</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>d98b5346c96b7798aaaa2dab</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKProgramTier.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>d9a093b395749ba82b8e0207</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>d9ba8631ae43a516aba63325</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKCouponCampaign.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>da3dc8d6b482824ad48a934a</key>
 		<dict>
@@ -3186,97 +1882,6 @@
 			<string>fb98cd0b5326a2c545140525</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>db3d4ef8871611cce735b0f7</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKProgramType.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>dc0e85e9f453091205c38969</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKCustomerDevice.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>dc102a552bdacecf50d2d133</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKEverybodyTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>dcf0afe4dd462788c37d29f6</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKUserCredentials.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>dd6eb0f67f6f347fd4dff100</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKReward.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>dd8afc70572ab91f1c3e1113</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKIdleCustomerTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>e065c8da2743c167e3d4692c</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKTierTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>e45847974133cb95fa337e16</key>
 		<dict>
@@ -3302,64 +1907,12 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>ea5d18f2885c0f1da1061989</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKRewardGrant.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>ed71509cfb508687b98b6774</key>
 		<dict>
 			<key>fileRef</key>
 			<string>26e556f50529a0e27a1b9214</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>edeb178af577c7ad551236ae</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKListTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ef5eb3b8eeb678771f0b4ed5</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKStreetAddress.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>efdf74ef2e0f2294f6d0ac43</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKUserCredentials.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>f00a030ad99ad014560203d3</key>
 		<dict>
@@ -3368,49 +1921,10 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>f46987707322d3338b6e3d3a</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKVisit.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>f72df4d9c9d0cda215f1b702</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKCustomer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>f7bb248d521e2932abe55ef7</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>f80e6d5c005f721ebc1e67e7</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKMerchantDevice.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>f8b73ebb03dad4264edcaa21</key>
 		<dict>
@@ -3431,19 +1945,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>faf79826257796e7f5399500</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKLikeToUnlockTarget.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>fb391e42c9e3066b77ea0787</key>
 		<dict>
 			<key>fileRef</key>
@@ -3455,71 +1956,6 @@
 		<dict>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>fb98cd0b5326a2c545140525</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKYieldManagementTarget.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>fc93fa148bac344e52451c9a</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKRewardAdvancement.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>fd58638e9f32e307150dd0f5</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKCannedEmailOutboundMessage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ffd6859f371c0b4c8ef19afb</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PKAbstractRewardConfirmation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ffe5753adf8fbe7684d40100</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PKEntityAnnotation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
