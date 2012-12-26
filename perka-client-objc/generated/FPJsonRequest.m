@@ -7,6 +7,8 @@
 //
 
 #import "FPJsonRequest.h"
+#import "NSHTTPURLResponse+FP.h"
+#import "NSDictionary+FP.h"
 
 @implementation FPJsonRequest
 

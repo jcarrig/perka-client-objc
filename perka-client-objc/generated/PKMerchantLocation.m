@@ -22,8 +22,8 @@
 static FPEntityDescription *_entityDescription;
 static NSMutableArray *_allProperties;
 
-+ (void)initialize {
-  [super initialize];
++ (void)load {
+  [super load];
 
   _allProperties = [NSMutableArray array];
   // clerks

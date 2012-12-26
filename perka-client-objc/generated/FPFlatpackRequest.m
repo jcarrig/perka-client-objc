@@ -11,6 +11,7 @@
 #import "FPFlatpack.h"
 #import "FPUnpacker.h"
 #import "FPPacker.h"
+#import "NSHTTPURLResponse+FP.h"
 
 @implementation FPFlatpackRequest
 

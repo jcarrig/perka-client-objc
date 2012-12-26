@@ -10,6 +10,7 @@
 #import "FPEntityDescription.h"
 #import "FPProperty.h"
 #import "FPBaseHasUuid.h"
+#import "NSDate+FP.h"
 
 @interface FPPacker ()
 @property (strong) NSMutableDictionary *allEntities;

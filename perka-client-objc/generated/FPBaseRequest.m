@@ -8,6 +8,7 @@
 
 #import "FPBaseRequest.h"
 #import "FPBaseApi.h"
+#import "NSString+FP.h"
 
 @implementation FPBaseRequest
 

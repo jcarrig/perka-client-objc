@@ -20,12 +20,20 @@ Allows iOS developers to easily integrate with [The Perka API](https://getperka.
 
    ![Dragging perka-client-objc.xcodeproj](https://raw.github.com/perka/perka-client-objc/master/docs/screen1.jpg)
    
-4. Select the perka-app project from the XCode sidebar, choose the perka-app target, open the Build Phases tab, and add the perka-client-objc library as a target dependency:
+4. Select the perka-app project from the XCode sidebar, choose the perka-app target, open the Build Phases tab, expand the 'Target Dependencies' section, and add the perka-client-objc library as a target dependency:
 
     ![Add perka-client-objc dependency](https://raw.github.com/perka/perka-client-objc/master/docs/screen2.jpg)
-    
-5. Open the Build Settings tab, search for 'user header', Change 'Always Search User Paths' to YES, and add '../perka-client-objc/perka-client-objc' as a recursive search path:
+       
+5. While still in the Build Phases tab, expand the 'Link Binary With Libraries' section, and add libperka-client-objc.a:
+	
+	![Link libperka-client-objc.a](https://raw.github.com/perka/perka-client-objc/master/docs/screen4.jpg)
+	
+6. Open the Build Settings tab, search for 'user header', Change 'Always Search User Paths' to YES, and add '../perka-client-objc/perka-client-objc' as a recursive search path:
   
     ![Add user header search path](https://raw.github.com/perka/perka-client-objc/master/docs/screen3.jpg)
-    
-    
+
+7. While still in the Build Settings tab, search for 'other linker flags', and add __-ObjC__ to the **Other Linker Flags** setting:
+
+    ![Add user header search path](https://raw.github.com/perka/perka-client-objc/master/docs/screen5.jpg)
+ 
+   

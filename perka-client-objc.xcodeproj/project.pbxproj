@@ -1,1096 +1,4062 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		01b1d7a1fd9c1e5c5d59923c /* (null) in Sources */ = {isa = PBXBuildFile; };
-		04d7cbf756ef29a1698b2239 /* PKBaseEntityGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1e8dacd944b415a484272b85 /* PKBaseEntityGlobal.m */; };
-		0e4e22eb63099c251897764b /* PKSocialServiceSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = c1074e61c3fb4d8995d49812 /* PKSocialServiceSubscription.m */; };
-		0ee3acfdce538f3934c684e9 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		10073bc89641162393b335ce /* PKPhysicalRedemptionTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 92f732509cb3669539a2fee6 /* PKPhysicalRedemptionTarget.m */; };
-		104a9a99590a8f640a83f13e /* (null) in Sources */ = {isa = PBXBuildFile; };
-		109203910f62f571a96da7f3 /* PKMerchantDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 885488a72cbc5feaff850f93 /* PKMerchantDevice.m */; };
-		1112ebd65bc2a4c6182cb166 /* PKTierTraversalConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461b6aadcf9e041c8c3eb17 /* PKTierTraversalConfirmation.m */; };
-		11ead2210b450781652d0d94 /* PKAbstractRewardConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = ffd6859f371c0b4c8ef19afb /* PKAbstractRewardConfirmation.m */; };
-		140ffb1d83e80e7901ef7272 /* PKMerchantLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 163c3420bd9e94db2813509c /* PKMerchantLocation.m */; };
-		1682bc98f29a28b650dde414 /* PKStreetAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1f2a5152a6838c170b9705f8 /* PKStreetAddress.m */; };
-		170efc52093b20f6edd18214 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		199a924754f56a0cf2e6246b /* (null) in Sources */ = {isa = PBXBuildFile; };
-		199b74c3705abbac3b7ba2a6 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		1dd94817b9e9d42a756838de /* PKBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 339fae2b20de8c38b86a1df4 /* PKBaseApi.m */; };
-		1e320c620277736eb118db28 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		1f5035998617cd537a1af32b /* PKCouponRedemption.m in Sources */ = {isa = PBXBuildFile; fileRef = b4e32ac83faa700f73eb2331 /* PKCouponRedemption.m */; };
-		2016a92f6482b936f2eb5bb4 /* PKPointsActivityConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2b7870b0e023f4d65e815644 /* PKPointsActivityConfirmation.m */; };
-		257f2a8fe059add2dcecb6f1 /* PKSocialListTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 23dbc89c01b42fb26c08722f /* PKSocialListTarget.m */; };
-		25e90d09ce4afaa38f17dbd4 /* FPBaseHasUuid.m in Sources */ = {isa = PBXBuildFile; fileRef = b69dab5317a3dbab52f1566e /* FPBaseHasUuid.m */; };
-		2a3ab9b02e354d6dce7b6f33 /* PKVisit.m in Sources */ = {isa = PBXBuildFile; fileRef = f46987707322d3338b6e3d3a /* PKVisit.m */; };
-		2abc94fec2c86f67ee9eff73 /* PKCouponCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = d9ba8631ae43a516aba63325 /* PKCouponCampaign.m */; };
-		2b613f0193c270dcc03aeb47 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		2c5cac0d3c56b24a2f9d8a6e /* PKEntityAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2db3c1797f056dd11021304d /* PKEntityAnnotation.m */; };
-		2d680e08845ba78121b61da1 /* NSHTTPURLResponse+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3bd0da6c410ddf3f9f2a7c2b /* NSHTTPURLResponse+FP.m */; };
-		2e1a5639961a4b35603b0533 /* PKMerchantDashboardMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 811851d8fee3c1a5c16da292 /* PKMerchantDashboardMessage.m */; };
-		2f5ddec44ad56a51a91a2f5b /* (null) in Sources */ = {isa = PBXBuildFile; };
-		343bdf8482be3533e7f5233c /* (null) in Sources */ = {isa = PBXBuildFile; };
-		347b18ae7f094f28b39e2d41 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		351fc61240d81c054593ee82 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		367432b3cb78b49a342e2615 /* FPFlatpack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6757761fe1846aff5ee0124f /* FPFlatpack.m */; };
-		3704ae4c66958e480757d6e6 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		3bcc6ce44ed744a45a268c21 /* PKPunchRewardConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = b9b245461a0ceeaa141aa001 /* PKPunchRewardConfirmation.m */; };
-		3bce3dec97943750dd61fa91 /* FPBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = bdef7dafa153d586dd024594 /* FPBaseRequest.m */; };
-		3e019fdb17e6fe0dbdf2a72e /* PKCompositeTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1b97a69656565890012d1c97 /* PKCompositeTarget.m */; };
-		402352bb8fca8ceb615ca738 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		40e490cf2fd9bcc63d22715f /* PKIntegratorUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6146abad43334e031d31675d /* PKIntegratorUser.m */; };
-		44bc7279ffeb03fafb206b7a /* PKProgramTier.m in Sources */ = {isa = PBXBuildFile; fileRef = d98b5346c96b7798aaaa2dab /* PKProgramTier.m */; };
-		4a18e67cb88e9ca76d5ebd17 /* PKListTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = a81012379330eadc39f9b4af /* PKListTarget.m */; };
-		4bb57156eaba18d4c6670cce /* NSString+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 430ad434212d3dc820235acd /* NSString+FP.m */; };
-		4bfd5ceb618b1454ddd3c698 /* PKClerk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0556ab8586fba3b365432747 /* PKClerk.m */; };
-		4c495176e736b549aa624082 /* PKRewardAdvancement.m in Sources */ = {isa = PBXBuildFile; fileRef = fc93fa148bac344e52451c9a /* PKRewardAdvancement.m */; };
-		4cb99d93f555a5a5a5a16026 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		50b8d2989e9819c88d388ab1 /* PKMerchant.m in Sources */ = {isa = PBXBuildFile; fileRef = a83bf54468600c7f3dd27296 /* PKMerchant.m */; };
-		5299ca3c3736fa2b68171fd0 /* FPBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = f0aa8f57923ad71f2027c9c3 /* FPBaseApi.m */; };
-		5422507cc8d5ebe293f90cf7 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		5554224cca441f9e6bffc521 /* NSDictionary+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 90fd639e4b5bd6e7c07c4894 /* NSDictionary+FP.m */; };
-		574be51766422da06164f2ca /* (null) in Sources */ = {isa = PBXBuildFile; };
-		5801a2fcfde4a8e8c41f77f7 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		59a31a229231cfe770ebf06a /* (null) in Sources */ = {isa = PBXBuildFile; };
-		5a033a30a6d560312ab2d4b5 /* NSObject+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = ae6637477332cb46aa8bf3bf /* NSObject+FP.m */; };
-		5b7cf303d9440763cee96ede /* PKLikeToUnlockTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 9a3826d1ab19b92f6b0d49c3 /* PKLikeToUnlockTarget.m */; };
-		5bb42b208ea095e235657c30 /* PKPointsActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 99e41b4f26df2f5eb6a03211 /* PKPointsActivity.m */; };
-		5d20fab869e8a656b38d8b4f /* PKFeedbackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6e778c3fa60a53a04e7cd758 /* PKFeedbackItem.m */; };
-		625d7e3c251b16f38c55e19f /* PKProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 8e11b38341491641aad1a6f8 /* PKProgram.m */; };
-		6271b14d44611a97cd0db687 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		639bb6c7630422e19f1b27cf /* (null) in Sources */ = {isa = PBXBuildFile; };
-		640edf3b6dcae85fccd4b7f7 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		6ba661ad2ae75017fbba1da3 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		6cfe20c1929911a4153c97c8 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		6eb8ea3ec7425747d3570366 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		717c3f730c8f2e1d036c71f0 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		74b69175b541ef92c3836a6b /* PKCustomerDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = dc0e85e9f453091205c38969 /* PKCustomerDevice.m */; };
-		75a835e29755910b5bab8a15 /* PKCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = f72df4d9c9d0cda215f1b702 /* PKCustomer.m */; };
-		7631c8cbd23988245f07f1ca /* PKRedemptionCouponConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = c990a7ea3e26cc9744cbf2b8 /* PKRedemptionCouponConfirmation.m */; };
-		76ad1a091bb15cc011ae5729 /* PKCannedEmailOutboundMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = fd58638e9f32e307150dd0f5 /* PKCannedEmailOutboundMessage.m */; };
-		771fb6a5ceca6f97b83e8b66 /* FPJsonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 308d22eb481d22d1f971990e /* FPJsonRequest.m */; };
-		77848334119af71bd03e22df /* PKWeatherTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 863f7d511f508997f13c63e7 /* PKWeatherTarget.m */; };
-		7dfdcb35ad18c05ad67c8288 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		7e4fa93728ca2a5f81ab9072 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		7eed568686ee68c462eb6a6b /* PKPushMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 206b9beaedf5b04bedb0fca8 /* PKPushMessage.m */; };
-		7f1626eb5b07800118c574a3 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		80b526310e37fa10bab8512b /* (null) in Sources */ = {isa = PBXBuildFile; };
-		8250d9dd4e44ba881c40765c /* (null) in Sources */ = {isa = PBXBuildFile; };
-		88e049a73114facfffc88e86 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		898ce28489e0e81d77fadd59 /* FPProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 713d03a934e81f0aca19cef5 /* FPProperty.m */; };
-		8bef9c3a1f40eadcca710f9a /* PKSmsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9baa3c6d973fbd80e9feec58 /* PKSmsMessage.m */; };
-		8dce03434b58dde567e8bb9d /* (null) in Sources */ = {isa = PBXBuildFile; };
-		8f0a133f5fb0053d5ece99d4 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		900d4b4014383cf858828615 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		9122d961ed9db9e7c7390e1b /* PKCoupon.m in Sources */ = {isa = PBXBuildFile; fileRef = a70751f385a2a12a67b9aeef /* PKCoupon.m */; };
-		949aa1b6abcb08657b95e170 /* PKCouponVisibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8a876bfc4e2016f9427e3c04 /* PKCouponVisibility.m */; };
-		95006853fa403090c6674f57 /* PKIdleCustomerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = dd8afc70572ab91f1c3e1113 /* PKIdleCustomerTarget.m */; };
-		952cb201dcc0db5037fc463e /* NSDate+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 71c91923df7d249f6503f551 /* NSDate+FP.m */; };
-		96d1f738aba8c9b796d29ca7 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		96f2f75f062b3cd50c62babd /* PKMerchantCapability.m in Sources */ = {isa = PBXBuildFile; fileRef = ce9b8edcc31971ac8aa705ce /* PKMerchantCapability.m */; };
-		9754aaf4bdd01e6e760e1899 /* PKTierTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = e065c8da2743c167e3d4692c /* PKTierTarget.m */; };
-		9aa4a89ec844754917ee0723 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		9ae0d68b7dca41df64ba06d4 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		9d787ab2ff8e49a439a3e2da /* PKRedemptionRewardConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 528329098255afe3fb799b14 /* PKRedemptionRewardConfirmation.m */; };
-		9d88e2c4d94ebade10e1fded /* (null) in Sources */ = {isa = PBXBuildFile; };
-		9eb01fc7f728f0b453720510 /* PKEverybodyTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = dc102a552bdacecf50d2d133 /* PKEverybodyTarget.m */; };
-		9f3da252cf040f52d727e3d2 /* FPPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = f0ce08508b955c394521acbe /* FPPacker.m */; };
-		D81D88EE168103F40042DB2C /* PKClientApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D81D88ED168103F40042DB2C /* PKClientApi.m */; };
-		D81D8910168114810042DB2C /* PKTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D81D890F168114810042DB2C /* PKTokenRequest.m */; };
-		D8533F40167FA3EF00519F0A /* libflatpack-objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A6E216792266008DDF39 /* libflatpack-objc.a */; };
-		D8A8A5BF1678E66D008DDF39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5BE1678E66D008DDF39 /* Foundation.framework */; };
-		D8A8A5CE1678E66D008DDF39 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5CD1678E66D008DDF39 /* SenTestingKit.framework */; };
-		D8A8A5D01678E66D008DDF39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5CF1678E66D008DDF39 /* UIKit.framework */; };
-		D8A8A5D11678E66D008DDF39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5BE1678E66D008DDF39 /* Foundation.framework */; };
-		D8A8A5D41678E66D008DDF39 /* libperka-client-objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5BB1678E66D008DDF39 /* libperka-client-objc.a */; };
-		D8A8A5DA1678E66D008DDF39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8A8A5D81678E66D008DDF39 /* InfoPlist.strings */; };
-		D8A8A5DD1678E66D008DDF39 /* perka_client_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A8A5DC1678E66D008DDF39 /* perka_client_objcTests.m */; };
-		a34e36456058ad59c4528b42 /* PKPointsCatalogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2d4d6d70ce29a5fc50a74433 /* PKPointsCatalogItem.m */; };
-		a7a2b82155e8a6c8192d6b39 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		ae78bc4ce4db413b5dd8e2cb /* (null) in Sources */ = {isa = PBXBuildFile; };
-		ae9fc2cc5bcd7ecde7d21f8f /* (null) in Sources */ = {isa = PBXBuildFile; };
-		af018e631fd22af851e15cb3 /* PKReward.m in Sources */ = {isa = PBXBuildFile; fileRef = a35819d6696b92cfeb624913 /* PKReward.m */; };
-		afda4b7b03d8737d2b04450d /* PKAbstractUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 39be48ade450184e60a25916 /* PKAbstractUser.m */; };
-		b2603d4a8941aaa780703dcd /* (null) in Sources */ = {isa = PBXBuildFile; };
-		b2e4d9b63af1ecccdcdbaa15 /* PKInternalUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7df6ed490c5622a42a977f5d /* PKInternalUser.m */; };
-		b3ba714a7b0add4588671b7a /* (null) in Sources */ = {isa = PBXBuildFile; };
-		b718b4c84e7b3b1137a9c466 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		b940efe5eb71246820d2a8a7 /* PKOutboundMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = a7e1fcbfdb0e85f2e78be90b /* PKOutboundMessage.m */; };
-		ba6f307195fa0a5fb4460f71 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		baa35f1bd4c37394347676b5 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		bb27007240b8b489ca10ec4a /* (null) in Sources */ = {isa = PBXBuildFile; };
-		c2e8ef1756326c021d19efcb /* PKFirstVisitTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 86f19ff6f4371f4da96267b8 /* PKFirstVisitTarget.m */; };
-		c5e16e0ecd70d8cd19066b36 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		c8436dce1e25fbb374a0f018 /* PKProgramType.m in Sources */ = {isa = PBXBuildFile; fileRef = db3d4ef8871611cce735b0f7 /* PKProgramType.m */; };
-		ca2e273ba97bb42eca21e7e1 /* PKParticipationTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 47537a57e7bca31bcb779501 /* PKParticipationTarget.m */; };
-		caf6c87c000d5444a91a243e /* (null) in Sources */ = {isa = PBXBuildFile; };
-		cd50fe8cf7ecd8ef485d4150 /* PKMerchantUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 817e564bee74b5655f4a74c6 /* PKMerchantUser.m */; };
-		cf2282ed0cd0b2dddcb3f9c5 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		cff720253a06de5c8a687144 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		d14f2a7f0f1ca4fb2eebefe4 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		d1e8f5354e09e3da5770cfbd /* FPFlatpackRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = d837fe52b95741fa88274cb2 /* FPFlatpackRequest.m */; };
-		d37382b80bcc30c1abd71d9a /* (null) in Sources */ = {isa = PBXBuildFile; };
-		d46b2b599466b6dd8d7dde03 /* FPEntityDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 808a9284764df8ba039f9397 /* FPEntityDescription.m */; };
-		d7558a776c90ca8ac4041822 /* PKConsoleMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4e47367b534111459f79aee4 /* PKConsoleMessage.m */; };
-		d7fdef487585e3dc7691eee2 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		d9a093b395749ba82b8e0207 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		da3dc8d6b482824ad48a934a /* PKCouponTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = af65b6abdc61666c762d351d /* PKCouponTarget.m */; };
-		dae0cc31988421f67adc88e5 /* PKYieldManagementTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = fb98cd0b5326a2c545140525 /* PKYieldManagementTarget.m */; };
-		dd53974a7c67bb4a28cb8078 /* FPUnpacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 400a69fbc485c9ad129fac75 /* FPUnpacker.m */; };
-		e45847974133cb95fa337e16 /* PKNobodyTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 3baa457fa159b8ca1b46d37c /* PKNobodyTarget.m */; };
-		e7cf5802d4ef85cacbad41d4 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		e8095c5704461063d3db665c /* (null) in Sources */ = {isa = PBXBuildFile; };
-		e8bfd24ab5c12c6f9eebf675 /* PKUserCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = dcf0afe4dd462788c37d29f6 /* PKUserCredentials.m */; };
-		ed71509cfb508687b98b6774 /* PKSmsOutboundMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26e556f50529a0e27a1b9214 /* PKSmsOutboundMessage.m */; };
-		f00a030ad99ad014560203d3 /* PKBounceBackTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ccb2bfb9a67ea94fc2cccea /* PKBounceBackTarget.m */; };
-		f7bb248d521e2932abe55ef7 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		f8b73ebb03dad4264edcaa21 /* PKVisitConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5db80da6cc75506bb68f4c1a /* PKVisitConfirmation.m */; };
-		f99b017fc17247fb27264de4 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		fa52023d9510712a3bf45d3f /* PKRewardGrant.m in Sources */ = {isa = PBXBuildFile; fileRef = ea5d18f2885c0f1da1061989 /* PKRewardGrant.m */; };
-		fb391e42c9e3066b77ea0787 /* PKTierTraversal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ce95de0df5590ae0df23933 /* PKTierTraversal.m */; };
-		fb5f3e166ca93b3f21b336a8 /* (null) in Sources */ = {isa = PBXBuildFile; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D8533F2D167FA31100519F0A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8A8A6DB16792266008DDF39 /* flatpack-objc.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D8BD1B6E166D03F7008AB3FF;
-			remoteInfo = "flatpack-objc";
-		};
-		D8A8A5D21678E66D008DDF39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8A8A5B21678E66D008DDF39 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D8A8A5BA1678E66D008DDF39;
-			remoteInfo = "perka-client-objc";
-		};
-		D8A8A6E116792266008DDF39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8A8A6DB16792266008DDF39 /* flatpack-objc.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D8BD1B6F166D03F7008AB3FF;
-			remoteInfo = "flatpack-objc";
-		};
-		D8A8A6E316792266008DDF39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8A8A6DB16792266008DDF39 /* flatpack-objc.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D8BD1B80166D03F7008AB3FF;
-			remoteInfo = "flatpack-objcTests";
-		};
-		D8F5BD38167D0FF70050F2CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8A8A6DB16792266008DDF39 /* flatpack-objc.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D8F5BD00167D0BDC0050F2CE;
-			remoteInfo = codegen;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		D8A8A5B91678E66D008DDF39 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		01c5c2fb78d18a5f5113e2e8 /* PKRewardGrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKRewardGrant.h; sourceTree = "<group>"; };
-		05051cd7a9994b39609924b8 /* PKPunchRewardConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPunchRewardConfirmation.h; sourceTree = "<group>"; };
-		0556ab8586fba3b365432747 /* PKClerk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKClerk.m; sourceTree = "<group>"; };
-		09f036b316a2f3bd5e092818 /* PKInternalUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKInternalUser.h; sourceTree = "<group>"; };
-		0c5ab3f081c17c8f7c717ff4 /* PKBaseApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBaseApi.h; sourceTree = "<group>"; };
-		11bef3c6e6011440bef854a7 /* PKRewardAdvancement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKRewardAdvancement.h; sourceTree = "<group>"; };
-		13252d17559bc77d62986a1a /* FPBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPBaseRequest.h; sourceTree = "<group>"; };
-		163c3420bd9e94db2813509c /* PKMerchantLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantLocation.m; sourceTree = "<group>"; };
-		16e662010ca042f92c05afd7 /* PKAbstractRewardConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAbstractRewardConfirmation.h; sourceTree = "<group>"; };
-		19a6fbc25b8a91c9c79615e8 /* PKClerk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKClerk.h; sourceTree = "<group>"; };
-		1b5ce15eaff3ea466d5bdf23 /* PKOutboundMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKOutboundMessage.h; sourceTree = "<group>"; };
-		1b97a69656565890012d1c97 /* PKCompositeTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCompositeTarget.m; sourceTree = "<group>"; };
-		1cecfc296c258084f2359068 /* PKBaseEntityGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBaseEntityGlobal.h; sourceTree = "<group>"; };
-		1e8dacd944b415a484272b85 /* PKBaseEntityGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKBaseEntityGlobal.m; sourceTree = "<group>"; };
-		1f2a5152a6838c170b9705f8 /* PKStreetAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKStreetAddress.m; sourceTree = "<group>"; };
-		206b9beaedf5b04bedb0fca8 /* PKPushMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPushMessage.m; sourceTree = "<group>"; };
-		23dbc89c01b42fb26c08722f /* PKSocialListTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSocialListTarget.m; sourceTree = "<group>"; };
-		26e556f50529a0e27a1b9214 /* PKSmsOutboundMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSmsOutboundMessage.m; sourceTree = "<group>"; };
-		27fcf05ae48a550ac9ddc782 /* PKMerchantLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantLocation.h; sourceTree = "<group>"; };
-		28484c4616884eec6c6d113f /* FPEntityDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPEntityDescription.h; sourceTree = "<group>"; };
-		286a8b8a27d26c5b4f8c4f53 /* FPUnpacker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPUnpacker.h; sourceTree = "<group>"; };
-		2abbbb5c6b49d5bf8550e946 /* PKCouponVisibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCouponVisibility.h; sourceTree = "<group>"; };
-		2ace7d010132c0148f266ce6 /* PKTierTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKTierTarget.h; sourceTree = "<group>"; };
-		2b7870b0e023f4d65e815644 /* PKPointsActivityConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPointsActivityConfirmation.m; sourceTree = "<group>"; };
-		2beca0a1e817c1679b0ea148 /* PKPointsActivityConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPointsActivityConfirmation.h; sourceTree = "<group>"; };
-		2d4d6d70ce29a5fc50a74433 /* PKPointsCatalogItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPointsCatalogItem.m; sourceTree = "<group>"; };
-		2db3c1797f056dd11021304d /* PKEntityAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKEntityAnnotation.m; sourceTree = "<group>"; };
-		308d22eb481d22d1f971990e /* FPJsonRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPJsonRequest.m; sourceTree = "<group>"; };
-		30e949178e8348e1b3eb6514 /* PKCoupon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCoupon.h; sourceTree = "<group>"; };
-		30f35121318ad0afbe11afcb /* NSDictionary+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FP.h"; sourceTree = "<group>"; };
-		339fae2b20de8c38b86a1df4 /* PKBaseApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKBaseApi.m; sourceTree = "<group>"; };
-		39be48ade450184e60a25916 /* PKAbstractUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAbstractUser.m; sourceTree = "<group>"; };
-		3b9a21bac0eed24579a19b08 /* PKPhysicalRedemptionTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPhysicalRedemptionTarget.h; sourceTree = "<group>"; };
-		3baa457fa159b8ca1b46d37c /* PKNobodyTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKNobodyTarget.m; sourceTree = "<group>"; };
-		3bd0da6c410ddf3f9f2a7c2b /* NSHTTPURLResponse+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPURLResponse+FP.m"; sourceTree = "<group>"; };
-		400a69fbc485c9ad129fac75 /* FPUnpacker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPUnpacker.m; sourceTree = "<group>"; };
-		430ad434212d3dc820235acd /* NSString+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FP.m"; sourceTree = "<group>"; };
-		4311e00b89734e9b68104511 /* PKIdleCustomerTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKIdleCustomerTarget.h; sourceTree = "<group>"; };
-		4461b6aadcf9e041c8c3eb17 /* PKTierTraversalConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKTierTraversalConfirmation.m; sourceTree = "<group>"; };
-		46b17a9e9c70fafabdb74952 /* PKConsoleMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKConsoleMessage.h; sourceTree = "<group>"; };
-		472de69835f0a158fd21712d /* PKMerchant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchant.h; sourceTree = "<group>"; };
-		47537a57e7bca31bcb779501 /* PKParticipationTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKParticipationTarget.m; sourceTree = "<group>"; };
-		497328caadbd19225a5450be /* PKVisit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKVisit.h; sourceTree = "<group>"; };
-		4a354757d7e697192b2b6494 /* PKIntegratorUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKIntegratorUser.h; sourceTree = "<group>"; };
-		4c253bd3881097ff7367628d /* PKWeatherTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKWeatherTarget.h; sourceTree = "<group>"; };
-		4e47367b534111459f79aee4 /* PKConsoleMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKConsoleMessage.m; sourceTree = "<group>"; };
-		528329098255afe3fb799b14 /* PKRedemptionRewardConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRedemptionRewardConfirmation.m; sourceTree = "<group>"; };
-		571306ac51013c2c9f5a2c25 /* PKProgramType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKProgramType.h; sourceTree = "<group>"; };
-		57c093899c8e220beb78186d /* PKProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKProgram.h; sourceTree = "<group>"; };
-		598cc11d691a6875b69e3aab /* PKTierTraversalConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKTierTraversalConfirmation.h; sourceTree = "<group>"; };
-		5a31c3860540b7ac277830a4 /* PKSocialServiceSubscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKSocialServiceSubscription.h; sourceTree = "<group>"; };
-		5ba684ef639ddca4f29b37cf /* PKCustomerDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCustomerDevice.h; sourceTree = "<group>"; };
-		5d2eb6906542f2369fd302c9 /* PKMerchantUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantUser.h; sourceTree = "<group>"; };
-		5db80da6cc75506bb68f4c1a /* PKVisitConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKVisitConfirmation.m; sourceTree = "<group>"; };
-		6115e9fec1cd79886a93190c /* PKYieldManagementTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKYieldManagementTarget.h; sourceTree = "<group>"; };
-		6146abad43334e031d31675d /* PKIntegratorUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKIntegratorUser.m; sourceTree = "<group>"; };
-		64c005e0569f6518be3b7026 /* PKBounceBackTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBounceBackTarget.h; sourceTree = "<group>"; };
-		666920baff908ff946444ff5 /* PKSocialListTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKSocialListTarget.h; sourceTree = "<group>"; };
-		66b761cd3a5cc14afe3f3664 /* PKPointsActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPointsActivity.h; sourceTree = "<group>"; };
-		6757761fe1846aff5ee0124f /* FPFlatpack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFlatpack.m; sourceTree = "<group>"; };
-		6b732b482514f8de65db527e /* PKVisitConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKVisitConfirmation.h; sourceTree = "<group>"; };
-		6d1a02ad476c73049ccb3806 /* FPProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPProperty.h; sourceTree = "<group>"; };
-		6e778c3fa60a53a04e7cd758 /* PKFeedbackItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKFeedbackItem.m; sourceTree = "<group>"; };
-		713d03a934e81f0aca19cef5 /* FPProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPProperty.m; sourceTree = "<group>"; };
-		71c91923df7d249f6503f551 /* NSDate+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FP.m"; sourceTree = "<group>"; };
-		78ed43421b6d2e554d370b7a /* FPBaseApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPBaseApi.h; sourceTree = "<group>"; };
-		7b7aa170a2b918c45f56ce18 /* FPFlatpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFlatpack.h; sourceTree = "<group>"; };
-		7ccb2bfb9a67ea94fc2cccea /* PKBounceBackTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKBounceBackTarget.m; sourceTree = "<group>"; };
-		7ce95de0df5590ae0df23933 /* PKTierTraversal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKTierTraversal.m; sourceTree = "<group>"; };
-		7df6ed490c5622a42a977f5d /* PKInternalUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKInternalUser.m; sourceTree = "<group>"; };
-		808a9284764df8ba039f9397 /* FPEntityDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPEntityDescription.m; sourceTree = "<group>"; };
-		811851d8fee3c1a5c16da292 /* PKMerchantDashboardMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantDashboardMessage.m; sourceTree = "<group>"; };
-		817e564bee74b5655f4a74c6 /* PKMerchantUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantUser.m; sourceTree = "<group>"; };
-		863f7d511f508997f13c63e7 /* PKWeatherTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKWeatherTarget.m; sourceTree = "<group>"; };
-		86f19ff6f4371f4da96267b8 /* PKFirstVisitTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKFirstVisitTarget.m; sourceTree = "<group>"; };
-		8772d6d83da2066ead031d5d /* PKRedemptionRewardConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKRedemptionRewardConfirmation.h; sourceTree = "<group>"; };
-		885488a72cbc5feaff850f93 /* PKMerchantDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantDevice.m; sourceTree = "<group>"; };
-		89e74ec582ed1d68cff3f619 /* PKNobodyTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKNobodyTarget.h; sourceTree = "<group>"; };
-		8a876bfc4e2016f9427e3c04 /* PKCouponVisibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCouponVisibility.m; sourceTree = "<group>"; };
-		8c9c076faa3a66804a51ce62 /* PKPushMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPushMessage.h; sourceTree = "<group>"; };
-		8cf01ab1055e3802d49b2c76 /* PKFirstVisitTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKFirstVisitTarget.h; sourceTree = "<group>"; };
-		8e11b38341491641aad1a6f8 /* PKProgram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKProgram.m; sourceTree = "<group>"; };
-		8e15322143e2aab5df148815 /* PKEverybodyTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKEverybodyTarget.h; sourceTree = "<group>"; };
-		90fd639e4b5bd6e7c07c4894 /* NSDictionary+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FP.m"; sourceTree = "<group>"; };
-		92f49a4cf74db6fc5b77138c /* PKFeedbackItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKFeedbackItem.h; sourceTree = "<group>"; };
-		92f732509cb3669539a2fee6 /* PKPhysicalRedemptionTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPhysicalRedemptionTarget.m; sourceTree = "<group>"; };
-		98661e17c581ffb060b17108 /* PKSmsMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKSmsMessage.h; sourceTree = "<group>"; };
-		99e41b4f26df2f5eb6a03211 /* PKPointsActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPointsActivity.m; sourceTree = "<group>"; };
-		99f4746b0113f0102c840ea5 /* PKPointsCatalogItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPointsCatalogItem.h; sourceTree = "<group>"; };
-		9a3826d1ab19b92f6b0d49c3 /* PKLikeToUnlockTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKLikeToUnlockTarget.m; sourceTree = "<group>"; };
-		9a7bda1cb16900e8b102ba49 /* PKCouponCampaign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCouponCampaign.h; sourceTree = "<group>"; };
-		9b1e69486bd5a3fdef25188a /* PKCouponRedemption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCouponRedemption.h; sourceTree = "<group>"; };
-		9baa3c6d973fbd80e9feec58 /* PKSmsMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSmsMessage.m; sourceTree = "<group>"; };
-		9f81c53d7e876476002a92ff /* PKRedemptionCouponConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKRedemptionCouponConfirmation.h; sourceTree = "<group>"; };
-		9fa18cba07508483a2b164f8 /* PKProgramTier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKProgramTier.h; sourceTree = "<group>"; };
-		D81D88EC168103F40042DB2C /* PKClientApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKClientApi.h; sourceTree = "<group>"; };
-		D81D88ED168103F40042DB2C /* PKClientApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKClientApi.m; sourceTree = "<group>"; };
-		D81D890E168114810042DB2C /* PKTokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTokenRequest.h; sourceTree = "<group>"; };
-		D81D890F168114810042DB2C /* PKTokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTokenRequest.m; sourceTree = "<group>"; };
-		D8A8A5BB1678E66D008DDF39 /* libperka-client-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libperka-client-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8A8A5BE1678E66D008DDF39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D8A8A5C21678E66D008DDF39 /* perka-client-objc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "perka-client-objc-Prefix.pch"; sourceTree = "<group>"; };
-		D8A8A5CC1678E66D008DDF39 /* perka-client-objcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "perka-client-objcTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8A8A5CD1678E66D008DDF39 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D8A8A5CF1678E66D008DDF39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D8A8A5D71678E66D008DDF39 /* perka-client-objcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "perka-client-objcTests-Info.plist"; sourceTree = "<group>"; };
-		D8A8A5D91678E66D008DDF39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D8A8A5DB1678E66D008DDF39 /* perka_client_objcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = perka_client_objcTests.h; sourceTree = "<group>"; };
-		D8A8A5DC1678E66D008DDF39 /* perka_client_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = perka_client_objcTests.m; sourceTree = "<group>"; };
-		D8A8A6DB16792266008DDF39 /* flatpack-objc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "flatpack-objc.xcodeproj"; path = "../flatpack-objc/flatpack-objc.xcodeproj"; sourceTree = "<group>"; };
-		a056ac69b0d160a55f0adc35 /* FPJsonRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPJsonRequest.h; sourceTree = "<group>"; };
-		a35819d6696b92cfeb624913 /* PKReward.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKReward.m; sourceTree = "<group>"; };
-		a45f1967c14260067f45ca3b /* PKCompositeTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCompositeTarget.h; sourceTree = "<group>"; };
-		a70751f385a2a12a67b9aeef /* PKCoupon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCoupon.m; sourceTree = "<group>"; };
-		a7e1fcbfdb0e85f2e78be90b /* PKOutboundMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKOutboundMessage.m; sourceTree = "<group>"; };
-		a81012379330eadc39f9b4af /* PKListTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKListTarget.m; sourceTree = "<group>"; };
-		a83bf54468600c7f3dd27296 /* PKMerchant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchant.m; sourceTree = "<group>"; };
-		ae6637477332cb46aa8bf3bf /* NSObject+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FP.m"; sourceTree = "<group>"; };
-		af65b6abdc61666c762d351d /* PKCouponTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCouponTarget.m; sourceTree = "<group>"; };
-		b4ccecae735b51a48057b5a4 /* PKTierTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKTierTraversal.h; sourceTree = "<group>"; };
-		b4e32ac83faa700f73eb2331 /* PKCouponRedemption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCouponRedemption.m; sourceTree = "<group>"; };
-		b4eaccee5e6592b6304efb6e /* PKCouponTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCouponTarget.h; sourceTree = "<group>"; };
-		b69dab5317a3dbab52f1566e /* FPBaseHasUuid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPBaseHasUuid.m; sourceTree = "<group>"; };
-		b88b3503a541991853c3249b /* FPBaseHasUuid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPBaseHasUuid.h; sourceTree = "<group>"; };
-		b9b245461a0ceeaa141aa001 /* PKPunchRewardConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPunchRewardConfirmation.m; sourceTree = "<group>"; };
-		bc762df92426e1b2c84d9f4c /* PKSmsOutboundMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKSmsOutboundMessage.h; sourceTree = "<group>"; };
-		bdef7dafa153d586dd024594 /* FPBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPBaseRequest.m; sourceTree = "<group>"; };
-		c1074e61c3fb4d8995d49812 /* PKSocialServiceSubscription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSocialServiceSubscription.m; sourceTree = "<group>"; };
-		c22a8af469822c97da0bcb9b /* PKCannedEmailOutboundMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCannedEmailOutboundMessage.h; sourceTree = "<group>"; };
-		c526f6c036d2938ab1c6e5f6 /* FPPacker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPPacker.h; sourceTree = "<group>"; };
-		c990a7ea3e26cc9744cbf2b8 /* PKRedemptionCouponConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRedemptionCouponConfirmation.m; sourceTree = "<group>"; };
-		caba168945575511f1ab1444 /* PKCustomer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCustomer.h; sourceTree = "<group>"; };
-		ce9b8edcc31971ac8aa705ce /* PKMerchantCapability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantCapability.m; sourceTree = "<group>"; };
-		d32b983c105eace52a57e7e7 /* NSDate+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+FP.h"; sourceTree = "<group>"; };
-		d436218f0cf54821fa3cf6ea /* PKAbstractUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAbstractUser.h; sourceTree = "<group>"; };
-		d630b9023ecb3eaf8fec34e0 /* PKParticipationTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKParticipationTarget.h; sourceTree = "<group>"; };
-		d79b4bf41640c88b590ea6c9 /* PKMerchantCapability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantCapability.h; sourceTree = "<group>"; };
-		d837fe52b95741fa88274cb2 /* FPFlatpackRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFlatpackRequest.m; sourceTree = "<group>"; };
-		d98b5346c96b7798aaaa2dab /* PKProgramTier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKProgramTier.m; sourceTree = "<group>"; };
-		d9ba8631ae43a516aba63325 /* PKCouponCampaign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCouponCampaign.m; sourceTree = "<group>"; };
-		db3d4ef8871611cce735b0f7 /* PKProgramType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKProgramType.m; sourceTree = "<group>"; };
-		dc0e85e9f453091205c38969 /* PKCustomerDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCustomerDevice.m; sourceTree = "<group>"; };
-		dc102a552bdacecf50d2d133 /* PKEverybodyTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKEverybodyTarget.m; sourceTree = "<group>"; };
-		dcf0afe4dd462788c37d29f6 /* PKUserCredentials.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKUserCredentials.m; sourceTree = "<group>"; };
-		dd6eb0f67f6f347fd4dff100 /* PKReward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKReward.h; sourceTree = "<group>"; };
-		dd7913016134c345eca4ed4c /* FPFlatpackRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFlatpackRequest.h; sourceTree = "<group>"; };
-		dd8afc70572ab91f1c3e1113 /* PKIdleCustomerTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKIdleCustomerTarget.m; sourceTree = "<group>"; };
-		ddebb27e70c44695973112f5 /* NSString+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FP.h"; sourceTree = "<group>"; };
-		e065c8da2743c167e3d4692c /* PKTierTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKTierTarget.m; sourceTree = "<group>"; };
-		e1936644cd7607e0bdcfb387 /* NSObject+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+FP.h"; sourceTree = "<group>"; };
-		ea5d18f2885c0f1da1061989 /* PKRewardGrant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRewardGrant.m; sourceTree = "<group>"; };
-		edeb178af577c7ad551236ae /* PKListTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKListTarget.h; sourceTree = "<group>"; };
-		ef5eb3b8eeb678771f0b4ed5 /* PKStreetAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKStreetAddress.h; sourceTree = "<group>"; };
-		efdf74ef2e0f2294f6d0ac43 /* PKUserCredentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKUserCredentials.h; sourceTree = "<group>"; };
-		f0aa8f57923ad71f2027c9c3 /* FPBaseApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPBaseApi.m; sourceTree = "<group>"; };
-		f0ce08508b955c394521acbe /* FPPacker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPPacker.m; sourceTree = "<group>"; };
-		f46987707322d3338b6e3d3a /* PKVisit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKVisit.m; sourceTree = "<group>"; };
-		f72df4d9c9d0cda215f1b702 /* PKCustomer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCustomer.m; sourceTree = "<group>"; };
-		f76114b7d7b2bc28580bd6ea /* NSHTTPURLResponse+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSHTTPURLResponse+FP.h"; sourceTree = "<group>"; };
-		f7d403d300067fa8260c39be /* PKMerchantDashboardMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantDashboardMessage.h; sourceTree = "<group>"; };
-		f80e6d5c005f721ebc1e67e7 /* PKMerchantDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantDevice.h; sourceTree = "<group>"; };
-		faf79826257796e7f5399500 /* PKLikeToUnlockTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKLikeToUnlockTarget.h; sourceTree = "<group>"; };
-		fb98cd0b5326a2c545140525 /* PKYieldManagementTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKYieldManagementTarget.m; sourceTree = "<group>"; };
-		fc93fa148bac344e52451c9a /* PKRewardAdvancement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRewardAdvancement.m; sourceTree = "<group>"; };
-		fd58638e9f32e307150dd0f5 /* PKCannedEmailOutboundMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCannedEmailOutboundMessage.m; sourceTree = "<group>"; };
-		ffd6859f371c0b4c8ef19afb /* PKAbstractRewardConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAbstractRewardConfirmation.m; sourceTree = "<group>"; };
-		ffe5753adf8fbe7684d40100 /* PKEntityAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKEntityAnnotation.h; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		D8A8A5B81678E66D008DDF39 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8533F40167FA3EF00519F0A /* libflatpack-objc.a in Frameworks */,
-				D8A8A5BF1678E66D008DDF39 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8A8A5C81678E66D008DDF39 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8A8A5CE1678E66D008DDF39 /* SenTestingKit.framework in Frameworks */,
-				D8A8A5D01678E66D008DDF39 /* UIKit.framework in Frameworks */,
-				D8A8A5D11678E66D008DDF39 /* Foundation.framework in Frameworks */,
-				D8A8A5D41678E66D008DDF39 /* libperka-client-objc.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		D804F01E167C281900E73BC3 /* generated */ = {
-			isa = PBXGroup;
-			children = (
-				d32b983c105eace52a57e7e7 /* NSDate+FP.h */,
-				71c91923df7d249f6503f551 /* NSDate+FP.m */,
-				30f35121318ad0afbe11afcb /* NSDictionary+FP.h */,
-				90fd639e4b5bd6e7c07c4894 /* NSDictionary+FP.m */,
-				f76114b7d7b2bc28580bd6ea /* NSHTTPURLResponse+FP.h */,
-				3bd0da6c410ddf3f9f2a7c2b /* NSHTTPURLResponse+FP.m */,
-				e1936644cd7607e0bdcfb387 /* NSObject+FP.h */,
-				ae6637477332cb46aa8bf3bf /* NSObject+FP.m */,
-				ddebb27e70c44695973112f5 /* NSString+FP.h */,
-				430ad434212d3dc820235acd /* NSString+FP.m */,
-				78ed43421b6d2e554d370b7a /* FPBaseApi.h */,
-				f0aa8f57923ad71f2027c9c3 /* FPBaseApi.m */,
-				13252d17559bc77d62986a1a /* FPBaseRequest.h */,
-				bdef7dafa153d586dd024594 /* FPBaseRequest.m */,
-				dd7913016134c345eca4ed4c /* FPFlatpackRequest.h */,
-				d837fe52b95741fa88274cb2 /* FPFlatpackRequest.m */,
-				a056ac69b0d160a55f0adc35 /* FPJsonRequest.h */,
-				308d22eb481d22d1f971990e /* FPJsonRequest.m */,
-				b88b3503a541991853c3249b /* FPBaseHasUuid.h */,
-				b69dab5317a3dbab52f1566e /* FPBaseHasUuid.m */,
-				28484c4616884eec6c6d113f /* FPEntityDescription.h */,
-				808a9284764df8ba039f9397 /* FPEntityDescription.m */,
-				7b7aa170a2b918c45f56ce18 /* FPFlatpack.h */,
-				6757761fe1846aff5ee0124f /* FPFlatpack.m */,
-				c526f6c036d2938ab1c6e5f6 /* FPPacker.h */,
-				f0ce08508b955c394521acbe /* FPPacker.m */,
-				6d1a02ad476c73049ccb3806 /* FPProperty.h */,
-				713d03a934e81f0aca19cef5 /* FPProperty.m */,
-				286a8b8a27d26c5b4f8c4f53 /* FPUnpacker.h */,
-				400a69fbc485c9ad129fac75 /* FPUnpacker.m */,
-				16e662010ca042f92c05afd7 /* PKAbstractRewardConfirmation.h */,
-				ffd6859f371c0b4c8ef19afb /* PKAbstractRewardConfirmation.m */,
-				d436218f0cf54821fa3cf6ea /* PKAbstractUser.h */,
-				39be48ade450184e60a25916 /* PKAbstractUser.m */,
-				0c5ab3f081c17c8f7c717ff4 /* PKBaseApi.h */,
-				339fae2b20de8c38b86a1df4 /* PKBaseApi.m */,
-				1cecfc296c258084f2359068 /* PKBaseEntityGlobal.h */,
-				1e8dacd944b415a484272b85 /* PKBaseEntityGlobal.m */,
-				64c005e0569f6518be3b7026 /* PKBounceBackTarget.h */,
-				7ccb2bfb9a67ea94fc2cccea /* PKBounceBackTarget.m */,
-				c22a8af469822c97da0bcb9b /* PKCannedEmailOutboundMessage.h */,
-				fd58638e9f32e307150dd0f5 /* PKCannedEmailOutboundMessage.m */,
-				19a6fbc25b8a91c9c79615e8 /* PKClerk.h */,
-				0556ab8586fba3b365432747 /* PKClerk.m */,
-				a45f1967c14260067f45ca3b /* PKCompositeTarget.h */,
-				1b97a69656565890012d1c97 /* PKCompositeTarget.m */,
-				46b17a9e9c70fafabdb74952 /* PKConsoleMessage.h */,
-				4e47367b534111459f79aee4 /* PKConsoleMessage.m */,
-				30e949178e8348e1b3eb6514 /* PKCoupon.h */,
-				a70751f385a2a12a67b9aeef /* PKCoupon.m */,
-				9a7bda1cb16900e8b102ba49 /* PKCouponCampaign.h */,
-				d9ba8631ae43a516aba63325 /* PKCouponCampaign.m */,
-				9b1e69486bd5a3fdef25188a /* PKCouponRedemption.h */,
-				b4e32ac83faa700f73eb2331 /* PKCouponRedemption.m */,
-				b4eaccee5e6592b6304efb6e /* PKCouponTarget.h */,
-				af65b6abdc61666c762d351d /* PKCouponTarget.m */,
-				2abbbb5c6b49d5bf8550e946 /* PKCouponVisibility.h */,
-				8a876bfc4e2016f9427e3c04 /* PKCouponVisibility.m */,
-				caba168945575511f1ab1444 /* PKCustomer.h */,
-				f72df4d9c9d0cda215f1b702 /* PKCustomer.m */,
-				5ba684ef639ddca4f29b37cf /* PKCustomerDevice.h */,
-				dc0e85e9f453091205c38969 /* PKCustomerDevice.m */,
-				ffe5753adf8fbe7684d40100 /* PKEntityAnnotation.h */,
-				2db3c1797f056dd11021304d /* PKEntityAnnotation.m */,
-				8e15322143e2aab5df148815 /* PKEverybodyTarget.h */,
-				dc102a552bdacecf50d2d133 /* PKEverybodyTarget.m */,
-				92f49a4cf74db6fc5b77138c /* PKFeedbackItem.h */,
-				6e778c3fa60a53a04e7cd758 /* PKFeedbackItem.m */,
-				8cf01ab1055e3802d49b2c76 /* PKFirstVisitTarget.h */,
-				86f19ff6f4371f4da96267b8 /* PKFirstVisitTarget.m */,
-				4311e00b89734e9b68104511 /* PKIdleCustomerTarget.h */,
-				dd8afc70572ab91f1c3e1113 /* PKIdleCustomerTarget.m */,
-				4a354757d7e697192b2b6494 /* PKIntegratorUser.h */,
-				6146abad43334e031d31675d /* PKIntegratorUser.m */,
-				09f036b316a2f3bd5e092818 /* PKInternalUser.h */,
-				7df6ed490c5622a42a977f5d /* PKInternalUser.m */,
-				faf79826257796e7f5399500 /* PKLikeToUnlockTarget.h */,
-				9a3826d1ab19b92f6b0d49c3 /* PKLikeToUnlockTarget.m */,
-				edeb178af577c7ad551236ae /* PKListTarget.h */,
-				a81012379330eadc39f9b4af /* PKListTarget.m */,
-				472de69835f0a158fd21712d /* PKMerchant.h */,
-				a83bf54468600c7f3dd27296 /* PKMerchant.m */,
-				d79b4bf41640c88b590ea6c9 /* PKMerchantCapability.h */,
-				ce9b8edcc31971ac8aa705ce /* PKMerchantCapability.m */,
-				f7d403d300067fa8260c39be /* PKMerchantDashboardMessage.h */,
-				811851d8fee3c1a5c16da292 /* PKMerchantDashboardMessage.m */,
-				f80e6d5c005f721ebc1e67e7 /* PKMerchantDevice.h */,
-				885488a72cbc5feaff850f93 /* PKMerchantDevice.m */,
-				27fcf05ae48a550ac9ddc782 /* PKMerchantLocation.h */,
-				163c3420bd9e94db2813509c /* PKMerchantLocation.m */,
-				5d2eb6906542f2369fd302c9 /* PKMerchantUser.h */,
-				817e564bee74b5655f4a74c6 /* PKMerchantUser.m */,
-				89e74ec582ed1d68cff3f619 /* PKNobodyTarget.h */,
-				3baa457fa159b8ca1b46d37c /* PKNobodyTarget.m */,
-				1b5ce15eaff3ea466d5bdf23 /* PKOutboundMessage.h */,
-				a7e1fcbfdb0e85f2e78be90b /* PKOutboundMessage.m */,
-				d630b9023ecb3eaf8fec34e0 /* PKParticipationTarget.h */,
-				47537a57e7bca31bcb779501 /* PKParticipationTarget.m */,
-				3b9a21bac0eed24579a19b08 /* PKPhysicalRedemptionTarget.h */,
-				92f732509cb3669539a2fee6 /* PKPhysicalRedemptionTarget.m */,
-				66b761cd3a5cc14afe3f3664 /* PKPointsActivity.h */,
-				99e41b4f26df2f5eb6a03211 /* PKPointsActivity.m */,
-				2beca0a1e817c1679b0ea148 /* PKPointsActivityConfirmation.h */,
-				2b7870b0e023f4d65e815644 /* PKPointsActivityConfirmation.m */,
-				99f4746b0113f0102c840ea5 /* PKPointsCatalogItem.h */,
-				2d4d6d70ce29a5fc50a74433 /* PKPointsCatalogItem.m */,
-				57c093899c8e220beb78186d /* PKProgram.h */,
-				8e11b38341491641aad1a6f8 /* PKProgram.m */,
-				9fa18cba07508483a2b164f8 /* PKProgramTier.h */,
-				d98b5346c96b7798aaaa2dab /* PKProgramTier.m */,
-				571306ac51013c2c9f5a2c25 /* PKProgramType.h */,
-				db3d4ef8871611cce735b0f7 /* PKProgramType.m */,
-				05051cd7a9994b39609924b8 /* PKPunchRewardConfirmation.h */,
-				b9b245461a0ceeaa141aa001 /* PKPunchRewardConfirmation.m */,
-				8c9c076faa3a66804a51ce62 /* PKPushMessage.h */,
-				206b9beaedf5b04bedb0fca8 /* PKPushMessage.m */,
-				9f81c53d7e876476002a92ff /* PKRedemptionCouponConfirmation.h */,
-				c990a7ea3e26cc9744cbf2b8 /* PKRedemptionCouponConfirmation.m */,
-				8772d6d83da2066ead031d5d /* PKRedemptionRewardConfirmation.h */,
-				528329098255afe3fb799b14 /* PKRedemptionRewardConfirmation.m */,
-				dd6eb0f67f6f347fd4dff100 /* PKReward.h */,
-				a35819d6696b92cfeb624913 /* PKReward.m */,
-				11bef3c6e6011440bef854a7 /* PKRewardAdvancement.h */,
-				fc93fa148bac344e52451c9a /* PKRewardAdvancement.m */,
-				01c5c2fb78d18a5f5113e2e8 /* PKRewardGrant.h */,
-				ea5d18f2885c0f1da1061989 /* PKRewardGrant.m */,
-				98661e17c581ffb060b17108 /* PKSmsMessage.h */,
-				9baa3c6d973fbd80e9feec58 /* PKSmsMessage.m */,
-				bc762df92426e1b2c84d9f4c /* PKSmsOutboundMessage.h */,
-				26e556f50529a0e27a1b9214 /* PKSmsOutboundMessage.m */,
-				666920baff908ff946444ff5 /* PKSocialListTarget.h */,
-				23dbc89c01b42fb26c08722f /* PKSocialListTarget.m */,
-				5a31c3860540b7ac277830a4 /* PKSocialServiceSubscription.h */,
-				c1074e61c3fb4d8995d49812 /* PKSocialServiceSubscription.m */,
-				ef5eb3b8eeb678771f0b4ed5 /* PKStreetAddress.h */,
-				1f2a5152a6838c170b9705f8 /* PKStreetAddress.m */,
-				2ace7d010132c0148f266ce6 /* PKTierTarget.h */,
-				e065c8da2743c167e3d4692c /* PKTierTarget.m */,
-				b4ccecae735b51a48057b5a4 /* PKTierTraversal.h */,
-				7ce95de0df5590ae0df23933 /* PKTierTraversal.m */,
-				598cc11d691a6875b69e3aab /* PKTierTraversalConfirmation.h */,
-				4461b6aadcf9e041c8c3eb17 /* PKTierTraversalConfirmation.m */,
-				efdf74ef2e0f2294f6d0ac43 /* PKUserCredentials.h */,
-				dcf0afe4dd462788c37d29f6 /* PKUserCredentials.m */,
-				497328caadbd19225a5450be /* PKVisit.h */,
-				f46987707322d3338b6e3d3a /* PKVisit.m */,
-				6b732b482514f8de65db527e /* PKVisitConfirmation.h */,
-				5db80da6cc75506bb68f4c1a /* PKVisitConfirmation.m */,
-				4c253bd3881097ff7367628d /* PKWeatherTarget.h */,
-				863f7d511f508997f13c63e7 /* PKWeatherTarget.m */,
-				6115e9fec1cd79886a93190c /* PKYieldManagementTarget.h */,
-				fb98cd0b5326a2c545140525 /* PKYieldManagementTarget.m */,
-			);
-			path = generated;
-			sourceTree = "<group>";
-		};
-		D8A8A5B01678E66D008DDF39 = {
-			isa = PBXGroup;
-			children = (
-				D8A8A6DB16792266008DDF39 /* flatpack-objc.xcodeproj */,
-				D8A8A5C01678E66D008DDF39 /* perka-client-objc */,
-				D8A8A5D51678E66D008DDF39 /* perka-client-objcTests */,
-				D8A8A5BD1678E66D008DDF39 /* Frameworks */,
-				D8A8A5BC1678E66D008DDF39 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		D8A8A5BC1678E66D008DDF39 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D8A8A5BB1678E66D008DDF39 /* libperka-client-objc.a */,
-				D8A8A5CC1678E66D008DDF39 /* perka-client-objcTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D8A8A5BD1678E66D008DDF39 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D8A8A5BE1678E66D008DDF39 /* Foundation.framework */,
-				D8A8A5CD1678E66D008DDF39 /* SenTestingKit.framework */,
-				D8A8A5CF1678E66D008DDF39 /* UIKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D8A8A5C01678E66D008DDF39 /* perka-client-objc */ = {
-			isa = PBXGroup;
-			children = (
-				D81D88EC168103F40042DB2C /* PKClientApi.h */,
-				D81D88ED168103F40042DB2C /* PKClientApi.m */,
-				D81D890E168114810042DB2C /* PKTokenRequest.h */,
-				D81D890F168114810042DB2C /* PKTokenRequest.m */,
-				D804F01E167C281900E73BC3 /* generated */,
-				D8A8A5C11678E66D008DDF39 /* Supporting Files */,
-			);
-			path = "perka-client-objc";
-			sourceTree = "<group>";
-		};
-		D8A8A5C11678E66D008DDF39 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8A8A5C21678E66D008DDF39 /* perka-client-objc-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D8A8A5D51678E66D008DDF39 /* perka-client-objcTests */ = {
-			isa = PBXGroup;
-			children = (
-				D8A8A5DB1678E66D008DDF39 /* perka_client_objcTests.h */,
-				D8A8A5DC1678E66D008DDF39 /* perka_client_objcTests.m */,
-				D8A8A5D61678E66D008DDF39 /* Supporting Files */,
-			);
-			path = "perka-client-objcTests";
-			sourceTree = "<group>";
-		};
-		D8A8A5D61678E66D008DDF39 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8A8A5D71678E66D008DDF39 /* perka-client-objcTests-Info.plist */,
-				D8A8A5D81678E66D008DDF39 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D8A8A6DC16792266008DDF39 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D8A8A6E216792266008DDF39 /* libflatpack-objc.a */,
-				D8A8A6E416792266008DDF39 /* flatpack-objcTests.octest */,
-				D8F5BD39167D0FF70050F2CE /* codegen */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		D8A8A5BA1678E66D008DDF39 /* perka-client-objc */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8A8A5E01678E66D008DDF39 /* Build configuration list for PBXNativeTarget "perka-client-objc" */;
-			buildPhases = (
-				D8A8A5B71678E66D008DDF39 /* Sources */,
-				D8A8A5B81678E66D008DDF39 /* Frameworks */,
-				D8A8A5B91678E66D008DDF39 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D8533F2E167FA31100519F0A /* PBXTargetDependency */,
-			);
-			name = "perka-client-objc";
-			productName = "perka-client-objc";
-			productReference = D8A8A5BB1678E66D008DDF39 /* libperka-client-objc.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D8A8A5CB1678E66D008DDF39 /* perka-client-objcTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8A8A5E31678E66D008DDF39 /* Build configuration list for PBXNativeTarget "perka-client-objcTests" */;
-			buildPhases = (
-				D8A8A5C71678E66D008DDF39 /* Sources */,
-				D8A8A5C81678E66D008DDF39 /* Frameworks */,
-				D8A8A5C91678E66D008DDF39 /* Resources */,
-				D8A8A5CA1678E66D008DDF39 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D8A8A5D31678E66D008DDF39 /* PBXTargetDependency */,
-			);
-			name = "perka-client-objcTests";
-			productName = "perka-client-objcTests";
-			productReference = D8A8A5CC1678E66D008DDF39 /* perka-client-objcTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D8A8A5B21678E66D008DDF39 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = "Perka Inc";
-			};
-			buildConfigurationList = D8A8A5B51678E66D008DDF39 /* Build configuration list for PBXProject "perka-client-objc" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = D8A8A5B01678E66D008DDF39;
-			productRefGroup = D8A8A5BC1678E66D008DDF39 /* Products */;
-			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D8A8A6DC16792266008DDF39 /* Products */;
-					ProjectRef = D8A8A6DB16792266008DDF39 /* flatpack-objc.xcodeproj */;
-				},
-			);
-			projectRoot = "";
-			targets = (
-				D8A8A5BA1678E66D008DDF39 /* perka-client-objc */,
-				D8A8A5CB1678E66D008DDF39 /* perka-client-objcTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		D8A8A6E216792266008DDF39 /* libflatpack-objc.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libflatpack-objc.a";
-			remoteRef = D8A8A6E116792266008DDF39 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D8A8A6E416792266008DDF39 /* flatpack-objcTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "flatpack-objcTests.octest";
-			remoteRef = D8A8A6E316792266008DDF39 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D8F5BD39167D0FF70050F2CE /* codegen */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = codegen;
-			remoteRef = D8F5BD38167D0FF70050F2CE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
-/* Begin PBXResourcesBuildPhase section */
-		D8A8A5C91678E66D008DDF39 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8A8A5DA1678E66D008DDF39 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D8A8A5CA1678E66D008DDF39 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		D8A8A5B71678E66D008DDF39 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4cb99d93f555a5a5a5a16026 /* (null) in Sources */,
-				c5e16e0ecd70d8cd19066b36 /* (null) in Sources */,
-				ae9fc2cc5bcd7ecde7d21f8f /* (null) in Sources */,
-				6271b14d44611a97cd0db687 /* (null) in Sources */,
-				e7cf5802d4ef85cacbad41d4 /* (null) in Sources */,
-				6ba661ad2ae75017fbba1da3 /* (null) in Sources */,
-				d9a093b395749ba82b8e0207 /* (null) in Sources */,
-				402352bb8fca8ceb615ca738 /* (null) in Sources */,
-				351fc61240d81c054593ee82 /* (null) in Sources */,
-				2f5ddec44ad56a51a91a2f5b /* (null) in Sources */,
-				640edf3b6dcae85fccd4b7f7 /* (null) in Sources */,
-				2b613f0193c270dcc03aeb47 /* (null) in Sources */,
-				8250d9dd4e44ba881c40765c /* (null) in Sources */,
-				baa35f1bd4c37394347676b5 /* (null) in Sources */,
-				7e4fa93728ca2a5f81ab9072 /* (null) in Sources */,
-				fb5f3e166ca93b3f21b336a8 /* (null) in Sources */,
-				ae78bc4ce4db413b5dd8e2cb /* (null) in Sources */,
-				f7bb248d521e2932abe55ef7 /* (null) in Sources */,
-				7dfdcb35ad18c05ad67c8288 /* (null) in Sources */,
-				5801a2fcfde4a8e8c41f77f7 /* (null) in Sources */,
-				9d88e2c4d94ebade10e1fded /* (null) in Sources */,
-				8f0a133f5fb0053d5ece99d4 /* (null) in Sources */,
-				d14f2a7f0f1ca4fb2eebefe4 /* (null) in Sources */,
-				9ae0d68b7dca41df64ba06d4 /* (null) in Sources */,
-				6eb8ea3ec7425747d3570366 /* (null) in Sources */,
-				ba6f307195fa0a5fb4460f71 /* (null) in Sources */,
-				170efc52093b20f6edd18214 /* (null) in Sources */,
-				caf6c87c000d5444a91a243e /* (null) in Sources */,
-				199b74c3705abbac3b7ba2a6 /* (null) in Sources */,
-				e8095c5704461063d3db665c /* (null) in Sources */,
-				0ee3acfdce538f3934c684e9 /* (null) in Sources */,
-				199a924754f56a0cf2e6246b /* (null) in Sources */,
-				9aa4a89ec844754917ee0723 /* (null) in Sources */,
-				b718b4c84e7b3b1137a9c466 /* (null) in Sources */,
-				5422507cc8d5ebe293f90cf7 /* (null) in Sources */,
-				639bb6c7630422e19f1b27cf /* (null) in Sources */,
-				343bdf8482be3533e7f5233c /* (null) in Sources */,
-				88e049a73114facfffc88e86 /* (null) in Sources */,
-				bb27007240b8b489ca10ec4a /* (null) in Sources */,
-				717c3f730c8f2e1d036c71f0 /* (null) in Sources */,
-				6cfe20c1929911a4153c97c8 /* (null) in Sources */,
-				d37382b80bcc30c1abd71d9a /* (null) in Sources */,
-				d7fdef487585e3dc7691eee2 /* (null) in Sources */,
-				900d4b4014383cf858828615 /* (null) in Sources */,
-				b2603d4a8941aaa780703dcd /* (null) in Sources */,
-				59a31a229231cfe770ebf06a /* (null) in Sources */,
-				104a9a99590a8f640a83f13e /* (null) in Sources */,
-				b3ba714a7b0add4588671b7a /* (null) in Sources */,
-				a7a2b82155e8a6c8192d6b39 /* (null) in Sources */,
-				8dce03434b58dde567e8bb9d /* (null) in Sources */,
-				01b1d7a1fd9c1e5c5d59923c /* (null) in Sources */,
-				1e320c620277736eb118db28 /* (null) in Sources */,
-				f99b017fc17247fb27264de4 /* (null) in Sources */,
-				cff720253a06de5c8a687144 /* (null) in Sources */,
-				3704ae4c66958e480757d6e6 /* (null) in Sources */,
-				7f1626eb5b07800118c574a3 /* (null) in Sources */,
-				cf2282ed0cd0b2dddcb3f9c5 /* (null) in Sources */,
-				574be51766422da06164f2ca /* (null) in Sources */,
-				80b526310e37fa10bab8512b /* (null) in Sources */,
-				96d1f738aba8c9b796d29ca7 /* (null) in Sources */,
-				D81D88EE168103F40042DB2C /* PKClientApi.m in Sources */,
-				347b18ae7f094f28b39e2d41 /* (null) in Sources */,
-				D81D8910168114810042DB2C /* PKTokenRequest.m in Sources */,
-				11ead2210b450781652d0d94 /* PKAbstractRewardConfirmation.m in Sources */,
-				afda4b7b03d8737d2b04450d /* PKAbstractUser.m in Sources */,
-				1dd94817b9e9d42a756838de /* PKBaseApi.m in Sources */,
-				04d7cbf756ef29a1698b2239 /* PKBaseEntityGlobal.m in Sources */,
-				f00a030ad99ad014560203d3 /* PKBounceBackTarget.m in Sources */,
-				76ad1a091bb15cc011ae5729 /* PKCannedEmailOutboundMessage.m in Sources */,
-				4bfd5ceb618b1454ddd3c698 /* PKClerk.m in Sources */,
-				3e019fdb17e6fe0dbdf2a72e /* PKCompositeTarget.m in Sources */,
-				d7558a776c90ca8ac4041822 /* PKConsoleMessage.m in Sources */,
-				9122d961ed9db9e7c7390e1b /* PKCoupon.m in Sources */,
-				2abc94fec2c86f67ee9eff73 /* PKCouponCampaign.m in Sources */,
-				1f5035998617cd537a1af32b /* PKCouponRedemption.m in Sources */,
-				da3dc8d6b482824ad48a934a /* PKCouponTarget.m in Sources */,
-				949aa1b6abcb08657b95e170 /* PKCouponVisibility.m in Sources */,
-				75a835e29755910b5bab8a15 /* PKCustomer.m in Sources */,
-				74b69175b541ef92c3836a6b /* PKCustomerDevice.m in Sources */,
-				2c5cac0d3c56b24a2f9d8a6e /* PKEntityAnnotation.m in Sources */,
-				9eb01fc7f728f0b453720510 /* PKEverybodyTarget.m in Sources */,
-				5d20fab869e8a656b38d8b4f /* PKFeedbackItem.m in Sources */,
-				c2e8ef1756326c021d19efcb /* PKFirstVisitTarget.m in Sources */,
-				95006853fa403090c6674f57 /* PKIdleCustomerTarget.m in Sources */,
-				40e490cf2fd9bcc63d22715f /* PKIntegratorUser.m in Sources */,
-				b2e4d9b63af1ecccdcdbaa15 /* PKInternalUser.m in Sources */,
-				5b7cf303d9440763cee96ede /* PKLikeToUnlockTarget.m in Sources */,
-				4a18e67cb88e9ca76d5ebd17 /* PKListTarget.m in Sources */,
-				50b8d2989e9819c88d388ab1 /* PKMerchant.m in Sources */,
-				96f2f75f062b3cd50c62babd /* PKMerchantCapability.m in Sources */,
-				2e1a5639961a4b35603b0533 /* PKMerchantDashboardMessage.m in Sources */,
-				109203910f62f571a96da7f3 /* PKMerchantDevice.m in Sources */,
-				140ffb1d83e80e7901ef7272 /* PKMerchantLocation.m in Sources */,
-				cd50fe8cf7ecd8ef485d4150 /* PKMerchantUser.m in Sources */,
-				e45847974133cb95fa337e16 /* PKNobodyTarget.m in Sources */,
-				b940efe5eb71246820d2a8a7 /* PKOutboundMessage.m in Sources */,
-				ca2e273ba97bb42eca21e7e1 /* PKParticipationTarget.m in Sources */,
-				10073bc89641162393b335ce /* PKPhysicalRedemptionTarget.m in Sources */,
-				5bb42b208ea095e235657c30 /* PKPointsActivity.m in Sources */,
-				2016a92f6482b936f2eb5bb4 /* PKPointsActivityConfirmation.m in Sources */,
-				a34e36456058ad59c4528b42 /* PKPointsCatalogItem.m in Sources */,
-				625d7e3c251b16f38c55e19f /* PKProgram.m in Sources */,
-				44bc7279ffeb03fafb206b7a /* PKProgramTier.m in Sources */,
-				c8436dce1e25fbb374a0f018 /* PKProgramType.m in Sources */,
-				3bcc6ce44ed744a45a268c21 /* PKPunchRewardConfirmation.m in Sources */,
-				7eed568686ee68c462eb6a6b /* PKPushMessage.m in Sources */,
-				7631c8cbd23988245f07f1ca /* PKRedemptionCouponConfirmation.m in Sources */,
-				9d787ab2ff8e49a439a3e2da /* PKRedemptionRewardConfirmation.m in Sources */,
-				af018e631fd22af851e15cb3 /* PKReward.m in Sources */,
-				4c495176e736b549aa624082 /* PKRewardAdvancement.m in Sources */,
-				fa52023d9510712a3bf45d3f /* PKRewardGrant.m in Sources */,
-				8bef9c3a1f40eadcca710f9a /* PKSmsMessage.m in Sources */,
-				ed71509cfb508687b98b6774 /* PKSmsOutboundMessage.m in Sources */,
-				257f2a8fe059add2dcecb6f1 /* PKSocialListTarget.m in Sources */,
-				0e4e22eb63099c251897764b /* PKSocialServiceSubscription.m in Sources */,
-				1682bc98f29a28b650dde414 /* PKStreetAddress.m in Sources */,
-				9754aaf4bdd01e6e760e1899 /* PKTierTarget.m in Sources */,
-				fb391e42c9e3066b77ea0787 /* PKTierTraversal.m in Sources */,
-				1112ebd65bc2a4c6182cb166 /* PKTierTraversalConfirmation.m in Sources */,
-				e8bfd24ab5c12c6f9eebf675 /* PKUserCredentials.m in Sources */,
-				2a3ab9b02e354d6dce7b6f33 /* PKVisit.m in Sources */,
-				f8b73ebb03dad4264edcaa21 /* PKVisitConfirmation.m in Sources */,
-				77848334119af71bd03e22df /* PKWeatherTarget.m in Sources */,
-				dae0cc31988421f67adc88e5 /* PKYieldManagementTarget.m in Sources */,
-				952cb201dcc0db5037fc463e /* NSDate+FP.m in Sources */,
-				5554224cca441f9e6bffc521 /* NSDictionary+FP.m in Sources */,
-				2d680e08845ba78121b61da1 /* NSHTTPURLResponse+FP.m in Sources */,
-				5a033a30a6d560312ab2d4b5 /* NSObject+FP.m in Sources */,
-				4bb57156eaba18d4c6670cce /* NSString+FP.m in Sources */,
-				5299ca3c3736fa2b68171fd0 /* FPBaseApi.m in Sources */,
-				3bce3dec97943750dd61fa91 /* FPBaseRequest.m in Sources */,
-				d1e8f5354e09e3da5770cfbd /* FPFlatpackRequest.m in Sources */,
-				771fb6a5ceca6f97b83e8b66 /* FPJsonRequest.m in Sources */,
-				25e90d09ce4afaa38f17dbd4 /* FPBaseHasUuid.m in Sources */,
-				d46b2b599466b6dd8d7dde03 /* FPEntityDescription.m in Sources */,
-				367432b3cb78b49a342e2615 /* FPFlatpack.m in Sources */,
-				9f3da252cf040f52d727e3d2 /* FPPacker.m in Sources */,
-				898ce28489e0e81d77fadd59 /* FPProperty.m in Sources */,
-				dd53974a7c67bb4a28cb8078 /* FPUnpacker.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8A8A5C71678E66D008DDF39 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8A8A5DD1678E66D008DDF39 /* perka_client_objcTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D8533F2E167FA31100519F0A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "flatpack-objc";
-			targetProxy = D8533F2D167FA31100519F0A /* PBXContainerItemProxy */;
-		};
-		D8A8A5D31678E66D008DDF39 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D8A8A5BA1678E66D008DDF39 /* perka-client-objc */;
-			targetProxy = D8A8A5D21678E66D008DDF39 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D8A8A5D81678E66D008DDF39 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8A8A5D91678E66D008DDF39 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		D8A8A5DE1678E66D008DDF39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		D8A8A5DF1678E66D008DDF39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D8A8A5E11678E66D008DDF39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				DSTROOT = /tmp/perka_client_objc.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "perka-client-objc/perka-client-objc-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../flatpack-objc/\"/**";
-			};
-			name = Debug;
-		};
-		D8A8A5E21678E66D008DDF39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				DSTROOT = /tmp/perka_client_objc.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "perka-client-objc/perka-client-objc-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../flatpack-objc/\"/**";
-			};
-			name = Release;
-		};
-		D8A8A5E41678E66D008DDF39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "perka-client-objc/perka-client-objc-Prefix.pch";
-				INFOPLIST_FILE = "perka-client-objcTests/perka-client-objcTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-Objc",
-					"-all_load",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../flatpack-objc/\"/**";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		D8A8A5E51678E66D008DDF39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "perka-client-objc/perka-client-objc-Prefix.pch";
-				INFOPLIST_FILE = "perka-client-objcTests/perka-client-objcTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-Objc",
-					"-all_load",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../flatpack-objc/\"/**";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		D8A8A5B51678E66D008DDF39 /* Build configuration list for PBXProject "perka-client-objc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8A8A5DE1678E66D008DDF39 /* Debug */,
-				D8A8A5DF1678E66D008DDF39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D8A8A5E01678E66D008DDF39 /* Build configuration list for PBXNativeTarget "perka-client-objc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8A8A5E11678E66D008DDF39 /* Debug */,
-				D8A8A5E21678E66D008DDF39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D8A8A5E31678E66D008DDF39 /* Build configuration list for PBXNativeTarget "perka-client-objcTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8A8A5E41678E66D008DDF39 /* Debug */,
-				D8A8A5E51678E66D008DDF39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D8A8A5B21678E66D008DDF39 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>01b1d7a1fd9c1e5c5d59923c</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>01c5c2fb78d18a5f5113e2e8</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKRewardGrant.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>04d7cbf756ef29a1698b2239</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1e8dacd944b415a484272b85</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05051cd7a9994b39609924b8</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKPunchRewardConfirmation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0556ab8586fba3b365432747</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKClerk.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>09f036b316a2f3bd5e092818</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKInternalUser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0c5ab3f081c17c8f7c717ff4</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKBaseApi.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0e4e22eb63099c251897764b</key>
+		<dict>
+			<key>fileRef</key>
+			<string>c1074e61c3fb4d8995d49812</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0ee3acfdce538f3934c684e9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>10073bc89641162393b335ce</key>
+		<dict>
+			<key>fileRef</key>
+			<string>92f732509cb3669539a2fee6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>104a9a99590a8f640a83f13e</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>109203910f62f571a96da7f3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>885488a72cbc5feaff850f93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1112ebd65bc2a4c6182cb166</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4461b6aadcf9e041c8c3eb17</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>11bef3c6e6011440bef854a7</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKRewardAdvancement.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>11ead2210b450781652d0d94</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ffd6859f371c0b4c8ef19afb</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>13252d17559bc77d62986a1a</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FPBaseRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>140ffb1d83e80e7901ef7272</key>
+		<dict>
+			<key>fileRef</key>
+			<string>163c3420bd9e94db2813509c</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>163c3420bd9e94db2813509c</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKMerchantLocation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1682bc98f29a28b650dde414</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1f2a5152a6838c170b9705f8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>16e662010ca042f92c05afd7</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKAbstractRewardConfirmation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>170efc52093b20f6edd18214</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>199a924754f56a0cf2e6246b</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>199b74c3705abbac3b7ba2a6</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>19a6fbc25b8a91c9c79615e8</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKClerk.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1b5ce15eaff3ea466d5bdf23</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKOutboundMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1b97a69656565890012d1c97</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKCompositeTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1cecfc296c258084f2359068</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKBaseEntityGlobal.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1dd94817b9e9d42a756838de</key>
+		<dict>
+			<key>fileRef</key>
+			<string>339fae2b20de8c38b86a1df4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1e320c620277736eb118db28</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1e8dacd944b415a484272b85</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKBaseEntityGlobal.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1f2a5152a6838c170b9705f8</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKStreetAddress.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1f5035998617cd537a1af32b</key>
+		<dict>
+			<key>fileRef</key>
+			<string>b4e32ac83faa700f73eb2331</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2016a92f6482b936f2eb5bb4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2b7870b0e023f4d65e815644</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>206b9beaedf5b04bedb0fca8</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKPushMessage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>23dbc89c01b42fb26c08722f</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKSocialListTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>257f2a8fe059add2dcecb6f1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23dbc89c01b42fb26c08722f</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>25e90d09ce4afaa38f17dbd4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>b69dab5317a3dbab52f1566e</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26e556f50529a0e27a1b9214</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKSmsOutboundMessage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27fcf05ae48a550ac9ddc782</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKMerchantLocation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>28484c4616884eec6c6d113f</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FPEntityDescription.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>286a8b8a27d26c5b4f8c4f53</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FPUnpacker.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2a3ab9b02e354d6dce7b6f33</key>
+		<dict>
+			<key>fileRef</key>
+			<string>f46987707322d3338b6e3d3a</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2abbbb5c6b49d5bf8550e946</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKCouponVisibility.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2abc94fec2c86f67ee9eff73</key>
+		<dict>
+			<key>fileRef</key>
+			<string>d9ba8631ae43a516aba63325</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2ace7d010132c0148f266ce6</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKTierTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2b613f0193c270dcc03aeb47</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2b7870b0e023f4d65e815644</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKPointsActivityConfirmation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2beca0a1e817c1679b0ea148</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKPointsActivityConfirmation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2c5cac0d3c56b24a2f9d8a6e</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2db3c1797f056dd11021304d</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2d4d6d70ce29a5fc50a74433</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKPointsCatalogItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2d680e08845ba78121b61da1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3bd0da6c410ddf3f9f2a7c2b</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2db3c1797f056dd11021304d</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKEntityAnnotation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2e1a5639961a4b35603b0533</key>
+		<dict>
+			<key>fileRef</key>
+			<string>811851d8fee3c1a5c16da292</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2f5ddec44ad56a51a91a2f5b</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>308d22eb481d22d1f971990e</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FPJsonRequest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30e949178e8348e1b3eb6514</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKCoupon.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30f35121318ad0afbe11afcb</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSDictionary+FP.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>339fae2b20de8c38b86a1df4</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKBaseApi.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>343bdf8482be3533e7f5233c</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>347b18ae7f094f28b39e2d41</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>351fc61240d81c054593ee82</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>367432b3cb78b49a342e2615</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6757761fe1846aff5ee0124f</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3704ae4c66958e480757d6e6</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>39be48ade450184e60a25916</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKAbstractUser.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3b9a21bac0eed24579a19b08</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKPhysicalRedemptionTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3baa457fa159b8ca1b46d37c</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKNobodyTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3bcc6ce44ed744a45a268c21</key>
+		<dict>
+			<key>fileRef</key>
+			<string>b9b245461a0ceeaa141aa001</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3bce3dec97943750dd61fa91</key>
+		<dict>
+			<key>fileRef</key>
+			<string>bdef7dafa153d586dd024594</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3bd0da6c410ddf3f9f2a7c2b</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSHTTPURLResponse+FP.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3e019fdb17e6fe0dbdf2a72e</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1b97a69656565890012d1c97</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>400a69fbc485c9ad129fac75</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FPUnpacker.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>402352bb8fca8ceb615ca738</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>40e490cf2fd9bcc63d22715f</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6146abad43334e031d31675d</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>430ad434212d3dc820235acd</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSString+FP.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4311e00b89734e9b68104511</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKIdleCustomerTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4461b6aadcf9e041c8c3eb17</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKTierTraversalConfirmation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44bc7279ffeb03fafb206b7a</key>
+		<dict>
+			<key>fileRef</key>
+			<string>d98b5346c96b7798aaaa2dab</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>46b17a9e9c70fafabdb74952</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKConsoleMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>472de69835f0a158fd21712d</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKMerchant.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47537a57e7bca31bcb779501</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKParticipationTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>497328caadbd19225a5450be</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKVisit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4a18e67cb88e9ca76d5ebd17</key>
+		<dict>
+			<key>fileRef</key>
+			<string>a81012379330eadc39f9b4af</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4a354757d7e697192b2b6494</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKIntegratorUser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4bb57156eaba18d4c6670cce</key>
+		<dict>
+			<key>fileRef</key>
+			<string>430ad434212d3dc820235acd</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4bfd5ceb618b1454ddd3c698</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0556ab8586fba3b365432747</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4c253bd3881097ff7367628d</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKWeatherTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4c495176e736b549aa624082</key>
+		<dict>
+			<key>fileRef</key>
+			<string>fc93fa148bac344e52451c9a</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4cb99d93f555a5a5a5a16026</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4e47367b534111459f79aee4</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKConsoleMessage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50b8d2989e9819c88d388ab1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>a83bf54468600c7f3dd27296</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>528329098255afe3fb799b14</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKRedemptionRewardConfirmation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5299ca3c3736fa2b68171fd0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>f0aa8f57923ad71f2027c9c3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5422507cc8d5ebe293f90cf7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5554224cca441f9e6bffc521</key>
+		<dict>
+			<key>fileRef</key>
+			<string>90fd639e4b5bd6e7c07c4894</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>571306ac51013c2c9f5a2c25</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKProgramType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>574be51766422da06164f2ca</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>57c093899c8e220beb78186d</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKProgram.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5801a2fcfde4a8e8c41f77f7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>598cc11d691a6875b69e3aab</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKTierTraversalConfirmation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>59a31a229231cfe770ebf06a</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5a033a30a6d560312ab2d4b5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ae6637477332cb46aa8bf3bf</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5a31c3860540b7ac277830a4</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKSocialServiceSubscription.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5b7cf303d9440763cee96ede</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9a3826d1ab19b92f6b0d49c3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5ba684ef639ddca4f29b37cf</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKCustomerDevice.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5bb42b208ea095e235657c30</key>
+		<dict>
+			<key>fileRef</key>
+			<string>99e41b4f26df2f5eb6a03211</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5d20fab869e8a656b38d8b4f</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6e778c3fa60a53a04e7cd758</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5d2eb6906542f2369fd302c9</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKMerchantUser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5db80da6cc75506bb68f4c1a</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKVisitConfirmation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6115e9fec1cd79886a93190c</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKYieldManagementTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6146abad43334e031d31675d</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKIntegratorUser.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>625d7e3c251b16f38c55e19f</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8e11b38341491641aad1a6f8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6271b14d44611a97cd0db687</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>639bb6c7630422e19f1b27cf</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>640edf3b6dcae85fccd4b7f7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>64c005e0569f6518be3b7026</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKBounceBackTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>666920baff908ff946444ff5</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKSocialListTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>66b761cd3a5cc14afe3f3664</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKPointsActivity.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6757761fe1846aff5ee0124f</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FPFlatpack.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6b732b482514f8de65db527e</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKVisitConfirmation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6ba661ad2ae75017fbba1da3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6cfe20c1929911a4153c97c8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6d1a02ad476c73049ccb3806</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FPProperty.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6e778c3fa60a53a04e7cd758</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKFeedbackItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6eb8ea3ec7425747d3570366</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>713d03a934e81f0aca19cef5</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FPProperty.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>717c3f730c8f2e1d036c71f0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>71c91923df7d249f6503f551</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSDate+FP.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>74b69175b541ef92c3836a6b</key>
+		<dict>
+			<key>fileRef</key>
+			<string>dc0e85e9f453091205c38969</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>75a835e29755910b5bab8a15</key>
+		<dict>
+			<key>fileRef</key>
+			<string>f72df4d9c9d0cda215f1b702</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7631c8cbd23988245f07f1ca</key>
+		<dict>
+			<key>fileRef</key>
+			<string>c990a7ea3e26cc9744cbf2b8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>76ad1a091bb15cc011ae5729</key>
+		<dict>
+			<key>fileRef</key>
+			<string>fd58638e9f32e307150dd0f5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>771fb6a5ceca6f97b83e8b66</key>
+		<dict>
+			<key>fileRef</key>
+			<string>308d22eb481d22d1f971990e</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>77848334119af71bd03e22df</key>
+		<dict>
+			<key>fileRef</key>
+			<string>863f7d511f508997f13c63e7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>78ed43421b6d2e554d370b7a</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FPBaseApi.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7b7aa170a2b918c45f56ce18</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FPFlatpack.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7ccb2bfb9a67ea94fc2cccea</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKBounceBackTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7ce95de0df5590ae0df23933</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKTierTraversal.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7df6ed490c5622a42a977f5d</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKInternalUser.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7dfdcb35ad18c05ad67c8288</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7e4fa93728ca2a5f81ab9072</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7eed568686ee68c462eb6a6b</key>
+		<dict>
+			<key>fileRef</key>
+			<string>206b9beaedf5b04bedb0fca8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7f1626eb5b07800118c574a3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>808a9284764df8ba039f9397</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FPEntityDescription.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>80b526310e37fa10bab8512b</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>811851d8fee3c1a5c16da292</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKMerchantDashboardMessage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>817e564bee74b5655f4a74c6</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKMerchantUser.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8250d9dd4e44ba881c40765c</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>863f7d511f508997f13c63e7</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKWeatherTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86f19ff6f4371f4da96267b8</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKFirstVisitTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8772d6d83da2066ead031d5d</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKRedemptionRewardConfirmation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>885488a72cbc5feaff850f93</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKMerchantDevice.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>88e049a73114facfffc88e86</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>898ce28489e0e81d77fadd59</key>
+		<dict>
+			<key>fileRef</key>
+			<string>713d03a934e81f0aca19cef5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>89e74ec582ed1d68cff3f619</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKNobodyTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8a876bfc4e2016f9427e3c04</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKCouponVisibility.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8bef9c3a1f40eadcca710f9a</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9baa3c6d973fbd80e9feec58</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8c9c076faa3a66804a51ce62</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKPushMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8cf01ab1055e3802d49b2c76</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKFirstVisitTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8dce03434b58dde567e8bb9d</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8e11b38341491641aad1a6f8</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKProgram.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8e15322143e2aab5df148815</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKEverybodyTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8f0a133f5fb0053d5ece99d4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>900d4b4014383cf858828615</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>90fd639e4b5bd6e7c07c4894</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSDictionary+FP.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9122d961ed9db9e7c7390e1b</key>
+		<dict>
+			<key>fileRef</key>
+			<string>a70751f385a2a12a67b9aeef</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>92f49a4cf74db6fc5b77138c</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKFeedbackItem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>92f732509cb3669539a2fee6</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKPhysicalRedemptionTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>949aa1b6abcb08657b95e170</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8a876bfc4e2016f9427e3c04</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>95006853fa403090c6674f57</key>
+		<dict>
+			<key>fileRef</key>
+			<string>dd8afc70572ab91f1c3e1113</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>952cb201dcc0db5037fc463e</key>
+		<dict>
+			<key>fileRef</key>
+			<string>71c91923df7d249f6503f551</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>96d1f738aba8c9b796d29ca7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>96f2f75f062b3cd50c62babd</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ce9b8edcc31971ac8aa705ce</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9754aaf4bdd01e6e760e1899</key>
+		<dict>
+			<key>fileRef</key>
+			<string>e065c8da2743c167e3d4692c</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>98661e17c581ffb060b17108</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKSmsMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>99e41b4f26df2f5eb6a03211</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKPointsActivity.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>99f4746b0113f0102c840ea5</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKPointsCatalogItem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9a3826d1ab19b92f6b0d49c3</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKLikeToUnlockTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9a7bda1cb16900e8b102ba49</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKCouponCampaign.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9aa4a89ec844754917ee0723</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9ae0d68b7dca41df64ba06d4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9b1e69486bd5a3fdef25188a</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKCouponRedemption.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9baa3c6d973fbd80e9feec58</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKSmsMessage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9d787ab2ff8e49a439a3e2da</key>
+		<dict>
+			<key>fileRef</key>
+			<string>528329098255afe3fb799b14</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9d88e2c4d94ebade10e1fded</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9eb01fc7f728f0b453720510</key>
+		<dict>
+			<key>fileRef</key>
+			<string>dc102a552bdacecf50d2d133</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9f3da252cf040f52d727e3d2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>f0ce08508b955c394521acbe</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9f81c53d7e876476002a92ff</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKRedemptionCouponConfirmation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9fa18cba07508483a2b164f8</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKProgramTier.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D804F01E167C281900E73BC3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>d32b983c105eace52a57e7e7</string>
+				<string>71c91923df7d249f6503f551</string>
+				<string>30f35121318ad0afbe11afcb</string>
+				<string>90fd639e4b5bd6e7c07c4894</string>
+				<string>f76114b7d7b2bc28580bd6ea</string>
+				<string>3bd0da6c410ddf3f9f2a7c2b</string>
+				<string>e1936644cd7607e0bdcfb387</string>
+				<string>ae6637477332cb46aa8bf3bf</string>
+				<string>ddebb27e70c44695973112f5</string>
+				<string>430ad434212d3dc820235acd</string>
+				<string>78ed43421b6d2e554d370b7a</string>
+				<string>f0aa8f57923ad71f2027c9c3</string>
+				<string>13252d17559bc77d62986a1a</string>
+				<string>bdef7dafa153d586dd024594</string>
+				<string>dd7913016134c345eca4ed4c</string>
+				<string>d837fe52b95741fa88274cb2</string>
+				<string>a056ac69b0d160a55f0adc35</string>
+				<string>308d22eb481d22d1f971990e</string>
+				<string>b88b3503a541991853c3249b</string>
+				<string>b69dab5317a3dbab52f1566e</string>
+				<string>28484c4616884eec6c6d113f</string>
+				<string>808a9284764df8ba039f9397</string>
+				<string>7b7aa170a2b918c45f56ce18</string>
+				<string>6757761fe1846aff5ee0124f</string>
+				<string>c526f6c036d2938ab1c6e5f6</string>
+				<string>f0ce08508b955c394521acbe</string>
+				<string>6d1a02ad476c73049ccb3806</string>
+				<string>713d03a934e81f0aca19cef5</string>
+				<string>286a8b8a27d26c5b4f8c4f53</string>
+				<string>400a69fbc485c9ad129fac75</string>
+				<string>16e662010ca042f92c05afd7</string>
+				<string>ffd6859f371c0b4c8ef19afb</string>
+				<string>d436218f0cf54821fa3cf6ea</string>
+				<string>39be48ade450184e60a25916</string>
+				<string>0c5ab3f081c17c8f7c717ff4</string>
+				<string>339fae2b20de8c38b86a1df4</string>
+				<string>1cecfc296c258084f2359068</string>
+				<string>1e8dacd944b415a484272b85</string>
+				<string>64c005e0569f6518be3b7026</string>
+				<string>7ccb2bfb9a67ea94fc2cccea</string>
+				<string>c22a8af469822c97da0bcb9b</string>
+				<string>fd58638e9f32e307150dd0f5</string>
+				<string>19a6fbc25b8a91c9c79615e8</string>
+				<string>0556ab8586fba3b365432747</string>
+				<string>a45f1967c14260067f45ca3b</string>
+				<string>1b97a69656565890012d1c97</string>
+				<string>46b17a9e9c70fafabdb74952</string>
+				<string>4e47367b534111459f79aee4</string>
+				<string>30e949178e8348e1b3eb6514</string>
+				<string>a70751f385a2a12a67b9aeef</string>
+				<string>9a7bda1cb16900e8b102ba49</string>
+				<string>d9ba8631ae43a516aba63325</string>
+				<string>9b1e69486bd5a3fdef25188a</string>
+				<string>b4e32ac83faa700f73eb2331</string>
+				<string>b4eaccee5e6592b6304efb6e</string>
+				<string>af65b6abdc61666c762d351d</string>
+				<string>2abbbb5c6b49d5bf8550e946</string>
+				<string>8a876bfc4e2016f9427e3c04</string>
+				<string>caba168945575511f1ab1444</string>
+				<string>f72df4d9c9d0cda215f1b702</string>
+				<string>5ba684ef639ddca4f29b37cf</string>
+				<string>dc0e85e9f453091205c38969</string>
+				<string>ffe5753adf8fbe7684d40100</string>
+				<string>2db3c1797f056dd11021304d</string>
+				<string>8e15322143e2aab5df148815</string>
+				<string>dc102a552bdacecf50d2d133</string>
+				<string>92f49a4cf74db6fc5b77138c</string>
+				<string>6e778c3fa60a53a04e7cd758</string>
+				<string>8cf01ab1055e3802d49b2c76</string>
+				<string>86f19ff6f4371f4da96267b8</string>
+				<string>4311e00b89734e9b68104511</string>
+				<string>dd8afc70572ab91f1c3e1113</string>
+				<string>4a354757d7e697192b2b6494</string>
+				<string>6146abad43334e031d31675d</string>
+				<string>09f036b316a2f3bd5e092818</string>
+				<string>7df6ed490c5622a42a977f5d</string>
+				<string>faf79826257796e7f5399500</string>
+				<string>9a3826d1ab19b92f6b0d49c3</string>
+				<string>edeb178af577c7ad551236ae</string>
+				<string>a81012379330eadc39f9b4af</string>
+				<string>472de69835f0a158fd21712d</string>
+				<string>a83bf54468600c7f3dd27296</string>
+				<string>d79b4bf41640c88b590ea6c9</string>
+				<string>ce9b8edcc31971ac8aa705ce</string>
+				<string>f7d403d300067fa8260c39be</string>
+				<string>811851d8fee3c1a5c16da292</string>
+				<string>f80e6d5c005f721ebc1e67e7</string>
+				<string>885488a72cbc5feaff850f93</string>
+				<string>27fcf05ae48a550ac9ddc782</string>
+				<string>163c3420bd9e94db2813509c</string>
+				<string>5d2eb6906542f2369fd302c9</string>
+				<string>817e564bee74b5655f4a74c6</string>
+				<string>89e74ec582ed1d68cff3f619</string>
+				<string>3baa457fa159b8ca1b46d37c</string>
+				<string>1b5ce15eaff3ea466d5bdf23</string>
+				<string>a7e1fcbfdb0e85f2e78be90b</string>
+				<string>d630b9023ecb3eaf8fec34e0</string>
+				<string>47537a57e7bca31bcb779501</string>
+				<string>3b9a21bac0eed24579a19b08</string>
+				<string>92f732509cb3669539a2fee6</string>
+				<string>66b761cd3a5cc14afe3f3664</string>
+				<string>99e41b4f26df2f5eb6a03211</string>
+				<string>2beca0a1e817c1679b0ea148</string>
+				<string>2b7870b0e023f4d65e815644</string>
+				<string>99f4746b0113f0102c840ea5</string>
+				<string>2d4d6d70ce29a5fc50a74433</string>
+				<string>57c093899c8e220beb78186d</string>
+				<string>8e11b38341491641aad1a6f8</string>
+				<string>9fa18cba07508483a2b164f8</string>
+				<string>d98b5346c96b7798aaaa2dab</string>
+				<string>571306ac51013c2c9f5a2c25</string>
+				<string>db3d4ef8871611cce735b0f7</string>
+				<string>05051cd7a9994b39609924b8</string>
+				<string>b9b245461a0ceeaa141aa001</string>
+				<string>8c9c076faa3a66804a51ce62</string>
+				<string>206b9beaedf5b04bedb0fca8</string>
+				<string>9f81c53d7e876476002a92ff</string>
+				<string>c990a7ea3e26cc9744cbf2b8</string>
+				<string>8772d6d83da2066ead031d5d</string>
+				<string>528329098255afe3fb799b14</string>
+				<string>dd6eb0f67f6f347fd4dff100</string>
+				<string>a35819d6696b92cfeb624913</string>
+				<string>11bef3c6e6011440bef854a7</string>
+				<string>fc93fa148bac344e52451c9a</string>
+				<string>01c5c2fb78d18a5f5113e2e8</string>
+				<string>ea5d18f2885c0f1da1061989</string>
+				<string>98661e17c581ffb060b17108</string>
+				<string>9baa3c6d973fbd80e9feec58</string>
+				<string>bc762df92426e1b2c84d9f4c</string>
+				<string>26e556f50529a0e27a1b9214</string>
+				<string>666920baff908ff946444ff5</string>
+				<string>23dbc89c01b42fb26c08722f</string>
+				<string>5a31c3860540b7ac277830a4</string>
+				<string>c1074e61c3fb4d8995d49812</string>
+				<string>ef5eb3b8eeb678771f0b4ed5</string>
+				<string>1f2a5152a6838c170b9705f8</string>
+				<string>2ace7d010132c0148f266ce6</string>
+				<string>e065c8da2743c167e3d4692c</string>
+				<string>b4ccecae735b51a48057b5a4</string>
+				<string>7ce95de0df5590ae0df23933</string>
+				<string>598cc11d691a6875b69e3aab</string>
+				<string>4461b6aadcf9e041c8c3eb17</string>
+				<string>efdf74ef2e0f2294f6d0ac43</string>
+				<string>dcf0afe4dd462788c37d29f6</string>
+				<string>497328caadbd19225a5450be</string>
+				<string>f46987707322d3338b6e3d3a</string>
+				<string>6b732b482514f8de65db527e</string>
+				<string>5db80da6cc75506bb68f4c1a</string>
+				<string>4c253bd3881097ff7367628d</string>
+				<string>863f7d511f508997f13c63e7</string>
+				<string>6115e9fec1cd79886a93190c</string>
+				<string>fb98cd0b5326a2c545140525</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>generated</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D81D88EC168103F40042DB2C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKClientApi.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D81D88ED168103F40042DB2C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKClientApi.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D81D88EE168103F40042DB2C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D81D88ED168103F40042DB2C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D81D890E168114810042DB2C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKTokenRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D81D890F168114810042DB2C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKTokenRequest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D81D8910168114810042DB2C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D81D890F168114810042DB2C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D86AC2A2168B85F5005793FE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.pb-project</string>
+			<key>name</key>
+			<string>flatpack-objc.xcodeproj</string>
+			<key>path</key>
+			<string>../flatpack-objc/flatpack-objc.xcodeproj</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D86AC2A3168B85F5005793FE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D86AC2AD168B85F5005793FE</string>
+				<string>D86AC2AF168B85F5005793FE</string>
+				<string>D86AC2B1168B85F5005793FE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D86AC2AC168B85F5005793FE</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D86AC2A2168B85F5005793FE</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>2</string>
+			<key>remoteGlobalIDString</key>
+			<string>D8BD1B6F166D03F7008AB3FF</string>
+			<key>remoteInfo</key>
+			<string>flatpack-objc</string>
+		</dict>
+		<key>D86AC2AD168B85F5005793FE</key>
+		<dict>
+			<key>fileType</key>
+			<string>archive.ar</string>
+			<key>isa</key>
+			<string>PBXReferenceProxy</string>
+			<key>path</key>
+			<string>libflatpack-objc.a</string>
+			<key>remoteRef</key>
+			<string>D86AC2AC168B85F5005793FE</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D86AC2AE168B85F5005793FE</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D86AC2A2168B85F5005793FE</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>2</string>
+			<key>remoteGlobalIDString</key>
+			<string>D8BD1B80166D03F7008AB3FF</string>
+			<key>remoteInfo</key>
+			<string>flatpack-objcTests</string>
+		</dict>
+		<key>D86AC2AF168B85F5005793FE</key>
+		<dict>
+			<key>fileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>isa</key>
+			<string>PBXReferenceProxy</string>
+			<key>path</key>
+			<string>flatpack-objcTests.octest</string>
+			<key>remoteRef</key>
+			<string>D86AC2AE168B85F5005793FE</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D86AC2B0168B85F5005793FE</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D86AC2A2168B85F5005793FE</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>2</string>
+			<key>remoteGlobalIDString</key>
+			<string>D8F5BD00167D0BDC0050F2CE</string>
+			<key>remoteInfo</key>
+			<string>codegen</string>
+		</dict>
+		<key>D86AC2B1168B85F5005793FE</key>
+		<dict>
+			<key>fileType</key>
+			<string>compiled.mach-o.executable</string>
+			<key>isa</key>
+			<string>PBXReferenceProxy</string>
+			<key>path</key>
+			<string>codegen</string>
+			<key>remoteRef</key>
+			<string>D86AC2B0168B85F5005793FE</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D8A8A5B01678E66D008DDF39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D86AC2A2168B85F5005793FE</string>
+				<string>D8A8A5C01678E66D008DDF39</string>
+				<string>D8A8A5D51678E66D008DDF39</string>
+				<string>D8A8A5BD1678E66D008DDF39</string>
+				<string>D8A8A5BC1678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5B21678E66D008DDF39</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0450</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Perka Inc</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>D8A8A5B51678E66D008DDF39</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>D8A8A5B01678E66D008DDF39</string>
+			<key>productRefGroup</key>
+			<string>D8A8A5BC1678E66D008DDF39</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array>
+				<dict>
+					<key>ProductGroup</key>
+					<string>D86AC2A3168B85F5005793FE</string>
+					<key>ProjectRef</key>
+					<string>D86AC2A2168B85F5005793FE</string>
+				</dict>
+			</array>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>D8A8A5BA1678E66D008DDF39</string>
+				<string>D8A8A5CB1678E66D008DDF39</string>
+			</array>
+		</dict>
+		<key>D8A8A5B51678E66D008DDF39</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D8A8A5DE1678E66D008DDF39</string>
+				<string>D8A8A5DF1678E66D008DDF39</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D8A8A5B71678E66D008DDF39</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4cb99d93f555a5a5a5a16026</string>
+				<string>c5e16e0ecd70d8cd19066b36</string>
+				<string>ae9fc2cc5bcd7ecde7d21f8f</string>
+				<string>6271b14d44611a97cd0db687</string>
+				<string>e7cf5802d4ef85cacbad41d4</string>
+				<string>6ba661ad2ae75017fbba1da3</string>
+				<string>d9a093b395749ba82b8e0207</string>
+				<string>402352bb8fca8ceb615ca738</string>
+				<string>351fc61240d81c054593ee82</string>
+				<string>2f5ddec44ad56a51a91a2f5b</string>
+				<string>640edf3b6dcae85fccd4b7f7</string>
+				<string>2b613f0193c270dcc03aeb47</string>
+				<string>8250d9dd4e44ba881c40765c</string>
+				<string>baa35f1bd4c37394347676b5</string>
+				<string>7e4fa93728ca2a5f81ab9072</string>
+				<string>fb5f3e166ca93b3f21b336a8</string>
+				<string>ae78bc4ce4db413b5dd8e2cb</string>
+				<string>f7bb248d521e2932abe55ef7</string>
+				<string>7dfdcb35ad18c05ad67c8288</string>
+				<string>5801a2fcfde4a8e8c41f77f7</string>
+				<string>9d88e2c4d94ebade10e1fded</string>
+				<string>8f0a133f5fb0053d5ece99d4</string>
+				<string>d14f2a7f0f1ca4fb2eebefe4</string>
+				<string>9ae0d68b7dca41df64ba06d4</string>
+				<string>6eb8ea3ec7425747d3570366</string>
+				<string>ba6f307195fa0a5fb4460f71</string>
+				<string>170efc52093b20f6edd18214</string>
+				<string>caf6c87c000d5444a91a243e</string>
+				<string>199b74c3705abbac3b7ba2a6</string>
+				<string>e8095c5704461063d3db665c</string>
+				<string>0ee3acfdce538f3934c684e9</string>
+				<string>199a924754f56a0cf2e6246b</string>
+				<string>9aa4a89ec844754917ee0723</string>
+				<string>b718b4c84e7b3b1137a9c466</string>
+				<string>5422507cc8d5ebe293f90cf7</string>
+				<string>639bb6c7630422e19f1b27cf</string>
+				<string>343bdf8482be3533e7f5233c</string>
+				<string>88e049a73114facfffc88e86</string>
+				<string>bb27007240b8b489ca10ec4a</string>
+				<string>717c3f730c8f2e1d036c71f0</string>
+				<string>6cfe20c1929911a4153c97c8</string>
+				<string>d37382b80bcc30c1abd71d9a</string>
+				<string>d7fdef487585e3dc7691eee2</string>
+				<string>900d4b4014383cf858828615</string>
+				<string>b2603d4a8941aaa780703dcd</string>
+				<string>59a31a229231cfe770ebf06a</string>
+				<string>104a9a99590a8f640a83f13e</string>
+				<string>b3ba714a7b0add4588671b7a</string>
+				<string>a7a2b82155e8a6c8192d6b39</string>
+				<string>8dce03434b58dde567e8bb9d</string>
+				<string>01b1d7a1fd9c1e5c5d59923c</string>
+				<string>1e320c620277736eb118db28</string>
+				<string>f99b017fc17247fb27264de4</string>
+				<string>cff720253a06de5c8a687144</string>
+				<string>3704ae4c66958e480757d6e6</string>
+				<string>7f1626eb5b07800118c574a3</string>
+				<string>cf2282ed0cd0b2dddcb3f9c5</string>
+				<string>574be51766422da06164f2ca</string>
+				<string>80b526310e37fa10bab8512b</string>
+				<string>96d1f738aba8c9b796d29ca7</string>
+				<string>D81D88EE168103F40042DB2C</string>
+				<string>347b18ae7f094f28b39e2d41</string>
+				<string>D81D8910168114810042DB2C</string>
+				<string>11ead2210b450781652d0d94</string>
+				<string>afda4b7b03d8737d2b04450d</string>
+				<string>1dd94817b9e9d42a756838de</string>
+				<string>04d7cbf756ef29a1698b2239</string>
+				<string>f00a030ad99ad014560203d3</string>
+				<string>76ad1a091bb15cc011ae5729</string>
+				<string>4bfd5ceb618b1454ddd3c698</string>
+				<string>3e019fdb17e6fe0dbdf2a72e</string>
+				<string>d7558a776c90ca8ac4041822</string>
+				<string>9122d961ed9db9e7c7390e1b</string>
+				<string>2abc94fec2c86f67ee9eff73</string>
+				<string>1f5035998617cd537a1af32b</string>
+				<string>da3dc8d6b482824ad48a934a</string>
+				<string>949aa1b6abcb08657b95e170</string>
+				<string>75a835e29755910b5bab8a15</string>
+				<string>74b69175b541ef92c3836a6b</string>
+				<string>2c5cac0d3c56b24a2f9d8a6e</string>
+				<string>9eb01fc7f728f0b453720510</string>
+				<string>5d20fab869e8a656b38d8b4f</string>
+				<string>c2e8ef1756326c021d19efcb</string>
+				<string>95006853fa403090c6674f57</string>
+				<string>40e490cf2fd9bcc63d22715f</string>
+				<string>b2e4d9b63af1ecccdcdbaa15</string>
+				<string>5b7cf303d9440763cee96ede</string>
+				<string>4a18e67cb88e9ca76d5ebd17</string>
+				<string>50b8d2989e9819c88d388ab1</string>
+				<string>96f2f75f062b3cd50c62babd</string>
+				<string>2e1a5639961a4b35603b0533</string>
+				<string>109203910f62f571a96da7f3</string>
+				<string>140ffb1d83e80e7901ef7272</string>
+				<string>cd50fe8cf7ecd8ef485d4150</string>
+				<string>e45847974133cb95fa337e16</string>
+				<string>b940efe5eb71246820d2a8a7</string>
+				<string>ca2e273ba97bb42eca21e7e1</string>
+				<string>10073bc89641162393b335ce</string>
+				<string>5bb42b208ea095e235657c30</string>
+				<string>2016a92f6482b936f2eb5bb4</string>
+				<string>a34e36456058ad59c4528b42</string>
+				<string>625d7e3c251b16f38c55e19f</string>
+				<string>44bc7279ffeb03fafb206b7a</string>
+				<string>c8436dce1e25fbb374a0f018</string>
+				<string>3bcc6ce44ed744a45a268c21</string>
+				<string>7eed568686ee68c462eb6a6b</string>
+				<string>7631c8cbd23988245f07f1ca</string>
+				<string>9d787ab2ff8e49a439a3e2da</string>
+				<string>af018e631fd22af851e15cb3</string>
+				<string>4c495176e736b549aa624082</string>
+				<string>fa52023d9510712a3bf45d3f</string>
+				<string>8bef9c3a1f40eadcca710f9a</string>
+				<string>ed71509cfb508687b98b6774</string>
+				<string>257f2a8fe059add2dcecb6f1</string>
+				<string>0e4e22eb63099c251897764b</string>
+				<string>1682bc98f29a28b650dde414</string>
+				<string>9754aaf4bdd01e6e760e1899</string>
+				<string>fb391e42c9e3066b77ea0787</string>
+				<string>1112ebd65bc2a4c6182cb166</string>
+				<string>e8bfd24ab5c12c6f9eebf675</string>
+				<string>2a3ab9b02e354d6dce7b6f33</string>
+				<string>f8b73ebb03dad4264edcaa21</string>
+				<string>77848334119af71bd03e22df</string>
+				<string>dae0cc31988421f67adc88e5</string>
+				<string>952cb201dcc0db5037fc463e</string>
+				<string>5554224cca441f9e6bffc521</string>
+				<string>2d680e08845ba78121b61da1</string>
+				<string>5a033a30a6d560312ab2d4b5</string>
+				<string>4bb57156eaba18d4c6670cce</string>
+				<string>5299ca3c3736fa2b68171fd0</string>
+				<string>3bce3dec97943750dd61fa91</string>
+				<string>d1e8f5354e09e3da5770cfbd</string>
+				<string>771fb6a5ceca6f97b83e8b66</string>
+				<string>25e90d09ce4afaa38f17dbd4</string>
+				<string>d46b2b599466b6dd8d7dde03</string>
+				<string>367432b3cb78b49a342e2615</string>
+				<string>9f3da252cf040f52d727e3d2</string>
+				<string>898ce28489e0e81d77fadd59</string>
+				<string>dd53974a7c67bb4a28cb8078</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D8A8A5B81678E66D008DDF39</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D8A8A5BF1678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D8A8A5B91678E66D008DDF39</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>dstPath</key>
+			<string>include/${PRODUCT_NAME}</string>
+			<key>dstSubfolderSpec</key>
+			<string>16</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXCopyFilesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D8A8A5BA1678E66D008DDF39</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D8A8A5E01678E66D008DDF39</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D8A8A5B71678E66D008DDF39</string>
+				<string>D8A8A5B81678E66D008DDF39</string>
+				<string>D8A8A5B91678E66D008DDF39</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>perka-client-objc</string>
+			<key>productName</key>
+			<string>perka-client-objc</string>
+			<key>productReference</key>
+			<string>D8A8A5BB1678E66D008DDF39</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>D8A8A5BB1678E66D008DDF39</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libperka-client-objc.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D8A8A5BC1678E66D008DDF39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8A8A5BB1678E66D008DDF39</string>
+				<string>D8A8A5CC1678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5BD1678E66D008DDF39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8A8A5BE1678E66D008DDF39</string>
+				<string>D8A8A5CD1678E66D008DDF39</string>
+				<string>D8A8A5CF1678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5BE1678E66D008DDF39</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>D8A8A5BF1678E66D008DDF39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8A8A5BE1678E66D008DDF39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D8A8A5C01678E66D008DDF39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D81D88EC168103F40042DB2C</string>
+				<string>D81D88ED168103F40042DB2C</string>
+				<string>D81D890E168114810042DB2C</string>
+				<string>D81D890F168114810042DB2C</string>
+				<string>D804F01E167C281900E73BC3</string>
+				<string>D8A8A5C11678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>perka-client-objc</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5C11678E66D008DDF39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8A8A5C21678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5C21678E66D008DDF39</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>perka-client-objc-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5C71678E66D008DDF39</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D8A8A5DD1678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D8A8A5C81678E66D008DDF39</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D8A8A5CE1678E66D008DDF39</string>
+				<string>D8A8A5D01678E66D008DDF39</string>
+				<string>D8A8A5D11678E66D008DDF39</string>
+				<string>D8A8A5D41678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D8A8A5C91678E66D008DDF39</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D8A8A5DA1678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D8A8A5CA1678E66D008DDF39</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string># Run the unit tests in this test bundle.
+"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
+</string>
+		</dict>
+		<key>D8A8A5CB1678E66D008DDF39</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D8A8A5E31678E66D008DDF39</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D8A8A5C71678E66D008DDF39</string>
+				<string>D8A8A5C81678E66D008DDF39</string>
+				<string>D8A8A5C91678E66D008DDF39</string>
+				<string>D8A8A5CA1678E66D008DDF39</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>D8A8A5D31678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>perka-client-objcTests</string>
+			<key>productName</key>
+			<string>perka-client-objcTests</string>
+			<key>productReference</key>
+			<string>D8A8A5CC1678E66D008DDF39</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
+		<key>D8A8A5CC1678E66D008DDF39</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>perka-client-objcTests.octest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D8A8A5CD1678E66D008DDF39</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SenTestingKit.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/SenTestingKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>D8A8A5CE1678E66D008DDF39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8A8A5CD1678E66D008DDF39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D8A8A5CF1678E66D008DDF39</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>D8A8A5D01678E66D008DDF39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8A8A5CF1678E66D008DDF39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D8A8A5D11678E66D008DDF39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8A8A5BE1678E66D008DDF39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D8A8A5D21678E66D008DDF39</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D8A8A5B21678E66D008DDF39</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D8A8A5BA1678E66D008DDF39</string>
+			<key>remoteInfo</key>
+			<string>perka-client-objc</string>
+		</dict>
+		<key>D8A8A5D31678E66D008DDF39</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>D8A8A5BA1678E66D008DDF39</string>
+			<key>targetProxy</key>
+			<string>D8A8A5D21678E66D008DDF39</string>
+		</dict>
+		<key>D8A8A5D41678E66D008DDF39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8A8A5BB1678E66D008DDF39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D8A8A5D51678E66D008DDF39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8A8A5DB1678E66D008DDF39</string>
+				<string>D8A8A5DC1678E66D008DDF39</string>
+				<string>D8A8A5D61678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>perka-client-objcTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5D61678E66D008DDF39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8A8A5D71678E66D008DDF39</string>
+				<string>D8A8A5D81678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5D71678E66D008DDF39</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>perka-client-objcTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5D81678E66D008DDF39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8A8A5D91678E66D008DDF39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5D91678E66D008DDF39</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5DA1678E66D008DDF39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8A8A5D81678E66D008DDF39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D8A8A5DB1678E66D008DDF39</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>perka_client_objcTests.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5DC1678E66D008DDF39</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>perka_client_objcTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8A8A5DD1678E66D008DDF39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8A8A5DC1678E66D008DDF39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D8A8A5DE1678E66D008DDF39</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D8A8A5DF1678E66D008DDF39</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D8A8A5E01678E66D008DDF39</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D8A8A5E11678E66D008DDF39</string>
+				<string>D8A8A5E21678E66D008DDF39</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D8A8A5E11678E66D008DDF39</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/perka_client_objc.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>perka-client-objc/perka-client-objc-Prefix.pch</string>
+				<key>OTHER_LDFLAGS</key>
+				<string>-ObjC</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D8A8A5E21678E66D008DDF39</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/perka_client_objc.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>perka-client-objc/perka-client-objc-Prefix.pch</string>
+				<key>OTHER_LDFLAGS</key>
+				<string>-ObjC</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D8A8A5E31678E66D008DDF39</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D8A8A5E41678E66D008DDF39</string>
+				<string>D8A8A5E51678E66D008DDF39</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D8A8A5E41678E66D008DDF39</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
+					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>perka-client-objc/perka-client-objc-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>perka-client-objcTests/perka-client-objcTests-Info.plist</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>-Objc</string>
+					<string>-all_load</string>
+				</array>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>"$(SRCROOT)/../flatpack-objc/"/**</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>octest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D8A8A5E51678E66D008DDF39</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
+					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>perka-client-objc/perka-client-objc-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>perka-client-objcTests/perka-client-objcTests-Info.plist</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>-Objc</string>
+					<string>-all_load</string>
+				</array>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>"$(SRCROOT)/../flatpack-objc/"/**</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>octest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>a056ac69b0d160a55f0adc35</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FPJsonRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>a34e36456058ad59c4528b42</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2d4d6d70ce29a5fc50a74433</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>a35819d6696b92cfeb624913</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKReward.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>a45f1967c14260067f45ca3b</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKCompositeTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>a70751f385a2a12a67b9aeef</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKCoupon.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>a7a2b82155e8a6c8192d6b39</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>a7e1fcbfdb0e85f2e78be90b</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKOutboundMessage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>a81012379330eadc39f9b4af</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKListTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>a83bf54468600c7f3dd27296</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKMerchant.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ae6637477332cb46aa8bf3bf</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSObject+FP.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ae78bc4ce4db413b5dd8e2cb</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ae9fc2cc5bcd7ecde7d21f8f</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>af018e631fd22af851e15cb3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>a35819d6696b92cfeb624913</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>af65b6abdc61666c762d351d</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKCouponTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>afda4b7b03d8737d2b04450d</key>
+		<dict>
+			<key>fileRef</key>
+			<string>39be48ade450184e60a25916</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>b2603d4a8941aaa780703dcd</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>b2e4d9b63af1ecccdcdbaa15</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7df6ed490c5622a42a977f5d</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>b3ba714a7b0add4588671b7a</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>b4ccecae735b51a48057b5a4</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKTierTraversal.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>b4e32ac83faa700f73eb2331</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKCouponRedemption.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>b4eaccee5e6592b6304efb6e</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKCouponTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>b69dab5317a3dbab52f1566e</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FPBaseHasUuid.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>b718b4c84e7b3b1137a9c466</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>b88b3503a541991853c3249b</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FPBaseHasUuid.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>b940efe5eb71246820d2a8a7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>a7e1fcbfdb0e85f2e78be90b</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>b9b245461a0ceeaa141aa001</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKPunchRewardConfirmation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ba6f307195fa0a5fb4460f71</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>baa35f1bd4c37394347676b5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>bb27007240b8b489ca10ec4a</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>bc762df92426e1b2c84d9f4c</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKSmsOutboundMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>bdef7dafa153d586dd024594</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FPBaseRequest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>c1074e61c3fb4d8995d49812</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKSocialServiceSubscription.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>c22a8af469822c97da0bcb9b</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKCannedEmailOutboundMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>c2e8ef1756326c021d19efcb</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86f19ff6f4371f4da96267b8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>c526f6c036d2938ab1c6e5f6</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FPPacker.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>c5e16e0ecd70d8cd19066b36</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>c8436dce1e25fbb374a0f018</key>
+		<dict>
+			<key>fileRef</key>
+			<string>db3d4ef8871611cce735b0f7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>c990a7ea3e26cc9744cbf2b8</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKRedemptionCouponConfirmation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ca2e273ba97bb42eca21e7e1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>47537a57e7bca31bcb779501</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>caba168945575511f1ab1444</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKCustomer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>caf6c87c000d5444a91a243e</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>cd50fe8cf7ecd8ef485d4150</key>
+		<dict>
+			<key>fileRef</key>
+			<string>817e564bee74b5655f4a74c6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ce9b8edcc31971ac8aa705ce</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKMerchantCapability.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>cf2282ed0cd0b2dddcb3f9c5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>cff720253a06de5c8a687144</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d14f2a7f0f1ca4fb2eebefe4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d1e8f5354e09e3da5770cfbd</key>
+		<dict>
+			<key>fileRef</key>
+			<string>d837fe52b95741fa88274cb2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d32b983c105eace52a57e7e7</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSDate+FP.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>d37382b80bcc30c1abd71d9a</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d436218f0cf54821fa3cf6ea</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKAbstractUser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>d46b2b599466b6dd8d7dde03</key>
+		<dict>
+			<key>fileRef</key>
+			<string>808a9284764df8ba039f9397</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d630b9023ecb3eaf8fec34e0</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKParticipationTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>d7558a776c90ca8ac4041822</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4e47367b534111459f79aee4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d79b4bf41640c88b590ea6c9</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKMerchantCapability.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>d7fdef487585e3dc7691eee2</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d837fe52b95741fa88274cb2</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FPFlatpackRequest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>d98b5346c96b7798aaaa2dab</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKProgramTier.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>d9a093b395749ba82b8e0207</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d9ba8631ae43a516aba63325</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKCouponCampaign.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>da3dc8d6b482824ad48a934a</key>
+		<dict>
+			<key>fileRef</key>
+			<string>af65b6abdc61666c762d351d</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>dae0cc31988421f67adc88e5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>fb98cd0b5326a2c545140525</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>db3d4ef8871611cce735b0f7</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKProgramType.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>dc0e85e9f453091205c38969</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKCustomerDevice.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>dc102a552bdacecf50d2d133</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKEverybodyTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>dcf0afe4dd462788c37d29f6</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKUserCredentials.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>dd53974a7c67bb4a28cb8078</key>
+		<dict>
+			<key>fileRef</key>
+			<string>400a69fbc485c9ad129fac75</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>dd6eb0f67f6f347fd4dff100</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKReward.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>dd7913016134c345eca4ed4c</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FPFlatpackRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>dd8afc70572ab91f1c3e1113</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKIdleCustomerTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ddebb27e70c44695973112f5</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSString+FP.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>e065c8da2743c167e3d4692c</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKTierTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>e1936644cd7607e0bdcfb387</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSObject+FP.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>e45847974133cb95fa337e16</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3baa457fa159b8ca1b46d37c</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>e7cf5802d4ef85cacbad41d4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>e8095c5704461063d3db665c</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>e8bfd24ab5c12c6f9eebf675</key>
+		<dict>
+			<key>fileRef</key>
+			<string>dcf0afe4dd462788c37d29f6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ea5d18f2885c0f1da1061989</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKRewardGrant.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ed71509cfb508687b98b6774</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26e556f50529a0e27a1b9214</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>edeb178af577c7ad551236ae</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKListTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ef5eb3b8eeb678771f0b4ed5</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKStreetAddress.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>efdf74ef2e0f2294f6d0ac43</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKUserCredentials.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f00a030ad99ad014560203d3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7ccb2bfb9a67ea94fc2cccea</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>f0aa8f57923ad71f2027c9c3</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FPBaseApi.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f0ce08508b955c394521acbe</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FPPacker.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f46987707322d3338b6e3d3a</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKVisit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f72df4d9c9d0cda215f1b702</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKCustomer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f76114b7d7b2bc28580bd6ea</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSHTTPURLResponse+FP.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f7bb248d521e2932abe55ef7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>f7d403d300067fa8260c39be</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKMerchantDashboardMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f80e6d5c005f721ebc1e67e7</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKMerchantDevice.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>f8b73ebb03dad4264edcaa21</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5db80da6cc75506bb68f4c1a</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>f99b017fc17247fb27264de4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>fa52023d9510712a3bf45d3f</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ea5d18f2885c0f1da1061989</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>faf79826257796e7f5399500</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKLikeToUnlockTarget.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>fb391e42c9e3066b77ea0787</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7ce95de0df5590ae0df23933</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>fb5f3e166ca93b3f21b336a8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>fb98cd0b5326a2c545140525</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKYieldManagementTarget.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>fc93fa148bac344e52451c9a</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKRewardAdvancement.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>fd58638e9f32e307150dd0f5</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKCannedEmailOutboundMessage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ffd6859f371c0b4c8ef19afb</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PKAbstractRewardConfirmation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ffe5753adf8fbe7684d40100</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PKEntityAnnotation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D8A8A5B21678E66D008DDF39</string>
+</dict>
+</plist>

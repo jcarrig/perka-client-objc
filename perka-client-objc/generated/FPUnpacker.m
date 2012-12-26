@@ -10,6 +10,8 @@
 #import "FPBaseHasUuid.h"
 #import "FPEntityDescription.h"
 #import "FPProperty.h"
+#import "NSDictionary+FP.h"
+#import "NSObject+FP.h"
 
 @interface FPUnpacker ()
 @property (strong) NSMutableDictionary *allEntities;

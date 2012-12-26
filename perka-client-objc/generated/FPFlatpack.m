@@ -9,6 +9,7 @@
 #import "FPFlatpack.h"
 #import "FPPacker.h"
 #import "FPUnpacker.h"
+#import "NSObject+FP.h"
 
 @implementation FPFlatpack
 
