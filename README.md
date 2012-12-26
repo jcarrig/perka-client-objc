@@ -14,7 +14,7 @@ Allows iOS developers to easily integrate with [The Perka API](https://getperka.
 
 2. Clone the perka-client-objc project next to perka-app:
 
-       git clone git@github.com:perka/perka-client-objc.git $WORKSPACE/perka-client-objc
+        git clone git@github.com:perka/perka-client-objc.git $WORKSPACE/perka-client-objc
 
 3. Drag the perka-client-objc.xcodeproj file from the Finder onto the perka-app project in XCode:
 

@@ -26,30 +26,38 @@
 		1f5035998617cd537a1af32b /* PKCouponRedemption.m in Sources */ = {isa = PBXBuildFile; fileRef = b4e32ac83faa700f73eb2331 /* PKCouponRedemption.m */; };
 		2016a92f6482b936f2eb5bb4 /* PKPointsActivityConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2b7870b0e023f4d65e815644 /* PKPointsActivityConfirmation.m */; };
 		257f2a8fe059add2dcecb6f1 /* PKSocialListTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 23dbc89c01b42fb26c08722f /* PKSocialListTarget.m */; };
+		25e90d09ce4afaa38f17dbd4 /* FPBaseHasUuid.m in Sources */ = {isa = PBXBuildFile; fileRef = b69dab5317a3dbab52f1566e /* FPBaseHasUuid.m */; };
 		2a3ab9b02e354d6dce7b6f33 /* PKVisit.m in Sources */ = {isa = PBXBuildFile; fileRef = f46987707322d3338b6e3d3a /* PKVisit.m */; };
 		2abc94fec2c86f67ee9eff73 /* PKCouponCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = d9ba8631ae43a516aba63325 /* PKCouponCampaign.m */; };
 		2b613f0193c270dcc03aeb47 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2c5cac0d3c56b24a2f9d8a6e /* PKEntityAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2db3c1797f056dd11021304d /* PKEntityAnnotation.m */; };
+		2d680e08845ba78121b61da1 /* NSHTTPURLResponse+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3bd0da6c410ddf3f9f2a7c2b /* NSHTTPURLResponse+FP.m */; };
 		2e1a5639961a4b35603b0533 /* PKMerchantDashboardMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 811851d8fee3c1a5c16da292 /* PKMerchantDashboardMessage.m */; };
 		2f5ddec44ad56a51a91a2f5b /* (null) in Sources */ = {isa = PBXBuildFile; };
 		343bdf8482be3533e7f5233c /* (null) in Sources */ = {isa = PBXBuildFile; };
 		347b18ae7f094f28b39e2d41 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		351fc61240d81c054593ee82 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		367432b3cb78b49a342e2615 /* FPFlatpack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6757761fe1846aff5ee0124f /* FPFlatpack.m */; };
 		3704ae4c66958e480757d6e6 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		3bcc6ce44ed744a45a268c21 /* PKPunchRewardConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = b9b245461a0ceeaa141aa001 /* PKPunchRewardConfirmation.m */; };
+		3bce3dec97943750dd61fa91 /* FPBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = bdef7dafa153d586dd024594 /* FPBaseRequest.m */; };
 		3e019fdb17e6fe0dbdf2a72e /* PKCompositeTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1b97a69656565890012d1c97 /* PKCompositeTarget.m */; };
 		402352bb8fca8ceb615ca738 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		40e490cf2fd9bcc63d22715f /* PKIntegratorUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6146abad43334e031d31675d /* PKIntegratorUser.m */; };
 		44bc7279ffeb03fafb206b7a /* PKProgramTier.m in Sources */ = {isa = PBXBuildFile; fileRef = d98b5346c96b7798aaaa2dab /* PKProgramTier.m */; };
 		4a18e67cb88e9ca76d5ebd17 /* PKListTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = a81012379330eadc39f9b4af /* PKListTarget.m */; };
+		4bb57156eaba18d4c6670cce /* NSString+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 430ad434212d3dc820235acd /* NSString+FP.m */; };
 		4bfd5ceb618b1454ddd3c698 /* PKClerk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0556ab8586fba3b365432747 /* PKClerk.m */; };
 		4c495176e736b549aa624082 /* PKRewardAdvancement.m in Sources */ = {isa = PBXBuildFile; fileRef = fc93fa148bac344e52451c9a /* PKRewardAdvancement.m */; };
 		4cb99d93f555a5a5a5a16026 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		50b8d2989e9819c88d388ab1 /* PKMerchant.m in Sources */ = {isa = PBXBuildFile; fileRef = a83bf54468600c7f3dd27296 /* PKMerchant.m */; };
+		5299ca3c3736fa2b68171fd0 /* FPBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = f0aa8f57923ad71f2027c9c3 /* FPBaseApi.m */; };
 		5422507cc8d5ebe293f90cf7 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5554224cca441f9e6bffc521 /* NSDictionary+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 90fd639e4b5bd6e7c07c4894 /* NSDictionary+FP.m */; };
 		574be51766422da06164f2ca /* (null) in Sources */ = {isa = PBXBuildFile; };
 		5801a2fcfde4a8e8c41f77f7 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		59a31a229231cfe770ebf06a /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5a033a30a6d560312ab2d4b5 /* NSObject+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = ae6637477332cb46aa8bf3bf /* NSObject+FP.m */; };
 		5b7cf303d9440763cee96ede /* PKLikeToUnlockTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 9a3826d1ab19b92f6b0d49c3 /* PKLikeToUnlockTarget.m */; };
 		5bb42b208ea095e235657c30 /* PKPointsActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 99e41b4f26df2f5eb6a03211 /* PKPointsActivity.m */; };
 		5d20fab869e8a656b38d8b4f /* PKFeedbackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6e778c3fa60a53a04e7cd758 /* PKFeedbackItem.m */; };
@@ -65,6 +73,7 @@
 		75a835e29755910b5bab8a15 /* PKCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = f72df4d9c9d0cda215f1b702 /* PKCustomer.m */; };
 		7631c8cbd23988245f07f1ca /* PKRedemptionCouponConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = c990a7ea3e26cc9744cbf2b8 /* PKRedemptionCouponConfirmation.m */; };
 		76ad1a091bb15cc011ae5729 /* PKCannedEmailOutboundMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = fd58638e9f32e307150dd0f5 /* PKCannedEmailOutboundMessage.m */; };
+		771fb6a5ceca6f97b83e8b66 /* FPJsonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 308d22eb481d22d1f971990e /* FPJsonRequest.m */; };
 		77848334119af71bd03e22df /* PKWeatherTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 863f7d511f508997f13c63e7 /* PKWeatherTarget.m */; };
 		7dfdcb35ad18c05ad67c8288 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7e4fa93728ca2a5f81ab9072 /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -73,6 +82,7 @@
 		80b526310e37fa10bab8512b /* (null) in Sources */ = {isa = PBXBuildFile; };
 		8250d9dd4e44ba881c40765c /* (null) in Sources */ = {isa = PBXBuildFile; };
 		88e049a73114facfffc88e86 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		898ce28489e0e81d77fadd59 /* FPProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 713d03a934e81f0aca19cef5 /* FPProperty.m */; };
 		8bef9c3a1f40eadcca710f9a /* PKSmsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9baa3c6d973fbd80e9feec58 /* PKSmsMessage.m */; };
 		8dce03434b58dde567e8bb9d /* (null) in Sources */ = {isa = PBXBuildFile; };
 		8f0a133f5fb0053d5ece99d4 /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -80,6 +90,7 @@
 		9122d961ed9db9e7c7390e1b /* PKCoupon.m in Sources */ = {isa = PBXBuildFile; fileRef = a70751f385a2a12a67b9aeef /* PKCoupon.m */; };
 		949aa1b6abcb08657b95e170 /* PKCouponVisibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8a876bfc4e2016f9427e3c04 /* PKCouponVisibility.m */; };
 		95006853fa403090c6674f57 /* PKIdleCustomerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = dd8afc70572ab91f1c3e1113 /* PKIdleCustomerTarget.m */; };
+		952cb201dcc0db5037fc463e /* NSDate+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 71c91923df7d249f6503f551 /* NSDate+FP.m */; };
 		96d1f738aba8c9b796d29ca7 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		96f2f75f062b3cd50c62babd /* PKMerchantCapability.m in Sources */ = {isa = PBXBuildFile; fileRef = ce9b8edcc31971ac8aa705ce /* PKMerchantCapability.m */; };
 		9754aaf4bdd01e6e760e1899 /* PKTierTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = e065c8da2743c167e3d4692c /* PKTierTarget.m */; };
@@ -88,6 +99,7 @@
 		9d787ab2ff8e49a439a3e2da /* PKRedemptionRewardConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 528329098255afe3fb799b14 /* PKRedemptionRewardConfirmation.m */; };
 		9d88e2c4d94ebade10e1fded /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9eb01fc7f728f0b453720510 /* PKEverybodyTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = dc102a552bdacecf50d2d133 /* PKEverybodyTarget.m */; };
+		9f3da252cf040f52d727e3d2 /* FPPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = f0ce08508b955c394521acbe /* FPPacker.m */; };
 		D81D88EE168103F40042DB2C /* PKClientApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D81D88ED168103F40042DB2C /* PKClientApi.m */; };
 		D81D8910168114810042DB2C /* PKTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D81D890F168114810042DB2C /* PKTokenRequest.m */; };
 		D8533F40167FA3EF00519F0A /* libflatpack-objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A6E216792266008DDF39 /* libflatpack-objc.a */; };
@@ -121,12 +133,15 @@
 		cf2282ed0cd0b2dddcb3f9c5 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		cff720253a06de5c8a687144 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		d14f2a7f0f1ca4fb2eebefe4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		d1e8f5354e09e3da5770cfbd /* FPFlatpackRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = d837fe52b95741fa88274cb2 /* FPFlatpackRequest.m */; };
 		d37382b80bcc30c1abd71d9a /* (null) in Sources */ = {isa = PBXBuildFile; };
+		d46b2b599466b6dd8d7dde03 /* FPEntityDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 808a9284764df8ba039f9397 /* FPEntityDescription.m */; };
 		d7558a776c90ca8ac4041822 /* PKConsoleMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4e47367b534111459f79aee4 /* PKConsoleMessage.m */; };
 		d7fdef487585e3dc7691eee2 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		d9a093b395749ba82b8e0207 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		da3dc8d6b482824ad48a934a /* PKCouponTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = af65b6abdc61666c762d351d /* PKCouponTarget.m */; };
 		dae0cc31988421f67adc88e5 /* PKYieldManagementTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = fb98cd0b5326a2c545140525 /* PKYieldManagementTarget.m */; };
+		dd53974a7c67bb4a28cb8078 /* FPUnpacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 400a69fbc485c9ad129fac75 /* FPUnpacker.m */; };
 		e45847974133cb95fa337e16 /* PKNobodyTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 3baa457fa159b8ca1b46d37c /* PKNobodyTarget.m */; };
 		e7cf5802d4ef85cacbad41d4 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		e8095c5704461063d3db665c /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -198,6 +213,7 @@
 		09f036b316a2f3bd5e092818 /* PKInternalUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKInternalUser.h; sourceTree = "<group>"; };
 		0c5ab3f081c17c8f7c717ff4 /* PKBaseApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBaseApi.h; sourceTree = "<group>"; };
 		11bef3c6e6011440bef854a7 /* PKRewardAdvancement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKRewardAdvancement.h; sourceTree = "<group>"; };
+		13252d17559bc77d62986a1a /* FPBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPBaseRequest.h; sourceTree = "<group>"; };
 		163c3420bd9e94db2813509c /* PKMerchantLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantLocation.m; sourceTree = "<group>"; };
 		16e662010ca042f92c05afd7 /* PKAbstractRewardConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAbstractRewardConfirmation.h; sourceTree = "<group>"; };
 		19a6fbc25b8a91c9c79615e8 /* PKClerk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKClerk.h; sourceTree = "<group>"; };
@@ -210,17 +226,24 @@
 		23dbc89c01b42fb26c08722f /* PKSocialListTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSocialListTarget.m; sourceTree = "<group>"; };
 		26e556f50529a0e27a1b9214 /* PKSmsOutboundMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSmsOutboundMessage.m; sourceTree = "<group>"; };
 		27fcf05ae48a550ac9ddc782 /* PKMerchantLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantLocation.h; sourceTree = "<group>"; };
+		28484c4616884eec6c6d113f /* FPEntityDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPEntityDescription.h; sourceTree = "<group>"; };
+		286a8b8a27d26c5b4f8c4f53 /* FPUnpacker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPUnpacker.h; sourceTree = "<group>"; };
 		2abbbb5c6b49d5bf8550e946 /* PKCouponVisibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCouponVisibility.h; sourceTree = "<group>"; };
 		2ace7d010132c0148f266ce6 /* PKTierTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKTierTarget.h; sourceTree = "<group>"; };
 		2b7870b0e023f4d65e815644 /* PKPointsActivityConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPointsActivityConfirmation.m; sourceTree = "<group>"; };
 		2beca0a1e817c1679b0ea148 /* PKPointsActivityConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPointsActivityConfirmation.h; sourceTree = "<group>"; };
 		2d4d6d70ce29a5fc50a74433 /* PKPointsCatalogItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPointsCatalogItem.m; sourceTree = "<group>"; };
 		2db3c1797f056dd11021304d /* PKEntityAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKEntityAnnotation.m; sourceTree = "<group>"; };
+		308d22eb481d22d1f971990e /* FPJsonRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPJsonRequest.m; sourceTree = "<group>"; };
 		30e949178e8348e1b3eb6514 /* PKCoupon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCoupon.h; sourceTree = "<group>"; };
+		30f35121318ad0afbe11afcb /* NSDictionary+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FP.h"; sourceTree = "<group>"; };
 		339fae2b20de8c38b86a1df4 /* PKBaseApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKBaseApi.m; sourceTree = "<group>"; };
 		39be48ade450184e60a25916 /* PKAbstractUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAbstractUser.m; sourceTree = "<group>"; };
 		3b9a21bac0eed24579a19b08 /* PKPhysicalRedemptionTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPhysicalRedemptionTarget.h; sourceTree = "<group>"; };
 		3baa457fa159b8ca1b46d37c /* PKNobodyTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKNobodyTarget.m; sourceTree = "<group>"; };
+		3bd0da6c410ddf3f9f2a7c2b /* NSHTTPURLResponse+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPURLResponse+FP.m"; sourceTree = "<group>"; };
+		400a69fbc485c9ad129fac75 /* FPUnpacker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPUnpacker.m; sourceTree = "<group>"; };
+		430ad434212d3dc820235acd /* NSString+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FP.m"; sourceTree = "<group>"; };
 		4311e00b89734e9b68104511 /* PKIdleCustomerTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKIdleCustomerTarget.h; sourceTree = "<group>"; };
 		4461b6aadcf9e041c8c3eb17 /* PKTierTraversalConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKTierTraversalConfirmation.m; sourceTree = "<group>"; };
 		46b17a9e9c70fafabdb74952 /* PKConsoleMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKConsoleMessage.h; sourceTree = "<group>"; };
@@ -243,11 +266,18 @@
 		64c005e0569f6518be3b7026 /* PKBounceBackTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBounceBackTarget.h; sourceTree = "<group>"; };
 		666920baff908ff946444ff5 /* PKSocialListTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKSocialListTarget.h; sourceTree = "<group>"; };
 		66b761cd3a5cc14afe3f3664 /* PKPointsActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPointsActivity.h; sourceTree = "<group>"; };
+		6757761fe1846aff5ee0124f /* FPFlatpack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFlatpack.m; sourceTree = "<group>"; };
 		6b732b482514f8de65db527e /* PKVisitConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKVisitConfirmation.h; sourceTree = "<group>"; };
+		6d1a02ad476c73049ccb3806 /* FPProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPProperty.h; sourceTree = "<group>"; };
 		6e778c3fa60a53a04e7cd758 /* PKFeedbackItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKFeedbackItem.m; sourceTree = "<group>"; };
+		713d03a934e81f0aca19cef5 /* FPProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPProperty.m; sourceTree = "<group>"; };
+		71c91923df7d249f6503f551 /* NSDate+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FP.m"; sourceTree = "<group>"; };
+		78ed43421b6d2e554d370b7a /* FPBaseApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPBaseApi.h; sourceTree = "<group>"; };
+		7b7aa170a2b918c45f56ce18 /* FPFlatpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFlatpack.h; sourceTree = "<group>"; };
 		7ccb2bfb9a67ea94fc2cccea /* PKBounceBackTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKBounceBackTarget.m; sourceTree = "<group>"; };
 		7ce95de0df5590ae0df23933 /* PKTierTraversal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKTierTraversal.m; sourceTree = "<group>"; };
 		7df6ed490c5622a42a977f5d /* PKInternalUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKInternalUser.m; sourceTree = "<group>"; };
+		808a9284764df8ba039f9397 /* FPEntityDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPEntityDescription.m; sourceTree = "<group>"; };
 		811851d8fee3c1a5c16da292 /* PKMerchantDashboardMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantDashboardMessage.m; sourceTree = "<group>"; };
 		817e564bee74b5655f4a74c6 /* PKMerchantUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantUser.m; sourceTree = "<group>"; };
 		863f7d511f508997f13c63e7 /* PKWeatherTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKWeatherTarget.m; sourceTree = "<group>"; };
@@ -260,6 +290,7 @@
 		8cf01ab1055e3802d49b2c76 /* PKFirstVisitTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKFirstVisitTarget.h; sourceTree = "<group>"; };
 		8e11b38341491641aad1a6f8 /* PKProgram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKProgram.m; sourceTree = "<group>"; };
 		8e15322143e2aab5df148815 /* PKEverybodyTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKEverybodyTarget.h; sourceTree = "<group>"; };
+		90fd639e4b5bd6e7c07c4894 /* NSDictionary+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FP.m"; sourceTree = "<group>"; };
 		92f49a4cf74db6fc5b77138c /* PKFeedbackItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKFeedbackItem.h; sourceTree = "<group>"; };
 		92f732509cb3669539a2fee6 /* PKPhysicalRedemptionTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPhysicalRedemptionTarget.m; sourceTree = "<group>"; };
 		98661e17c581ffb060b17108 /* PKSmsMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKSmsMessage.h; sourceTree = "<group>"; };
@@ -286,26 +317,34 @@
 		D8A8A5DB1678E66D008DDF39 /* perka_client_objcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = perka_client_objcTests.h; sourceTree = "<group>"; };
 		D8A8A5DC1678E66D008DDF39 /* perka_client_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = perka_client_objcTests.m; sourceTree = "<group>"; };
 		D8A8A6DB16792266008DDF39 /* flatpack-objc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "flatpack-objc.xcodeproj"; path = "../flatpack-objc/flatpack-objc.xcodeproj"; sourceTree = "<group>"; };
+		a056ac69b0d160a55f0adc35 /* FPJsonRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPJsonRequest.h; sourceTree = "<group>"; };
 		a35819d6696b92cfeb624913 /* PKReward.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKReward.m; sourceTree = "<group>"; };
 		a45f1967c14260067f45ca3b /* PKCompositeTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCompositeTarget.h; sourceTree = "<group>"; };
 		a70751f385a2a12a67b9aeef /* PKCoupon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCoupon.m; sourceTree = "<group>"; };
 		a7e1fcbfdb0e85f2e78be90b /* PKOutboundMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKOutboundMessage.m; sourceTree = "<group>"; };
 		a81012379330eadc39f9b4af /* PKListTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKListTarget.m; sourceTree = "<group>"; };
 		a83bf54468600c7f3dd27296 /* PKMerchant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchant.m; sourceTree = "<group>"; };
+		ae6637477332cb46aa8bf3bf /* NSObject+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FP.m"; sourceTree = "<group>"; };
 		af65b6abdc61666c762d351d /* PKCouponTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCouponTarget.m; sourceTree = "<group>"; };
 		b4ccecae735b51a48057b5a4 /* PKTierTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKTierTraversal.h; sourceTree = "<group>"; };
 		b4e32ac83faa700f73eb2331 /* PKCouponRedemption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCouponRedemption.m; sourceTree = "<group>"; };
 		b4eaccee5e6592b6304efb6e /* PKCouponTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCouponTarget.h; sourceTree = "<group>"; };
+		b69dab5317a3dbab52f1566e /* FPBaseHasUuid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPBaseHasUuid.m; sourceTree = "<group>"; };
+		b88b3503a541991853c3249b /* FPBaseHasUuid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPBaseHasUuid.h; sourceTree = "<group>"; };
 		b9b245461a0ceeaa141aa001 /* PKPunchRewardConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPunchRewardConfirmation.m; sourceTree = "<group>"; };
 		bc762df92426e1b2c84d9f4c /* PKSmsOutboundMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKSmsOutboundMessage.h; sourceTree = "<group>"; };
+		bdef7dafa153d586dd024594 /* FPBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPBaseRequest.m; sourceTree = "<group>"; };
 		c1074e61c3fb4d8995d49812 /* PKSocialServiceSubscription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSocialServiceSubscription.m; sourceTree = "<group>"; };
 		c22a8af469822c97da0bcb9b /* PKCannedEmailOutboundMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCannedEmailOutboundMessage.h; sourceTree = "<group>"; };
+		c526f6c036d2938ab1c6e5f6 /* FPPacker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPPacker.h; sourceTree = "<group>"; };
 		c990a7ea3e26cc9744cbf2b8 /* PKRedemptionCouponConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRedemptionCouponConfirmation.m; sourceTree = "<group>"; };
 		caba168945575511f1ab1444 /* PKCustomer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCustomer.h; sourceTree = "<group>"; };
 		ce9b8edcc31971ac8aa705ce /* PKMerchantCapability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantCapability.m; sourceTree = "<group>"; };
+		d32b983c105eace52a57e7e7 /* NSDate+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+FP.h"; sourceTree = "<group>"; };
 		d436218f0cf54821fa3cf6ea /* PKAbstractUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAbstractUser.h; sourceTree = "<group>"; };
 		d630b9023ecb3eaf8fec34e0 /* PKParticipationTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKParticipationTarget.h; sourceTree = "<group>"; };
 		d79b4bf41640c88b590ea6c9 /* PKMerchantCapability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantCapability.h; sourceTree = "<group>"; };
+		d837fe52b95741fa88274cb2 /* FPFlatpackRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFlatpackRequest.m; sourceTree = "<group>"; };
 		d98b5346c96b7798aaaa2dab /* PKProgramTier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKProgramTier.m; sourceTree = "<group>"; };
 		d9ba8631ae43a516aba63325 /* PKCouponCampaign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCouponCampaign.m; sourceTree = "<group>"; };
 		db3d4ef8871611cce735b0f7 /* PKProgramType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKProgramType.m; sourceTree = "<group>"; };
@@ -313,14 +352,20 @@
 		dc102a552bdacecf50d2d133 /* PKEverybodyTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKEverybodyTarget.m; sourceTree = "<group>"; };
 		dcf0afe4dd462788c37d29f6 /* PKUserCredentials.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKUserCredentials.m; sourceTree = "<group>"; };
 		dd6eb0f67f6f347fd4dff100 /* PKReward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKReward.h; sourceTree = "<group>"; };
+		dd7913016134c345eca4ed4c /* FPFlatpackRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFlatpackRequest.h; sourceTree = "<group>"; };
 		dd8afc70572ab91f1c3e1113 /* PKIdleCustomerTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKIdleCustomerTarget.m; sourceTree = "<group>"; };
+		ddebb27e70c44695973112f5 /* NSString+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FP.h"; sourceTree = "<group>"; };
 		e065c8da2743c167e3d4692c /* PKTierTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKTierTarget.m; sourceTree = "<group>"; };
+		e1936644cd7607e0bdcfb387 /* NSObject+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+FP.h"; sourceTree = "<group>"; };
 		ea5d18f2885c0f1da1061989 /* PKRewardGrant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRewardGrant.m; sourceTree = "<group>"; };
 		edeb178af577c7ad551236ae /* PKListTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKListTarget.h; sourceTree = "<group>"; };
 		ef5eb3b8eeb678771f0b4ed5 /* PKStreetAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKStreetAddress.h; sourceTree = "<group>"; };
 		efdf74ef2e0f2294f6d0ac43 /* PKUserCredentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKUserCredentials.h; sourceTree = "<group>"; };
+		f0aa8f57923ad71f2027c9c3 /* FPBaseApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPBaseApi.m; sourceTree = "<group>"; };
+		f0ce08508b955c394521acbe /* FPPacker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPPacker.m; sourceTree = "<group>"; };
 		f46987707322d3338b6e3d3a /* PKVisit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKVisit.m; sourceTree = "<group>"; };
 		f72df4d9c9d0cda215f1b702 /* PKCustomer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCustomer.m; sourceTree = "<group>"; };
+		f76114b7d7b2bc28580bd6ea /* NSHTTPURLResponse+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSHTTPURLResponse+FP.h"; sourceTree = "<group>"; };
 		f7d403d300067fa8260c39be /* PKMerchantDashboardMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantDashboardMessage.h; sourceTree = "<group>"; };
 		f80e6d5c005f721ebc1e67e7 /* PKMerchantDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantDevice.h; sourceTree = "<group>"; };
 		faf79826257796e7f5399500 /* PKLikeToUnlockTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKLikeToUnlockTarget.h; sourceTree = "<group>"; };
@@ -358,6 +403,36 @@
 		D804F01E167C281900E73BC3 /* generated */ = {
 			isa = PBXGroup;
 			children = (
+				d32b983c105eace52a57e7e7 /* NSDate+FP.h */,
+				71c91923df7d249f6503f551 /* NSDate+FP.m */,
+				30f35121318ad0afbe11afcb /* NSDictionary+FP.h */,
+				90fd639e4b5bd6e7c07c4894 /* NSDictionary+FP.m */,
+				f76114b7d7b2bc28580bd6ea /* NSHTTPURLResponse+FP.h */,
+				3bd0da6c410ddf3f9f2a7c2b /* NSHTTPURLResponse+FP.m */,
+				e1936644cd7607e0bdcfb387 /* NSObject+FP.h */,
+				ae6637477332cb46aa8bf3bf /* NSObject+FP.m */,
+				ddebb27e70c44695973112f5 /* NSString+FP.h */,
+				430ad434212d3dc820235acd /* NSString+FP.m */,
+				78ed43421b6d2e554d370b7a /* FPBaseApi.h */,
+				f0aa8f57923ad71f2027c9c3 /* FPBaseApi.m */,
+				13252d17559bc77d62986a1a /* FPBaseRequest.h */,
+				bdef7dafa153d586dd024594 /* FPBaseRequest.m */,
+				dd7913016134c345eca4ed4c /* FPFlatpackRequest.h */,
+				d837fe52b95741fa88274cb2 /* FPFlatpackRequest.m */,
+				a056ac69b0d160a55f0adc35 /* FPJsonRequest.h */,
+				308d22eb481d22d1f971990e /* FPJsonRequest.m */,
+				b88b3503a541991853c3249b /* FPBaseHasUuid.h */,
+				b69dab5317a3dbab52f1566e /* FPBaseHasUuid.m */,
+				28484c4616884eec6c6d113f /* FPEntityDescription.h */,
+				808a9284764df8ba039f9397 /* FPEntityDescription.m */,
+				7b7aa170a2b918c45f56ce18 /* FPFlatpack.h */,
+				6757761fe1846aff5ee0124f /* FPFlatpack.m */,
+				c526f6c036d2938ab1c6e5f6 /* FPPacker.h */,
+				f0ce08508b955c394521acbe /* FPPacker.m */,
+				6d1a02ad476c73049ccb3806 /* FPProperty.h */,
+				713d03a934e81f0aca19cef5 /* FPProperty.m */,
+				286a8b8a27d26c5b4f8c4f53 /* FPUnpacker.h */,
+				400a69fbc485c9ad129fac75 /* FPUnpacker.m */,
 				16e662010ca042f92c05afd7 /* PKAbstractRewardConfirmation.h */,
 				ffd6859f371c0b4c8ef19afb /* PKAbstractRewardConfirmation.m */,
 				d436218f0cf54821fa3cf6ea /* PKAbstractUser.h */,
@@ -817,6 +892,21 @@
 				f8b73ebb03dad4264edcaa21 /* PKVisitConfirmation.m in Sources */,
 				77848334119af71bd03e22df /* PKWeatherTarget.m in Sources */,
 				dae0cc31988421f67adc88e5 /* PKYieldManagementTarget.m in Sources */,
+				952cb201dcc0db5037fc463e /* NSDate+FP.m in Sources */,
+				5554224cca441f9e6bffc521 /* NSDictionary+FP.m in Sources */,
+				2d680e08845ba78121b61da1 /* NSHTTPURLResponse+FP.m in Sources */,
+				5a033a30a6d560312ab2d4b5 /* NSObject+FP.m in Sources */,
+				4bb57156eaba18d4c6670cce /* NSString+FP.m in Sources */,
+				5299ca3c3736fa2b68171fd0 /* FPBaseApi.m in Sources */,
+				3bce3dec97943750dd61fa91 /* FPBaseRequest.m in Sources */,
+				d1e8f5354e09e3da5770cfbd /* FPFlatpackRequest.m in Sources */,
+				771fb6a5ceca6f97b83e8b66 /* FPJsonRequest.m in Sources */,
+				25e90d09ce4afaa38f17dbd4 /* FPBaseHasUuid.m in Sources */,
+				d46b2b599466b6dd8d7dde03 /* FPEntityDescription.m in Sources */,
+				367432b3cb78b49a342e2615 /* FPFlatpack.m in Sources */,
+				9f3da252cf040f52d727e3d2 /* FPPacker.m in Sources */,
+				898ce28489e0e81d77fadd59 /* FPProperty.m in Sources */,
+				dd53974a7c67bb4a28cb8078 /* FPUnpacker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
