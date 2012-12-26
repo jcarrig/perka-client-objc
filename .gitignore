@@ -6,4 +6,4 @@ docs/html
 *.pbxuser
 *.perspective
 *.perspectivev3
-xcuserdata
+perka-client-objc.xcodeproj/project.xcworkspace/xcuserdata/*
