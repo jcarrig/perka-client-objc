@@ -149,8 +149,14 @@ static NSOperationQueue *flatpackQueue;
     NSData *data = [NSURLConnection sendSynchronousRequest:request
                                          returningResponse:&localResponse
                                                      error:&error];
-    if(error != nil) [self printError:error];
-    return [self processResponse:_response withData:data];
+    if(error != nil) {
+      if([error code])
+      [self printError:error];
+      return nil;
+    }
+    else {
+      return [self processResponse:_response withData:data];
+    }
   }
   
   // otherwise, we send it asynchronously

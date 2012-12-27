@@ -26,11 +26,11 @@ Allows iOS developers to easily integrate with [The Perka API](https://getperka.
        
 5. While still in the Build Phases tab, expand the 'Link Binary With Libraries' section, and add libperka-client-objc.a:
 	
-	![Link libperka-client-objc.a](https://raw.github.com/perka/perka-client-objc/master/docs/screen4.jpg)
+	![Link libperka-client-objc.a](https://raw.github.com/perka/perka-client-objc/master/docs/screen3.jpg)
 	
 6. Open the Build Settings tab, search for 'user header', Change 'Always Search User Paths' to YES, and add '../perka-client-objc/perka-client-objc' as a recursive search path:
   
-    ![Add user header search path](https://raw.github.com/perka/perka-client-objc/master/docs/screen3.jpg)
+    ![Add user header search path](https://raw.github.com/perka/perka-client-objc/master/docs/screen4.jpg)
 
 7. While still in the Build Settings tab, search for 'other linker flags', and add __-ObjC__ to the **Other Linker Flags** setting:
 
