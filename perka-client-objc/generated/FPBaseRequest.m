@@ -151,7 +151,7 @@ static NSOperationQueue *flatpackQueue;
                                                      error:&error];
     if(error != nil) {
       if([error code])
-      [self printError:error];
+        [self printError:error];
       return nil;
     }
     else {
