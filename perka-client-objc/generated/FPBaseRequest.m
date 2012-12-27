@@ -12,6 +12,13 @@
 
 @implementation FPBaseRequest
 
+static NSOperationQueue *flatpackQueue;
+
++ (void) initialize {
+  [super initialize];
+  flatpackQueue = [[NSOperationQueue alloc] init];
+}
+
 - (id)initWithApi:(FPBaseApi *)api
            method:(NSString *)method
              path:(NSString *)path {
@@ -27,7 +34,7 @@
   if(self != nil) {
     _api = api;
     _method = [method lowercaseString];
-        
+    
     // replace path {} parameters
     NSError *error = NULL;
     NSRegularExpression *regex = [NSRegularExpression
@@ -64,11 +71,11 @@
 }
 
 - (id)baseExecute {
-  return [self executeWithBlock:nil wait:YES];
+  return [self executeWithBlock:nil];
 }
 
 - (void)baseExecuteUsingBlock:(FPRequestFinishedBlock)block {
-  [self executeWithBlock:block wait:NO];
+  [self executeWithBlock:block];
 }
 
 - (FPBaseRequest *)setHeaderWithName:(NSString *)name
@@ -85,7 +92,7 @@
 
 #pragma mark private
 
-- (id)executeWithBlock:(FPRequestFinishedBlock)block wait:(BOOL)wait {
+- (id)executeWithBlock:(FPRequestFinishedBlock)block{
   
   // ensure our api session is still active
   if(![_api sessionActive]) {
@@ -109,6 +116,7 @@
   
   // build our request
   NSMutableURLRequest *request = [NSMutableURLRequest new];
+  [request setCachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData];
   
   [request setURL:[NSURL URLWithString:urlString]];
   [request setHTTPMethod:_method];
@@ -126,55 +134,48 @@
           _method, urlString, [[self headers] description], payload);
   }
   
-  // send a synchronous request if we've been asked to wait for completion
+  // if a block has not been given, we assume the requestor would like the current thread to
+  // wait until the request has completed.
+  BOOL wait = block == nil;
+  
+  // If we've been asked to wait, we send the request off synchronously
   if(wait) {
-    
     if([[NSThread currentThread] isMainThread]) {
       NSLog(@"***** WARNING: Synchronous request being made on the Main Thread *****");
     }
     
     NSError *error = nil;
-    NSURLResponse *response = nil;
+    NSURLResponse *localResponse = _response;
     NSData *data = [NSURLConnection sendSynchronousRequest:request
-                                         returningResponse:&response
+                                         returningResponse:&localResponse
                                                      error:&error];
-    
-    return [self processResponse:response withData:data error:error];
+    if(error != nil) [self printError:error];
+    return [self processResponse:_response withData:data];
   }
   
-  // or an asynchronous request otherwise
+  // otherwise, we send it asynchronously
   else {
     [NSURLConnection sendAsynchronousRequest:request
-                                       queue:[NSOperationQueue currentQueue]
+                                       queue:flatpackQueue
                            completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
-                             id result = [self processResponse:response withData:data error:error];
-                             if(block != nil) block(result);
+                             _response = (NSHTTPURLResponse *)response;
+                             if(error != nil) [self printError:error];
+                             if(block != nil) block([self processResponse:_response withData:data]);
                            }];
     return nil;
   }
-}
-
-- (id)processResponse:(NSURLResponse *)response
-               withData:(NSData *)data
-                  error:(NSError *)error {
-  _response = (NSHTTPURLResponse *)response;
-  
-  id result = nil;
-  
-  if(error != nil) {
-    NSLog(@"Could not complete request %@", error);
-  }
-  else {
-    result = [self processResponse:_response withData:data];
-  }
-  
-  return result;
 }
 
 // default implementation simply returns the response data
 - (id)processResponse:(NSHTTPURLResponse *)response
              withData:(NSData *)responseData {
   return responseData;
+}
+
+- (void)printError:(NSError *)error {
+  NSLog(@"Connection failed! Error - %@ %@",
+        [error localizedDescription],
+        [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
 }
 
 @end
