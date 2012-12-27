@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_p_k_visit_confirmation-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -105,6 +106,12 @@ Inheritance diagram for PKVisitConfirmation:</div>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a91baf0707e6836ae0acd4161918671bc"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_p_k_visit_confirmation.html#a91baf0707e6836ae0acd4161918671bc">addItemToRewardConfirmations:</a></td></tr>
+<tr class="memdesc:a91baf0707e6836ae0acd4161918671bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an item to the rewardConfirmations collection while maintaining a proper bi-directional association.  <a href="#a91baf0707e6836ae0acd4161918671bc"></a><br/></td></tr>
+<tr class="separator:a91baf0707e6836ae0acd4161918671bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a80d53adf295b4778044c118451fcef1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_p_k_customer.html">PKCustomer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_visit_confirmation.html#a80d53adf295b4778044c118451fcef1a">customer</a></td></tr>
@@ -113,9 +120,9 @@ Properties</h2></td></tr>
 <tr class="memitem:ab362d5931cadc0a1cf58b923b26874c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_p_k_merchant.html">PKMerchant</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_visit_confirmation.html#ab362d5931cadc0a1cf58b923b26874c1">merchant</a></td></tr>
 <tr class="memdesc:ab362d5931cadc0a1cf58b923b26874c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="interface_p_k_merchant.html">Merchant </a> associated with the <a class="el" href="interface_p_k_visit.html">Visit </a>.  <a href="#ab362d5931cadc0a1cf58b923b26874c1"></a><br/></td></tr>
 <tr class="separator:ab362d5931cadc0a1cf58b923b26874c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53c93d0228e23b0fb3d2782692a121d6"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_visit_confirmation.html#a53c93d0228e23b0fb3d2782692a121d6">rewardConfirmations</a></td></tr>
-<tr class="memdesc:a53c93d0228e23b0fb3d2782692a121d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The rewards associated with the visit (e.g.  <a href="#a53c93d0228e23b0fb3d2782692a121d6"></a><br/></td></tr>
-<tr class="separator:a53c93d0228e23b0fb3d2782692a121d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae69fcc429bf8156b89e614fbba8045f5"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_visit_confirmation.html#ae69fcc429bf8156b89e614fbba8045f5">rewardConfirmations</a></td></tr>
+<tr class="memdesc:ae69fcc429bf8156b89e614fbba8045f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The rewards associated with the visit (e.g.  <a href="#ae69fcc429bf8156b89e614fbba8045f5"></a><br/></td></tr>
+<tr class="separator:ae69fcc429bf8156b89e614fbba8045f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8865c0cb4b45d351b68fc10b24baae0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_p_k_visit.html">PKVisit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_visit_confirmation.html#a8865c0cb4b45d351b68fc10b24baae0a">visit</a></td></tr>
 <tr class="memdesc:a8865c0cb4b45d351b68fc10b24baae0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The previously-created <a class="el" href="interface_p_k_visit.html">Visit </a> that is associated with a customer checkin.  <a href="#a8865c0cb4b45d351b68fc10b24baae0a"></a><br/></td></tr>
 <tr class="separator:a8865c0cb4b45d351b68fc10b24baae0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,7 +138,26 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Confirms a previously-created <a class="el" href="interface_p_k_visit.html">Visit </a> that was the result of a <a class="el" href="interface_p_k_customer.html">Customer </a> checking into a location. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a91baf0707e6836ae0acd4161918671bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) addItemToRewardConfirmations: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_p_k_abstract_reward_confirmation.html">PKAbstractRewardConfirmation</a> *)&#160;</td>
+          <td class="paramname"><em>item</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds an item to the rewardConfirmations collection while maintaining a proper bi-directional association. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="a80d53adf295b4778044c118451fcef1a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -178,7 +204,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a53c93d0228e23b0fb3d2782692a121d6"></a>
+<a class="anchor" id="ae69fcc429bf8156b89e614fbba8045f5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -186,7 +212,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">- (NSMutableArray*) rewardConfirmations</td>
+          <td class="memname">- (NSMutableArray *) rewardConfirmations</td>
         </tr>
       </table>
   </td>
@@ -223,13 +249,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>perka-client-objc/generated/<a class="el" href="_p_k_visit_confirmation_8h_source.html">PKVisitConfirmation.h</a></li>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>/Users/joe/perka/perka-client-objc/perka-client-objc/generated/<a class="el" href="_p_k_visit_confirmation_8h_source.html">PKVisitConfirmation.h</a></li>
+<li>/Users/joe/perka/perka-client-objc/perka-client-objc/generated/<a class="el" href="_p_k_visit_confirmation_8m.html">PKVisitConfirmation.m</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 21 2012 12:20:36 for Objective-C Client Library by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 27 2012 12:27:28 for Objective-C Client Library by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2-20121118
 </small></address>

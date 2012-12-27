@@ -7,5 +7,5 @@ var searchData=
   ['oauthrefreshtoken',['oauthRefreshToken',['../interface_p_k_client_api.html#aad1eb28a8206cc343a5e12eb0c71ca75',1,'PKClientApi']]],
   ['oauthrefreshtokenusingblock_3a',['oauthRefreshTokenUsingBlock:',['../interface_p_k_client_api.html#af9f74cc517053d6474a63b781a4dc5c4',1,'PKClientApi']]],
   ['osversion',['osVersion',['../interface_p_k_merchant_device.html#aaebb5cef666d39cf8711899916aaf004',1,'PKMerchantDevice']]],
-  ['outboundmessages',['outboundMessages',['../interface_p_k_clerk.html#a8c4038de59c5bd6738ab2f5b77259b0f',1,'PKClerk::outboundMessages()'],['../interface_p_k_merchant_user.html#ae3ed895a53a7d2489c049580bed2ddc5',1,'PKMerchantUser::outboundMessages()']]]
+  ['outboundmessages',['outboundMessages',['../interface_p_k_clerk.html#aefb00e772a2264539a1993966e2c606b',1,'PKClerk::outboundMessages()'],['../interface_p_k_merchant_user.html#a1d8fc0b1a8808348b1268e9cce5da5e9',1,'PKMerchantUser::outboundMessages()']]]
 ];

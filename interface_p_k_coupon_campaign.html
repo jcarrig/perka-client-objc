@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_p_k_coupon_campaign-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -106,10 +107,16 @@ Inheritance diagram for PKCouponCampaign:</div>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a8c001111412d52b2f04d032d036de226"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_p_k_coupon_campaign.html#a8c001111412d52b2f04d032d036de226">addItemToCoupons:</a></td></tr>
+<tr class="memdesc:a8c001111412d52b2f04d032d036de226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an item to the coupons collection while maintaining a proper bi-directional association.  <a href="#a8c001111412d52b2f04d032d036de226"></a><br/></td></tr>
+<tr class="separator:a8c001111412d52b2f04d032d036de226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a4daf3d3b77b9a2cd14d29977a181350e"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_coupon_campaign.html#a4daf3d3b77b9a2cd14d29977a181350e">coupons</a></td></tr>
-<tr class="separator:a4daf3d3b77b9a2cd14d29977a181350e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5814804b95eceef8c5d73ff4cad94b2c"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_coupon_campaign.html#a5814804b95eceef8c5d73ff4cad94b2c">coupons</a></td></tr>
+<tr class="separator:a5814804b95eceef8c5d73ff4cad94b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecbb00739b5a10271824be4650298d0a"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_coupon_campaign.html#aecbb00739b5a10271824be4650298d0a">rrule</a></td></tr>
 <tr class="memdesc:aecbb00739b5a10271824be4650298d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retains the original <code>RRULE</code> string used to construct the campaign.  <a href="#aecbb00739b5a10271824be4650298d0a"></a><br/></td></tr>
 <tr class="separator:aecbb00739b5a10271824be4650298d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,8 +142,27 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A CouponCampaign defines a relationship between what a merchant thinks of as a coupon and the collection of Coupon objects that implement the behavior. </p>
 <p>In general, a campaign consists of Coupons that span a non-contiguous set of time ranges, but that are otherwise identical in configuration. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
-<a class="anchor" id="a4daf3d3b77b9a2cd14d29977a181350e"></a>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a8c001111412d52b2f04d032d036de226"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) addItemToCoupons: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_p_k_coupon.html">PKCoupon</a> *)&#160;</td>
+          <td class="paramname"><em>item</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds an item to the coupons collection while maintaining a proper bi-directional association. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a5814804b95eceef8c5d73ff4cad94b2c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -144,7 +170,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">- (NSMutableArray*) coupons</td>
+          <td class="memname">- (NSMutableArray *) coupons</td>
         </tr>
       </table>
   </td>
@@ -198,13 +224,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>perka-client-objc/generated/<a class="el" href="_p_k_coupon_campaign_8h_source.html">PKCouponCampaign.h</a></li>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>/Users/joe/perka/perka-client-objc/perka-client-objc/generated/<a class="el" href="_p_k_coupon_campaign_8h_source.html">PKCouponCampaign.h</a></li>
+<li>/Users/joe/perka/perka-client-objc/perka-client-objc/generated/<a class="el" href="_p_k_coupon_campaign_8m.html">PKCouponCampaign.m</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 21 2012 12:20:36 for Objective-C Client Library by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 27 2012 12:27:27 for Objective-C Client Library by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2-20121118
 </small></address>

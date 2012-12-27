@@ -8,6 +8,5 @@ var searchData=
   ['url',['url',['../interface_p_k_coupon.html#a7da5b1027cb0b0b68a67c3461a5fbc77',1,'PKCoupon']]],
   ['urlencode',['urlEncode',['../category_n_s_string_07_f_p_08.html#a4fd26ff733d79e0f2a2b6d0225b155c4',1,'NSString(FP)']]],
   ['useruuid',['userUuid',['../interface_p_k_user_credentials.html#accf57284abc287750094677d405748bf',1,'PKUserCredentials::userUuid()'],['../interface_p_k_client_api.html#ab2bbf88cb4924b99802b323d87c1646a',1,'PKClientApi::userUuid()']]],
-  ['uuid',['uuid',['../interface_f_p_base_has_uuid.html#afe1a92fe40875943f9789868252f3584',1,'FPBaseHasUuid']]],
-  ['uuidstack',['uuidStack',['../category_f_p_packer_07_08.html#afb22d182a2057e990d587c02c3afe6c6',1,'FPPacker()']]]
+  ['uuid',['uuid',['../interface_f_p_base_has_uuid.html#afe1a92fe40875943f9789868252f3584',1,'FPBaseHasUuid']]]
 ];
