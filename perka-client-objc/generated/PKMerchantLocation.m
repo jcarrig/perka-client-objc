@@ -146,6 +146,7 @@ static NSMutableArray *_allProperties;
     [FPProperty setPropertyForUuid:@"2216876d-45f0-367c-b421-420c1b24720d"
                     withDictionary:@{
                       @"name":@"streetAddress",
+                      @"embedded":@YES,
                       @"kind":[PKStreetAddress class]
                     }]];
 

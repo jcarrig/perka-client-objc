@@ -50,14 +50,16 @@
 - (void)recursivePack:(FPBaseHasUuid *)entity inCurrentDictionary:(NSMutableDictionary *)currentDictionary {
   
   // proceed only if the entity has a uuid property, and we haven't seen it before
+  // (unless we're not creating a new context, in which case we always want to proceed
+  // to allow the embedded properties to be included.
+  BOOL newContext = currentDictionary == nil;
   NSString *uuid = [entity respondsToSelector:@selector(uuid)] ? [entity uuid] : nil;
-  if(uuid == nil || [_allEntities objectForKey:[entity uuid]] != nil) {
+  if(newContext && (uuid == nil || [_allEntities objectForKey:[entity uuid]] != nil)) {
     return;
   }
 
   // If this invocation represents a new context, we'll make note of the entity,
   // push it's uuid onto our traversal stack, and set up a new dictionary
-  BOOL newContext = currentDictionary == nil;
   if(newContext) {
     currentDictionary = [NSMutableDictionary dictionary];
     [_allEntities setObject:entity forKey:uuid];
@@ -75,7 +77,9 @@
       if([value isKindOfClass:[FPBaseHasUuid class]]) {
         
         [self recursivePack:value inCurrentDictionary:embedded ? currentDictionary : nil];
-        currentDictionary[[key stringByAppendingString:@"Uuid"]] = [value uuid];
+        if(!embedded) {
+          currentDictionary[[key stringByAppendingString:@"Uuid"]] = [value uuid];
+        }
       }
       
       // property is a collection of (potential) other entities
