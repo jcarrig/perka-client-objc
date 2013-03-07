@@ -91,7 +91,6 @@ static PKClientApi *api;
     NSHTTPURLResponse *response = [request response];
     STAssertTrue([response statusCode] == 401, @"API should have no authorization");
   }];
-   
 }
 
 /**

@@ -23,6 +23,10 @@
   return _accessToken == nil || [_accessExpiration timeIntervalSinceNow] > 0;
 }
 
+- (void)refreshSession {
+  [self refreshSessionUsingBlock:nil];
+}
+
 - (void)refreshSessionUsingBlock:(FPRequestFinishedBlock)block {
   [self oauthRefreshTokenUsingBlock:block];
 }
