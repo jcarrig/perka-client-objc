@@ -72,6 +72,29 @@ static PKClientApi *api;
 }
 
 /**
+ * Ensures that requests contain access to the raw response
+ */
+- (void)testBadSession {
+  PKClientApi *badApi = [PKClientApi newWithDictionary:@{
+                         @"flatpack":[FPFlatpack newWithDictionary:@{
+                                      @"pretty":@YES,
+                                      @"verbose":@YES}],
+                         @"serverBase":API_BASE,
+                         @"verbose":@YES}];
+  
+  PKUserCredentials *creds = [PKUserCredentials newWithDictionary:@{
+                              @"email":@"joe@getperka.com",
+                              @"phone":@"+15555555555"}];
+
+  PKPostIntegratorCustomerRequest *request = [badApi postIntegratorCustomer:creds];
+  [request executeUsingBlock:^(PKCustomer *customer) {
+    NSHTTPURLResponse *response = [request response];
+    STAssertTrue([response statusCode] == 401, @"API should have no authorization");
+  }];
+   
+}
+
+/**
  * Simple serialization smoke test to ensure that our generated models
  * can be packed and unpacked correctly
  */
