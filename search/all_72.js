@@ -11,7 +11,7 @@ var searchData=
   ['refreshtoken',['refreshToken',['../interface_p_k_client_api.html#a960abdc6de24683410b7c5b9a019758d',1,'PKClientApi']]],
   ['resolvedfacebookid',['resolvedFacebookId',['../interface_p_k_merchant_location.html#a61f4cddd28481df8caa36241c92e7c82',1,'PKMerchantLocation']]],
   ['response',['response',['../interface_f_p_base_request.html#a2f1da4d4ba2ec73b4bff2fa895c21d1b',1,'FPBaseRequest']]],
-  ['reward',['reward',['../interface_p_k_redemption_reward_confirmation.html#afad45e7f5fdebc7f763c7716f76e3089',1,'PKRedemptionRewardConfirmation::reward()'],['../interface_p_k_reward_advancement.html#aada57ba01cab4d75d67049b39203af3a',1,'PKRewardAdvancement::reward()']]],
+  ['reward',['reward',['../interface_p_k_redemption_reward_confirmation.html#afad45e7f5fdebc7f763c7716f76e3089',1,'PKRedemptionRewardConfirmation::reward()'],['../interface_p_k_reset_reward_confirmation.html#ae3381c36023b7136c58d5751fe5643b5',1,'PKResetRewardConfirmation::reward()'],['../interface_p_k_reward_advancement.html#aada57ba01cab4d75d67049b39203af3a',1,'PKRewardAdvancement::reward()']]],
   ['rewardadvancements',['rewardAdvancements',['../interface_p_k_reward.html#a5bddc9a050edb96f5ec0f2deb4cf15b9',1,'PKReward::rewardAdvancements()'],['../interface_p_k_visit.html#a679e943878f6e12cbe2ca57a5512efcc',1,'PKVisit::rewardAdvancements()']]],
   ['rewardconfirmations',['rewardConfirmations',['../interface_p_k_reward_grant.html#ae37c87de615c79609c3fb20b54b5e0d2',1,'PKRewardGrant::rewardConfirmations()'],['../interface_p_k_visit_confirmation.html#ae69fcc429bf8156b89e614fbba8045f5',1,'PKVisitConfirmation::rewardConfirmations()']]],
   ['rewards',['rewards',['../interface_p_k_customer.html#a29c1e256d4eaa0fe4bd2b976277555eb',1,'PKCustomer']]],

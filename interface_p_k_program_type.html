@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_p_k_program_type-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -106,6 +107,12 @@ Inheritance diagram for PKProgramType:</div>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a7b02424b2bb02e53f5785607e7597f5d"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_p_k_program_type.html#a7b02424b2bb02e53f5785607e7597f5d">addItemToPrograms:</a></td></tr>
+<tr class="memdesc:a7b02424b2bb02e53f5785607e7597f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an item to the programs collection while maintaining a proper bi-directional association.  <a href="#a7b02424b2bb02e53f5785607e7597f5d"></a><br/></td></tr>
+<tr class="separator:a7b02424b2bb02e53f5785607e7597f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:afcedaa7f3331a1d571af5ac8627ff139"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_program_type.html#afcedaa7f3331a1d571af5ac8627ff139">expiresAt</a></td></tr>
@@ -116,6 +123,10 @@ Properties</h2></td></tr>
 <tr class="separator:ae85ec95f77991557d1e2eefe32bf9e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a5d89fb3995d5d65593341b54e87664"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_program_type.html#a1a5d89fb3995d5d65593341b54e87664">position</a></td></tr>
 <tr class="separator:a1a5d89fb3995d5d65593341b54e87664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33428880577af7316f677d088a0139ad"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_program_type.html#a33428880577af7316f677d088a0139ad">programs</a></td></tr>
+<tr class="separator:a33428880577af7316f677d088a0139ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4365d777478e5d6b675ad5ac6950fd01"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_program_type.html#a4365d777478e5d6b675ad5ac6950fd01">shared</a></td></tr>
+<tr class="separator:a4365d777478e5d6b675ad5ac6950fd01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bb80a5379438b2d7c62b9dd2488b498"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_program_type.html#a3bb80a5379438b2d7c62b9dd2488b498">stampId</a></td></tr>
 <tr class="separator:a3bb80a5379438b2d7c62b9dd2488b498"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_p_k_base_entity_global"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_p_k_base_entity_global')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_p_k_base_entity_global.html">PKBaseEntityGlobal</a></td></tr>
@@ -138,7 +149,26 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A ProgramType defines a single kind of offer made by the Merchant. </p>
 <p>For example, a Merchant may have two ProgramTypes, one for coffee sales and another for sandwich sales. Because Customers are offered increasingly better perks as they return over time, a single ProgramType is used to aggregate multiple <a class="el" href="interface_p_k_program.html">Program </a> objects that have a fan-out based on <a class="el" href="interface_p_k_program_tier.html">ProgramTier </a>. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a7b02424b2bb02e53f5785607e7597f5d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) addItemToPrograms: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_p_k_program.html">PKProgram</a> *)&#160;</td>
+          <td class="paramname"><em>item</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds an item to the programs collection while maintaining a proper bi-directional association. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="afcedaa7f3331a1d571af5ac8627ff139"></a>
 <div class="memitem">
 <div class="memproto">
@@ -219,6 +249,46 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a33428880577af7316f677d088a0139ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSMutableArray *) programs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4365d777478e5d6b675ad5ac6950fd01"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSNumber*) shared</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a3bb80a5379438b2d7c62b9dd2488b498"></a>
 <div class="memitem">
 <div class="memproto">
@@ -239,13 +309,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/Users/joe/perka/perka-client-objc/perka-client-objc/generated/<a class="el" href="_p_k_program_type_8h_source.html">PKProgramType.h</a></li>
+<li>/Users/joe/perka/perka-client-objc/perka-client-objc/generated/<a class="el" href="_p_k_program_type_8m.html">PKProgramType.m</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 27 2012 12:27:27 for Objective-C Client Library by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 20 2013 08:26:29 for Objective-C Client Library by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2-20121118
 </small></address>

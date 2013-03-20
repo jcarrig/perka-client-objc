@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['geolocation',['geoLocation',['../interface_p_k_merchant_location.html#a9a9f09ca34284a30b5b03b3fa603bf33',1,'PKMerchantLocation']]],
   ['getannotationtype_3auuid_3a',['getAnnotationType:uuid:',['../interface_p_k_base_api.html#aa3434b24a82fcc0d11650f9ae033696f',1,'PKBaseApi']]],
   ['getassetmanifestperks',['getAssetManifestPerks',['../interface_p_k_base_api.html#a4298923157e3861ff8878899b57deff0',1,'PKBaseApi']]],
   ['getcustomerpoints',['getCustomerPoints',['../interface_p_k_base_api.html#a25f4496ccb7f5c179e4994535dc5ac28',1,'PKBaseApi']]],

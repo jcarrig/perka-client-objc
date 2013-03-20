@@ -116,6 +116,12 @@ Properties</h2></td></tr>
 <tr class="memitem:ad1a7b3ff77d376b33835cf47af0d2213"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_weather_target.html#ad1a7b3ff77d376b33835cf47af0d2213">localMetricAt</a></td></tr>
 <tr class="memdesc:ad1a7b3ff77d376b33835cf47af0d2213"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time of day for which the metric threshold must be met.  <a href="#ad1a7b3ff77d376b33835cf47af0d2213"></a><br/></td></tr>
 <tr class="separator:ad1a7b3ff77d376b33835cf47af0d2213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc83cd62a2c2afc85f28527b4bb63d50"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_weather_target.html#afc83cd62a2c2afc85f28527b4bb63d50">metric</a></td></tr>
+<tr class="memdesc:afc83cd62a2c2afc85f28527b4bb63d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible values: PUNCH_COUNT, TOP_N, TOP_PCT, VISIT_COUNT.  <a href="#afc83cd62a2c2afc85f28527b4bb63d50"></a><br/></td></tr>
+<tr class="separator:afc83cd62a2c2afc85f28527b4bb63d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27357c914e82ba99a97f40d0133445cc"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_weather_target.html#a27357c914e82ba99a97f40d0133445cc">operation</a></td></tr>
+<tr class="memdesc:a27357c914e82ba99a97f40d0133445cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible values: AND, NOT, OR.  <a href="#a27357c914e82ba99a97f40d0133445cc"></a><br/></td></tr>
+<tr class="separator:a27357c914e82ba99a97f40d0133445cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69acd470a965fa435b4fd57876032de7"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_weather_target.html#a69acd470a965fa435b4fd57876032de7">threshold</a></td></tr>
 <tr class="separator:a69acd470a965fa435b4fd57876032de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -173,6 +179,50 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afc83cd62a2c2afc85f28527b4bb63d50"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString*) metric</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Possible values: PUNCH_COUNT, TOP_N, TOP_PCT, VISIT_COUNT. </p>
+
+</div>
+</div>
+<a class="anchor" id="a27357c914e82ba99a97f40d0133445cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString*) operation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Possible values: AND, NOT, OR. </p>
+
+</div>
+</div>
 <a class="anchor" id="a69acd470a965fa435b4fd57876032de7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -199,7 +249,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 27 2012 12:27:28 for Objective-C Client Library by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 20 2013 08:26:30 for Objective-C Client Library by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2-20121118
 </small></address>

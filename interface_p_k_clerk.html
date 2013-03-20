@@ -113,9 +113,6 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a7ebbee8c99223afc51027a84578e453f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_p_k_clerk.html#a7ebbee8c99223afc51027a84578e453f">addItemToMerchantLocations:</a></td></tr>
 <tr class="memdesc:a7ebbee8c99223afc51027a84578e453f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an item to the merchantLocations collection while maintaining a proper bi-directional association.  <a href="#a7ebbee8c99223afc51027a84578e453f"></a><br/></td></tr>
 <tr class="separator:a7ebbee8c99223afc51027a84578e453f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f52bd4a90d60d113180dfc4a4a62934"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_p_k_clerk.html#a3f52bd4a90d60d113180dfc4a4a62934">addItemToOutboundMessages:</a></td></tr>
-<tr class="memdesc:a3f52bd4a90d60d113180dfc4a4a62934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an item to the outboundMessages collection while maintaining a proper bi-directional association.  <a href="#a3f52bd4a90d60d113180dfc4a4a62934"></a><br/></td></tr>
-<tr class="separator:a3f52bd4a90d60d113180dfc4a4a62934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -130,8 +127,6 @@ Properties</h2></td></tr>
 <tr class="memitem:a797fe6d7bbdb0da3537353a7a4584220"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_clerk.html#a797fe6d7bbdb0da3537353a7a4584220">merchantLocations</a></td></tr>
 <tr class="memdesc:a797fe6d7bbdb0da3537353a7a4584220"><td class="mdescLeft">&#160;</td><td class="mdescRight">The locations that the clerk is allowed to interact with.  <a href="#a797fe6d7bbdb0da3537353a7a4584220"></a><br/></td></tr>
 <tr class="separator:a797fe6d7bbdb0da3537353a7a4584220"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefb00e772a2264539a1993966e2c606b"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_clerk.html#aefb00e772a2264539a1993966e2c606b">outboundMessages</a></td></tr>
-<tr class="separator:aefb00e772a2264539a1993966e2c606b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98f5f095054a00c8457162108b9121fd"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_p_k_clerk.html#a98f5f095054a00c8457162108b9121fd">unconfirmedEmail</a></td></tr>
 <tr class="separator:a98f5f095054a00c8457162108b9121fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_p_k_abstract_user"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_p_k_abstract_user')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_p_k_abstract_user.html">PKAbstractUser</a></td></tr>
@@ -203,24 +198,6 @@ Anonymous clerks, representing an access role for a single location </li>
 
 </div>
 </div>
-<a class="anchor" id="a3f52bd4a90d60d113180dfc4a4a62934"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">- (void) addItemToOutboundMessages: </td>
-          <td></td>
-          <td class="paramtype">(<a class="el" href="interface_p_k_outbound_message.html">PKOutboundMessage</a> *)&#160;</td>
-          <td class="paramname"><em>item</em></td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Adds an item to the outboundMessages collection while maintaining a proper bi-directional association. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="a50468bd2ee70564604e8e451c379abb7"></a>
 <div class="memitem">
@@ -277,7 +254,7 @@ Anonymous clerks, representing an access role for a single location </li>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">strong</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">weak</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -308,26 +285,6 @@ Anonymous clerks, representing an access role for a single location </li>
 
 </div>
 </div>
-<a class="anchor" id="aefb00e772a2264539a1993966e2c606b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">- (NSMutableArray *) outboundMessages</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a98f5f095054a00c8457162108b9121fd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -355,7 +312,7 @@ Anonymous clerks, representing an access role for a single location </li>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 27 2012 12:27:27 for Objective-C Client Library by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 20 2013 08:26:29 for Objective-C Client Library by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2-20121118
 </small></address>

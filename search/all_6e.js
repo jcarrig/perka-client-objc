@@ -6,8 +6,6 @@ var searchData=
   ['newpasswordconfirmation',['newPasswordConfirmation',['../interface_p_k_abstract_user.html#a41e6233154147ae2d2036b0465e07e88',1,'PKAbstractUser::newPasswordConfirmation()'],['../interface_p_k_user_credentials.html#ae95c555b711d275ea4a7be438ed4c465',1,'PKUserCredentials::newPasswordConfirmation()']]],
   ['newwithdictionary_3a',['newWithDictionary:',['../category_n_s_object_07_f_p_08.html#a7065a1b181352486e995672ac1010e93',1,'NSObject(FP)']]],
   ['nextactivity',['nextActivity',['../interface_p_k_points_activity.html#a2687cad63080f69d2d600865967fb8ed',1,'PKPointsActivity']]],
-  ['notes',['notes',['../interface_p_k_merchant.html#ad740a5cdf1ed999eaa0cef60f6210b3f',1,'PKMerchant']]],
-  ['notifyminutesbefore',['notifyMinutesBefore',['../interface_p_k_coupon.html#a1352f602201f03e6b8e1ecabe64ec667',1,'PKCoupon']]],
   ['nsdate_28fp_29',['NSDate(FP)',['../category_n_s_date_07_f_p_08.html',1,'']]],
   ['nsdate_2bfp_2eh',['NSDate+FP.h',['../_n_s_date_09_f_p_8h.html',1,'']]],
   ['nsdate_2bfp_2em',['NSDate+FP.m',['../_n_s_date_09_f_p_8m.html',1,'']]],
