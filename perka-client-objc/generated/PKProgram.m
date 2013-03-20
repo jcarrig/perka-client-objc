@@ -58,7 +58,8 @@ static NSMutableArray *_allProperties;
     [FPProperty setPropertyForUuid:@"acc11868-2193-3611-8a20-cdecce735aee"
                     withDictionary:@{
                       @"name":@"programType",
-                      @"kind":[PKProgramType class]
+                      @"kind":[PKProgramType class],
+                      @"impliedProperty":[FPProperty propertyForUuid:@"a2ca494a-56fd-35e5-b4d7-d382208b2731"]
                     }]];
 
   // punchesNeeded
@@ -124,6 +125,17 @@ static NSMutableArray *_allProperties;
   _programTier = programTier;
   if(![[_programTier programs] containsObject:self]) {
     [[_programTier programs] addObject:self];
+  }
+}
+
+// programType many-to-one accessors to maintain bi-directional relationships
+- (PKProgramType *)programType{
+  return _programType;
+}
+- (void)setProgramType:(PKProgramType *)programType {
+  _programType = programType;
+  if(![[_programType programs] containsObject:self]) {
+    [[_programType programs] addObject:self];
   }
 }
 

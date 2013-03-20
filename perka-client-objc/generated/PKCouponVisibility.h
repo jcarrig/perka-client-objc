@@ -15,12 +15,12 @@
 */
 @interface PKCouponVisibility : PKBaseEntityGlobal
 
-@property (strong) PKCoupon *coupon;
+@property (weak) PKCoupon *coupon;
 
 @property (strong) PKCouponTarget *couponTarget;
 
 @property (strong) NSString *couponTargetType;
 
-@property (strong) PKMerchantLocation *merchantLocation;
+@property (weak) PKMerchantLocation *merchantLocation;
 
 @end

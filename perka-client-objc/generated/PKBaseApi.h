@@ -84,6 +84,7 @@ typedef void(^PKGetMerchantLocationsRequestBlock)(NSArray *merchantLocations);
 
 @interface PKGetCustomerVisitValidateRequest : FPFlatpackRequest
   -(PKGetCustomerVisitValidateRequest *)withMostRecentValidatedUuid:(NSString *)mostRecentValidatedUuid;
+  -(PKGetCustomerVisitValidateRequest *)withFastPoll:(NSString *)fastPoll;
   -(NSArray *)execute;
   -(void)executeUsingBlock:(PKGetCustomerVisitValidateRequestBlock)block;
 @end

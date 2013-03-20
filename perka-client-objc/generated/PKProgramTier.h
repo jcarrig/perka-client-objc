@@ -15,7 +15,7 @@
 
 @property (strong) NSString *additionalPerks;
 
-@property (strong) PKMerchant *merchant;
+@property (weak) PKMerchant *merchant;
 
 @property (strong) NSString *name;
 

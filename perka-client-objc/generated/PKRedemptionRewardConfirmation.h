@@ -15,4 +15,6 @@
 */
 @property (strong) PKReward *reward;
 
+@property (strong) NSString *sku;
+
 @end

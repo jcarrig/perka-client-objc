@@ -22,6 +22,10 @@
 
 @property (strong) PKCustomer *customer;
 
+/** Allows the effective date of the resulting visit to be back-dated.
+*/
+@property (strong) NSString *effectiveAt;
+
 /** At least one \link PKAbstractRewardConfirmation AbstractRewardConfirmation 
 *   \endlink must be given.
 */

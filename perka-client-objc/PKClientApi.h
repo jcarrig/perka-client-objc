@@ -6,7 +6,6 @@
 //  Copyright (c) 2012 Perka Inc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "PKBaseApi.h"
 
 @class FPFlatpack, FPBaseHasUuid;

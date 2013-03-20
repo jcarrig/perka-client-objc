@@ -7,101 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01b1d7a1fd9c1e5c5d59923c /* (null) in Sources */ = {isa = PBXBuildFile; };
 		04d7cbf756ef29a1698b2239 /* PKBaseEntityGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1e8dacd944b415a484272b85 /* PKBaseEntityGlobal.m */; };
 		0e4e22eb63099c251897764b /* PKSocialServiceSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = c1074e61c3fb4d8995d49812 /* PKSocialServiceSubscription.m */; };
-		0ee3acfdce538f3934c684e9 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		10073bc89641162393b335ce /* PKPhysicalRedemptionTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 92f732509cb3669539a2fee6 /* PKPhysicalRedemptionTarget.m */; };
-		104a9a99590a8f640a83f13e /* (null) in Sources */ = {isa = PBXBuildFile; };
 		109203910f62f571a96da7f3 /* PKMerchantDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 885488a72cbc5feaff850f93 /* PKMerchantDevice.m */; };
 		1112ebd65bc2a4c6182cb166 /* PKTierTraversalConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461b6aadcf9e041c8c3eb17 /* PKTierTraversalConfirmation.m */; };
 		11ead2210b450781652d0d94 /* PKAbstractRewardConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = ffd6859f371c0b4c8ef19afb /* PKAbstractRewardConfirmation.m */; };
 		140ffb1d83e80e7901ef7272 /* PKMerchantLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 163c3420bd9e94db2813509c /* PKMerchantLocation.m */; };
 		1682bc98f29a28b650dde414 /* PKStreetAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1f2a5152a6838c170b9705f8 /* PKStreetAddress.m */; };
-		170efc52093b20f6edd18214 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		199a924754f56a0cf2e6246b /* (null) in Sources */ = {isa = PBXBuildFile; };
-		199b74c3705abbac3b7ba2a6 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1dd94817b9e9d42a756838de /* PKBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 339fae2b20de8c38b86a1df4 /* PKBaseApi.m */; };
-		1e320c620277736eb118db28 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1f5035998617cd537a1af32b /* PKCouponRedemption.m in Sources */ = {isa = PBXBuildFile; fileRef = b4e32ac83faa700f73eb2331 /* PKCouponRedemption.m */; };
 		2016a92f6482b936f2eb5bb4 /* PKPointsActivityConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2b7870b0e023f4d65e815644 /* PKPointsActivityConfirmation.m */; };
 		257f2a8fe059add2dcecb6f1 /* PKSocialListTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 23dbc89c01b42fb26c08722f /* PKSocialListTarget.m */; };
 		25e90d09ce4afaa38f17dbd4 /* FPBaseHasUuid.m in Sources */ = {isa = PBXBuildFile; fileRef = b69dab5317a3dbab52f1566e /* FPBaseHasUuid.m */; };
 		2a3ab9b02e354d6dce7b6f33 /* PKVisit.m in Sources */ = {isa = PBXBuildFile; fileRef = f46987707322d3338b6e3d3a /* PKVisit.m */; };
 		2abc94fec2c86f67ee9eff73 /* PKCouponCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = d9ba8631ae43a516aba63325 /* PKCouponCampaign.m */; };
-		2b613f0193c270dcc03aeb47 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2c5cac0d3c56b24a2f9d8a6e /* PKEntityAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2db3c1797f056dd11021304d /* PKEntityAnnotation.m */; };
 		2d680e08845ba78121b61da1 /* NSHTTPURLResponse+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3bd0da6c410ddf3f9f2a7c2b /* NSHTTPURLResponse+FP.m */; };
-		2e1a5639961a4b35603b0533 /* PKMerchantDashboardMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 811851d8fee3c1a5c16da292 /* PKMerchantDashboardMessage.m */; };
-		2f5ddec44ad56a51a91a2f5b /* (null) in Sources */ = {isa = PBXBuildFile; };
-		343bdf8482be3533e7f5233c /* (null) in Sources */ = {isa = PBXBuildFile; };
-		347b18ae7f094f28b39e2d41 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		351fc61240d81c054593ee82 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		353b2320b09345cf2126426c /* PKResetRewardConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = c906f13d2cd4fa0f409d23f0 /* PKResetRewardConfirmation.m */; };
 		367432b3cb78b49a342e2615 /* FPFlatpack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6757761fe1846aff5ee0124f /* FPFlatpack.m */; };
-		3704ae4c66958e480757d6e6 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		3bcc6ce44ed744a45a268c21 /* PKPunchRewardConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = b9b245461a0ceeaa141aa001 /* PKPunchRewardConfirmation.m */; };
 		3bce3dec97943750dd61fa91 /* FPBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = bdef7dafa153d586dd024594 /* FPBaseRequest.m */; };
 		3e019fdb17e6fe0dbdf2a72e /* PKCompositeTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1b97a69656565890012d1c97 /* PKCompositeTarget.m */; };
-		402352bb8fca8ceb615ca738 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		40e490cf2fd9bcc63d22715f /* PKIntegratorUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6146abad43334e031d31675d /* PKIntegratorUser.m */; };
 		44bc7279ffeb03fafb206b7a /* PKProgramTier.m in Sources */ = {isa = PBXBuildFile; fileRef = d98b5346c96b7798aaaa2dab /* PKProgramTier.m */; };
 		4a18e67cb88e9ca76d5ebd17 /* PKListTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = a81012379330eadc39f9b4af /* PKListTarget.m */; };
 		4bb57156eaba18d4c6670cce /* NSString+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 430ad434212d3dc820235acd /* NSString+FP.m */; };
 		4bfd5ceb618b1454ddd3c698 /* PKClerk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0556ab8586fba3b365432747 /* PKClerk.m */; };
 		4c495176e736b549aa624082 /* PKRewardAdvancement.m in Sources */ = {isa = PBXBuildFile; fileRef = fc93fa148bac344e52451c9a /* PKRewardAdvancement.m */; };
-		4cb99d93f555a5a5a5a16026 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		50b8d2989e9819c88d388ab1 /* PKMerchant.m in Sources */ = {isa = PBXBuildFile; fileRef = a83bf54468600c7f3dd27296 /* PKMerchant.m */; };
 		5299ca3c3736fa2b68171fd0 /* FPBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = f0aa8f57923ad71f2027c9c3 /* FPBaseApi.m */; };
-		5422507cc8d5ebe293f90cf7 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		5554224cca441f9e6bffc521 /* NSDictionary+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 90fd639e4b5bd6e7c07c4894 /* NSDictionary+FP.m */; };
-		574be51766422da06164f2ca /* (null) in Sources */ = {isa = PBXBuildFile; };
-		5801a2fcfde4a8e8c41f77f7 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		59a31a229231cfe770ebf06a /* (null) in Sources */ = {isa = PBXBuildFile; };
 		5a033a30a6d560312ab2d4b5 /* NSObject+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = ae6637477332cb46aa8bf3bf /* NSObject+FP.m */; };
 		5b7cf303d9440763cee96ede /* PKLikeToUnlockTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 9a3826d1ab19b92f6b0d49c3 /* PKLikeToUnlockTarget.m */; };
 		5bb42b208ea095e235657c30 /* PKPointsActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 99e41b4f26df2f5eb6a03211 /* PKPointsActivity.m */; };
-		5d20fab869e8a656b38d8b4f /* PKFeedbackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6e778c3fa60a53a04e7cd758 /* PKFeedbackItem.m */; };
 		625d7e3c251b16f38c55e19f /* PKProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 8e11b38341491641aad1a6f8 /* PKProgram.m */; };
-		6271b14d44611a97cd0db687 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		639bb6c7630422e19f1b27cf /* (null) in Sources */ = {isa = PBXBuildFile; };
-		640edf3b6dcae85fccd4b7f7 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		6ba661ad2ae75017fbba1da3 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		6cfe20c1929911a4153c97c8 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		6eb8ea3ec7425747d3570366 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		717c3f730c8f2e1d036c71f0 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		74b69175b541ef92c3836a6b /* PKCustomerDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = dc0e85e9f453091205c38969 /* PKCustomerDevice.m */; };
 		75a835e29755910b5bab8a15 /* PKCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = f72df4d9c9d0cda215f1b702 /* PKCustomer.m */; };
 		7631c8cbd23988245f07f1ca /* PKRedemptionCouponConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = c990a7ea3e26cc9744cbf2b8 /* PKRedemptionCouponConfirmation.m */; };
-		76ad1a091bb15cc011ae5729 /* PKCannedEmailOutboundMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = fd58638e9f32e307150dd0f5 /* PKCannedEmailOutboundMessage.m */; };
 		771fb6a5ceca6f97b83e8b66 /* FPJsonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 308d22eb481d22d1f971990e /* FPJsonRequest.m */; };
 		77848334119af71bd03e22df /* PKWeatherTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 863f7d511f508997f13c63e7 /* PKWeatherTarget.m */; };
-		7dfdcb35ad18c05ad67c8288 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		7e4fa93728ca2a5f81ab9072 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		7eed568686ee68c462eb6a6b /* PKPushMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 206b9beaedf5b04bedb0fca8 /* PKPushMessage.m */; };
-		7f1626eb5b07800118c574a3 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		80b526310e37fa10bab8512b /* (null) in Sources */ = {isa = PBXBuildFile; };
-		8250d9dd4e44ba881c40765c /* (null) in Sources */ = {isa = PBXBuildFile; };
-		88e049a73114facfffc88e86 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		898ce28489e0e81d77fadd59 /* FPProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 713d03a934e81f0aca19cef5 /* FPProperty.m */; };
 		8bef9c3a1f40eadcca710f9a /* PKSmsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9baa3c6d973fbd80e9feec58 /* PKSmsMessage.m */; };
-		8dce03434b58dde567e8bb9d /* (null) in Sources */ = {isa = PBXBuildFile; };
-		8f0a133f5fb0053d5ece99d4 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		900d4b4014383cf858828615 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9122d961ed9db9e7c7390e1b /* PKCoupon.m in Sources */ = {isa = PBXBuildFile; fileRef = a70751f385a2a12a67b9aeef /* PKCoupon.m */; };
 		949aa1b6abcb08657b95e170 /* PKCouponVisibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8a876bfc4e2016f9427e3c04 /* PKCouponVisibility.m */; };
 		95006853fa403090c6674f57 /* PKIdleCustomerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = dd8afc70572ab91f1c3e1113 /* PKIdleCustomerTarget.m */; };
 		952cb201dcc0db5037fc463e /* NSDate+FP.m in Sources */ = {isa = PBXBuildFile; fileRef = 71c91923df7d249f6503f551 /* NSDate+FP.m */; };
-		96d1f738aba8c9b796d29ca7 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		96f2f75f062b3cd50c62babd /* PKMerchantCapability.m in Sources */ = {isa = PBXBuildFile; fileRef = ce9b8edcc31971ac8aa705ce /* PKMerchantCapability.m */; };
 		9754aaf4bdd01e6e760e1899 /* PKTierTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = e065c8da2743c167e3d4692c /* PKTierTarget.m */; };
-		9aa4a89ec844754917ee0723 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		9ae0d68b7dca41df64ba06d4 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9d787ab2ff8e49a439a3e2da /* PKRedemptionRewardConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 528329098255afe3fb799b14 /* PKRedemptionRewardConfirmation.m */; };
-		9d88e2c4d94ebade10e1fded /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9eb01fc7f728f0b453720510 /* PKEverybodyTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = dc102a552bdacecf50d2d133 /* PKEverybodyTarget.m */; };
 		9f3da252cf040f52d727e3d2 /* FPPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = f0ce08508b955c394521acbe /* FPPacker.m */; };
 		D81D88EE168103F40042DB2C /* PKClientApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D81D88ED168103F40042DB2C /* PKClientApi.m */; };
 		D81D8910168114810042DB2C /* PKTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D81D890F168114810042DB2C /* PKTokenRequest.m */; };
+		D835B8ED16F9F2CF00166E3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5CF1678E66D008DDF39 /* UIKit.framework */; };
+		D835B8EE16F9F2CF00166E3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5BE1678E66D008DDF39 /* Foundation.framework */; };
+		D835B8F016F9F2CF00166E3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D835B8EF16F9F2CF00166E3C /* CoreGraphics.framework */; };
+		D835B8F616F9F2CF00166E3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D835B8F416F9F2CF00166E3C /* InfoPlist.strings */; };
+		D835B8F816F9F2CF00166E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D835B8F716F9F2CF00166E3C /* main.m */; };
+		D835B8FC16F9F2CF00166E3C /* PKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D835B8FB16F9F2CF00166E3C /* PKAppDelegate.m */; };
+		D835B8FE16F9F2CF00166E3C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D835B8FD16F9F2CF00166E3C /* Default.png */; };
+		D835B90016F9F2CF00166E3C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D835B8FF16F9F2CF00166E3C /* Default@2x.png */; };
+		D835B90216F9F2CF00166E3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D835B90116F9F2CF00166E3C /* Default-568h@2x.png */; };
+		D835B94F16F9F3CD00166E3C /* libperka-client-objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5BB1678E66D008DDF39 /* libperka-client-objc.a */; };
 		D8A8A5BF1678E66D008DDF39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5BE1678E66D008DDF39 /* Foundation.framework */; };
 		D8A8A5CE1678E66D008DDF39 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5CD1678E66D008DDF39 /* SenTestingKit.framework */; };
 		D8A8A5D01678E66D008DDF39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A8A5CF1678E66D008DDF39 /* UIKit.framework */; };
@@ -110,52 +77,34 @@
 		D8A8A5DA1678E66D008DDF39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8A8A5D81678E66D008DDF39 /* InfoPlist.strings */; };
 		D8A8A5DD1678E66D008DDF39 /* perka_client_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A8A5DC1678E66D008DDF39 /* perka_client_objcTests.m */; };
 		a34e36456058ad59c4528b42 /* PKPointsCatalogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2d4d6d70ce29a5fc50a74433 /* PKPointsCatalogItem.m */; };
-		a7a2b82155e8a6c8192d6b39 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		ae78bc4ce4db413b5dd8e2cb /* (null) in Sources */ = {isa = PBXBuildFile; };
-		ae9fc2cc5bcd7ecde7d21f8f /* (null) in Sources */ = {isa = PBXBuildFile; };
 		af018e631fd22af851e15cb3 /* PKReward.m in Sources */ = {isa = PBXBuildFile; fileRef = a35819d6696b92cfeb624913 /* PKReward.m */; };
 		afda4b7b03d8737d2b04450d /* PKAbstractUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 39be48ade450184e60a25916 /* PKAbstractUser.m */; };
-		b2603d4a8941aaa780703dcd /* (null) in Sources */ = {isa = PBXBuildFile; };
 		b2e4d9b63af1ecccdcdbaa15 /* PKInternalUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7df6ed490c5622a42a977f5d /* PKInternalUser.m */; };
-		b3ba714a7b0add4588671b7a /* (null) in Sources */ = {isa = PBXBuildFile; };
-		b718b4c84e7b3b1137a9c466 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		b940efe5eb71246820d2a8a7 /* PKOutboundMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = a7e1fcbfdb0e85f2e78be90b /* PKOutboundMessage.m */; };
-		ba6f307195fa0a5fb4460f71 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		baa35f1bd4c37394347676b5 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		bb27007240b8b489ca10ec4a /* (null) in Sources */ = {isa = PBXBuildFile; };
 		c2e8ef1756326c021d19efcb /* PKFirstVisitTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 86f19ff6f4371f4da96267b8 /* PKFirstVisitTarget.m */; };
-		c5e16e0ecd70d8cd19066b36 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		c8436dce1e25fbb374a0f018 /* PKProgramType.m in Sources */ = {isa = PBXBuildFile; fileRef = db3d4ef8871611cce735b0f7 /* PKProgramType.m */; };
 		ca2e273ba97bb42eca21e7e1 /* PKParticipationTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 47537a57e7bca31bcb779501 /* PKParticipationTarget.m */; };
-		caf6c87c000d5444a91a243e /* (null) in Sources */ = {isa = PBXBuildFile; };
 		cd50fe8cf7ecd8ef485d4150 /* PKMerchantUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 817e564bee74b5655f4a74c6 /* PKMerchantUser.m */; };
-		cf2282ed0cd0b2dddcb3f9c5 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		cff720253a06de5c8a687144 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		d14f2a7f0f1ca4fb2eebefe4 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		d1e8f5354e09e3da5770cfbd /* FPFlatpackRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = d837fe52b95741fa88274cb2 /* FPFlatpackRequest.m */; };
-		d37382b80bcc30c1abd71d9a /* (null) in Sources */ = {isa = PBXBuildFile; };
 		d46b2b599466b6dd8d7dde03 /* FPEntityDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 808a9284764df8ba039f9397 /* FPEntityDescription.m */; };
-		d7558a776c90ca8ac4041822 /* PKConsoleMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4e47367b534111459f79aee4 /* PKConsoleMessage.m */; };
-		d7fdef487585e3dc7691eee2 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		d9a093b395749ba82b8e0207 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		da3dc8d6b482824ad48a934a /* PKCouponTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = af65b6abdc61666c762d351d /* PKCouponTarget.m */; };
 		dae0cc31988421f67adc88e5 /* PKYieldManagementTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = fb98cd0b5326a2c545140525 /* PKYieldManagementTarget.m */; };
 		dd53974a7c67bb4a28cb8078 /* FPUnpacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 400a69fbc485c9ad129fac75 /* FPUnpacker.m */; };
 		e45847974133cb95fa337e16 /* PKNobodyTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 3baa457fa159b8ca1b46d37c /* PKNobodyTarget.m */; };
-		e7cf5802d4ef85cacbad41d4 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		e8095c5704461063d3db665c /* (null) in Sources */ = {isa = PBXBuildFile; };
 		e8bfd24ab5c12c6f9eebf675 /* PKUserCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = dcf0afe4dd462788c37d29f6 /* PKUserCredentials.m */; };
-		ed71509cfb508687b98b6774 /* PKSmsOutboundMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26e556f50529a0e27a1b9214 /* PKSmsOutboundMessage.m */; };
 		f00a030ad99ad014560203d3 /* PKBounceBackTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ccb2bfb9a67ea94fc2cccea /* PKBounceBackTarget.m */; };
-		f7bb248d521e2932abe55ef7 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		f8b73ebb03dad4264edcaa21 /* PKVisitConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5db80da6cc75506bb68f4c1a /* PKVisitConfirmation.m */; };
-		f99b017fc17247fb27264de4 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		fa52023d9510712a3bf45d3f /* PKRewardGrant.m in Sources */ = {isa = PBXBuildFile; fileRef = ea5d18f2885c0f1da1061989 /* PKRewardGrant.m */; };
 		fb391e42c9e3066b77ea0787 /* PKTierTraversal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ce95de0df5590ae0df23933 /* PKTierTraversal.m */; };
-		fb5f3e166ca93b3f21b336a8 /* (null) in Sources */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D835B94D16F9F39C00166E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8A8A5B21678E66D008DDF39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8A8A5BA1678E66D008DDF39;
+			remoteInfo = "perka-client-objc";
+		};
 		D86AC2AC168B85F5005793FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D86AC2A2168B85F5005793FE /* flatpack-objc.xcodeproj */;
@@ -209,14 +158,11 @@
 		163c3420bd9e94db2813509c /* PKMerchantLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantLocation.m; sourceTree = "<group>"; };
 		16e662010ca042f92c05afd7 /* PKAbstractRewardConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAbstractRewardConfirmation.h; sourceTree = "<group>"; };
 		19a6fbc25b8a91c9c79615e8 /* PKClerk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKClerk.h; sourceTree = "<group>"; };
-		1b5ce15eaff3ea466d5bdf23 /* PKOutboundMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKOutboundMessage.h; sourceTree = "<group>"; };
 		1b97a69656565890012d1c97 /* PKCompositeTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCompositeTarget.m; sourceTree = "<group>"; };
 		1cecfc296c258084f2359068 /* PKBaseEntityGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKBaseEntityGlobal.h; sourceTree = "<group>"; };
 		1e8dacd944b415a484272b85 /* PKBaseEntityGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKBaseEntityGlobal.m; sourceTree = "<group>"; };
 		1f2a5152a6838c170b9705f8 /* PKStreetAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKStreetAddress.m; sourceTree = "<group>"; };
-		206b9beaedf5b04bedb0fca8 /* PKPushMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPushMessage.m; sourceTree = "<group>"; };
 		23dbc89c01b42fb26c08722f /* PKSocialListTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSocialListTarget.m; sourceTree = "<group>"; };
-		26e556f50529a0e27a1b9214 /* PKSmsOutboundMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSmsOutboundMessage.m; sourceTree = "<group>"; };
 		27fcf05ae48a550ac9ddc782 /* PKMerchantLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantLocation.h; sourceTree = "<group>"; };
 		28484c4616884eec6c6d113f /* FPEntityDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPEntityDescription.h; sourceTree = "<group>"; };
 		286a8b8a27d26c5b4f8c4f53 /* FPUnpacker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPUnpacker.h; sourceTree = "<group>"; };
@@ -238,19 +184,16 @@
 		430ad434212d3dc820235acd /* NSString+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FP.m"; sourceTree = "<group>"; };
 		4311e00b89734e9b68104511 /* PKIdleCustomerTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKIdleCustomerTarget.h; sourceTree = "<group>"; };
 		4461b6aadcf9e041c8c3eb17 /* PKTierTraversalConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKTierTraversalConfirmation.m; sourceTree = "<group>"; };
-		46b17a9e9c70fafabdb74952 /* PKConsoleMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKConsoleMessage.h; sourceTree = "<group>"; };
 		472de69835f0a158fd21712d /* PKMerchant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchant.h; sourceTree = "<group>"; };
 		47537a57e7bca31bcb779501 /* PKParticipationTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKParticipationTarget.m; sourceTree = "<group>"; };
 		497328caadbd19225a5450be /* PKVisit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKVisit.h; sourceTree = "<group>"; };
 		4a354757d7e697192b2b6494 /* PKIntegratorUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKIntegratorUser.h; sourceTree = "<group>"; };
 		4c253bd3881097ff7367628d /* PKWeatherTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKWeatherTarget.h; sourceTree = "<group>"; };
-		4e47367b534111459f79aee4 /* PKConsoleMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKConsoleMessage.m; sourceTree = "<group>"; };
 		528329098255afe3fb799b14 /* PKRedemptionRewardConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRedemptionRewardConfirmation.m; sourceTree = "<group>"; };
 		571306ac51013c2c9f5a2c25 /* PKProgramType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKProgramType.h; sourceTree = "<group>"; };
 		57c093899c8e220beb78186d /* PKProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKProgram.h; sourceTree = "<group>"; };
 		598cc11d691a6875b69e3aab /* PKTierTraversalConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKTierTraversalConfirmation.h; sourceTree = "<group>"; };
 		5a31c3860540b7ac277830a4 /* PKSocialServiceSubscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKSocialServiceSubscription.h; sourceTree = "<group>"; };
-		5ba684ef639ddca4f29b37cf /* PKCustomerDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCustomerDevice.h; sourceTree = "<group>"; };
 		5d2eb6906542f2369fd302c9 /* PKMerchantUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantUser.h; sourceTree = "<group>"; };
 		5db80da6cc75506bb68f4c1a /* PKVisitConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKVisitConfirmation.m; sourceTree = "<group>"; };
 		6115e9fec1cd79886a93190c /* PKYieldManagementTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKYieldManagementTarget.h; sourceTree = "<group>"; };
@@ -261,7 +204,6 @@
 		6757761fe1846aff5ee0124f /* FPFlatpack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFlatpack.m; sourceTree = "<group>"; };
 		6b732b482514f8de65db527e /* PKVisitConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKVisitConfirmation.h; sourceTree = "<group>"; };
 		6d1a02ad476c73049ccb3806 /* FPProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPProperty.h; sourceTree = "<group>"; };
-		6e778c3fa60a53a04e7cd758 /* PKFeedbackItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKFeedbackItem.m; sourceTree = "<group>"; };
 		713d03a934e81f0aca19cef5 /* FPProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPProperty.m; sourceTree = "<group>"; };
 		71c91923df7d249f6503f551 /* NSDate+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FP.m"; sourceTree = "<group>"; };
 		78ed43421b6d2e554d370b7a /* FPBaseApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPBaseApi.h; sourceTree = "<group>"; };
@@ -270,7 +212,6 @@
 		7ce95de0df5590ae0df23933 /* PKTierTraversal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKTierTraversal.m; sourceTree = "<group>"; };
 		7df6ed490c5622a42a977f5d /* PKInternalUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKInternalUser.m; sourceTree = "<group>"; };
 		808a9284764df8ba039f9397 /* FPEntityDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPEntityDescription.m; sourceTree = "<group>"; };
-		811851d8fee3c1a5c16da292 /* PKMerchantDashboardMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantDashboardMessage.m; sourceTree = "<group>"; };
 		817e564bee74b5655f4a74c6 /* PKMerchantUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantUser.m; sourceTree = "<group>"; };
 		863f7d511f508997f13c63e7 /* PKWeatherTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKWeatherTarget.m; sourceTree = "<group>"; };
 		86f19ff6f4371f4da96267b8 /* PKFirstVisitTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKFirstVisitTarget.m; sourceTree = "<group>"; };
@@ -278,12 +219,10 @@
 		885488a72cbc5feaff850f93 /* PKMerchantDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantDevice.m; sourceTree = "<group>"; };
 		89e74ec582ed1d68cff3f619 /* PKNobodyTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKNobodyTarget.h; sourceTree = "<group>"; };
 		8a876bfc4e2016f9427e3c04 /* PKCouponVisibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCouponVisibility.m; sourceTree = "<group>"; };
-		8c9c076faa3a66804a51ce62 /* PKPushMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKPushMessage.h; sourceTree = "<group>"; };
 		8cf01ab1055e3802d49b2c76 /* PKFirstVisitTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKFirstVisitTarget.h; sourceTree = "<group>"; };
 		8e11b38341491641aad1a6f8 /* PKProgram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKProgram.m; sourceTree = "<group>"; };
 		8e15322143e2aab5df148815 /* PKEverybodyTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKEverybodyTarget.h; sourceTree = "<group>"; };
 		90fd639e4b5bd6e7c07c4894 /* NSDictionary+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FP.m"; sourceTree = "<group>"; };
-		92f49a4cf74db6fc5b77138c /* PKFeedbackItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKFeedbackItem.h; sourceTree = "<group>"; };
 		92f732509cb3669539a2fee6 /* PKPhysicalRedemptionTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPhysicalRedemptionTarget.m; sourceTree = "<group>"; };
 		98661e17c581ffb060b17108 /* PKSmsMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKSmsMessage.h; sourceTree = "<group>"; };
 		99e41b4f26df2f5eb6a03211 /* PKPointsActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPointsActivity.m; sourceTree = "<group>"; };
@@ -292,12 +231,24 @@
 		9a7bda1cb16900e8b102ba49 /* PKCouponCampaign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCouponCampaign.h; sourceTree = "<group>"; };
 		9b1e69486bd5a3fdef25188a /* PKCouponRedemption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCouponRedemption.h; sourceTree = "<group>"; };
 		9baa3c6d973fbd80e9feec58 /* PKSmsMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSmsMessage.m; sourceTree = "<group>"; };
+		9edef742418a6f4862003ce6 /* PKResetRewardConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKResetRewardConfirmation.h; sourceTree = "<group>"; };
 		9f81c53d7e876476002a92ff /* PKRedemptionCouponConfirmation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKRedemptionCouponConfirmation.h; sourceTree = "<group>"; };
 		9fa18cba07508483a2b164f8 /* PKProgramTier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKProgramTier.h; sourceTree = "<group>"; };
 		D81D88EC168103F40042DB2C /* PKClientApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKClientApi.h; sourceTree = "<group>"; };
 		D81D88ED168103F40042DB2C /* PKClientApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKClientApi.m; sourceTree = "<group>"; };
 		D81D890E168114810042DB2C /* PKTokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTokenRequest.h; sourceTree = "<group>"; };
 		D81D890F168114810042DB2C /* PKTokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTokenRequest.m; sourceTree = "<group>"; };
+		D835B8EC16F9F2CF00166E3C /* runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D835B8EF16F9F2CF00166E3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D835B8F316F9F2CF00166E3C /* runner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "runner-Info.plist"; sourceTree = "<group>"; };
+		D835B8F516F9F2CF00166E3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D835B8F716F9F2CF00166E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D835B8F916F9F2CF00166E3C /* runner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "runner-Prefix.pch"; sourceTree = "<group>"; };
+		D835B8FA16F9F2CF00166E3C /* PKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAppDelegate.h; sourceTree = "<group>"; };
+		D835B8FB16F9F2CF00166E3C /* PKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAppDelegate.m; sourceTree = "<group>"; };
+		D835B8FD16F9F2CF00166E3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D835B8FF16F9F2CF00166E3C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D835B90116F9F2CF00166E3C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D86AC2A2168B85F5005793FE /* flatpack-objc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "flatpack-objc.xcodeproj"; path = "../flatpack-objc/flatpack-objc.xcodeproj"; sourceTree = "<group>"; };
 		D8A8A5BB1678E66D008DDF39 /* libperka-client-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libperka-client-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A8A5BE1678E66D008DDF39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -313,7 +264,6 @@
 		a35819d6696b92cfeb624913 /* PKReward.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKReward.m; sourceTree = "<group>"; };
 		a45f1967c14260067f45ca3b /* PKCompositeTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCompositeTarget.h; sourceTree = "<group>"; };
 		a70751f385a2a12a67b9aeef /* PKCoupon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCoupon.m; sourceTree = "<group>"; };
-		a7e1fcbfdb0e85f2e78be90b /* PKOutboundMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKOutboundMessage.m; sourceTree = "<group>"; };
 		a81012379330eadc39f9b4af /* PKListTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKListTarget.m; sourceTree = "<group>"; };
 		a83bf54468600c7f3dd27296 /* PKMerchant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchant.m; sourceTree = "<group>"; };
 		ae6637477332cb46aa8bf3bf /* NSObject+FP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FP.m"; sourceTree = "<group>"; };
@@ -324,11 +274,10 @@
 		b69dab5317a3dbab52f1566e /* FPBaseHasUuid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPBaseHasUuid.m; sourceTree = "<group>"; };
 		b88b3503a541991853c3249b /* FPBaseHasUuid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPBaseHasUuid.h; sourceTree = "<group>"; };
 		b9b245461a0ceeaa141aa001 /* PKPunchRewardConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKPunchRewardConfirmation.m; sourceTree = "<group>"; };
-		bc762df92426e1b2c84d9f4c /* PKSmsOutboundMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKSmsOutboundMessage.h; sourceTree = "<group>"; };
 		bdef7dafa153d586dd024594 /* FPBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPBaseRequest.m; sourceTree = "<group>"; };
 		c1074e61c3fb4d8995d49812 /* PKSocialServiceSubscription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKSocialServiceSubscription.m; sourceTree = "<group>"; };
-		c22a8af469822c97da0bcb9b /* PKCannedEmailOutboundMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCannedEmailOutboundMessage.h; sourceTree = "<group>"; };
 		c526f6c036d2938ab1c6e5f6 /* FPPacker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPPacker.h; sourceTree = "<group>"; };
+		c906f13d2cd4fa0f409d23f0 /* PKResetRewardConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKResetRewardConfirmation.m; sourceTree = "<group>"; };
 		c990a7ea3e26cc9744cbf2b8 /* PKRedemptionCouponConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRedemptionCouponConfirmation.m; sourceTree = "<group>"; };
 		caba168945575511f1ab1444 /* PKCustomer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKCustomer.h; sourceTree = "<group>"; };
 		ce9b8edcc31971ac8aa705ce /* PKMerchantCapability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKMerchantCapability.m; sourceTree = "<group>"; };
@@ -340,7 +289,6 @@
 		d98b5346c96b7798aaaa2dab /* PKProgramTier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKProgramTier.m; sourceTree = "<group>"; };
 		d9ba8631ae43a516aba63325 /* PKCouponCampaign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCouponCampaign.m; sourceTree = "<group>"; };
 		db3d4ef8871611cce735b0f7 /* PKProgramType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKProgramType.m; sourceTree = "<group>"; };
-		dc0e85e9f453091205c38969 /* PKCustomerDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCustomerDevice.m; sourceTree = "<group>"; };
 		dc102a552bdacecf50d2d133 /* PKEverybodyTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKEverybodyTarget.m; sourceTree = "<group>"; };
 		dcf0afe4dd462788c37d29f6 /* PKUserCredentials.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKUserCredentials.m; sourceTree = "<group>"; };
 		dd6eb0f67f6f347fd4dff100 /* PKReward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKReward.h; sourceTree = "<group>"; };
@@ -358,17 +306,26 @@
 		f46987707322d3338b6e3d3a /* PKVisit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKVisit.m; sourceTree = "<group>"; };
 		f72df4d9c9d0cda215f1b702 /* PKCustomer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCustomer.m; sourceTree = "<group>"; };
 		f76114b7d7b2bc28580bd6ea /* NSHTTPURLResponse+FP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSHTTPURLResponse+FP.h"; sourceTree = "<group>"; };
-		f7d403d300067fa8260c39be /* PKMerchantDashboardMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantDashboardMessage.h; sourceTree = "<group>"; };
 		f80e6d5c005f721ebc1e67e7 /* PKMerchantDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKMerchantDevice.h; sourceTree = "<group>"; };
 		faf79826257796e7f5399500 /* PKLikeToUnlockTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKLikeToUnlockTarget.h; sourceTree = "<group>"; };
 		fb98cd0b5326a2c545140525 /* PKYieldManagementTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKYieldManagementTarget.m; sourceTree = "<group>"; };
 		fc93fa148bac344e52451c9a /* PKRewardAdvancement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKRewardAdvancement.m; sourceTree = "<group>"; };
-		fd58638e9f32e307150dd0f5 /* PKCannedEmailOutboundMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCannedEmailOutboundMessage.m; sourceTree = "<group>"; };
 		ffd6859f371c0b4c8ef19afb /* PKAbstractRewardConfirmation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAbstractRewardConfirmation.m; sourceTree = "<group>"; };
 		ffe5753adf8fbe7684d40100 /* PKEntityAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKEntityAnnotation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D835B8E916F9F2CF00166E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D835B94F16F9F3CD00166E3C /* libperka-client-objc.a in Frameworks */,
+				D835B8ED16F9F2CF00166E3C /* UIKit.framework in Frameworks */,
+				D835B8EE16F9F2CF00166E3C /* Foundation.framework in Frameworks */,
+				D835B8F016F9F2CF00166E3C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8A8A5B81678E66D008DDF39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,14 +391,10 @@
 				1e8dacd944b415a484272b85 /* PKBaseEntityGlobal.m */,
 				64c005e0569f6518be3b7026 /* PKBounceBackTarget.h */,
 				7ccb2bfb9a67ea94fc2cccea /* PKBounceBackTarget.m */,
-				c22a8af469822c97da0bcb9b /* PKCannedEmailOutboundMessage.h */,
-				fd58638e9f32e307150dd0f5 /* PKCannedEmailOutboundMessage.m */,
 				19a6fbc25b8a91c9c79615e8 /* PKClerk.h */,
 				0556ab8586fba3b365432747 /* PKClerk.m */,
 				a45f1967c14260067f45ca3b /* PKCompositeTarget.h */,
 				1b97a69656565890012d1c97 /* PKCompositeTarget.m */,
-				46b17a9e9c70fafabdb74952 /* PKConsoleMessage.h */,
-				4e47367b534111459f79aee4 /* PKConsoleMessage.m */,
 				30e949178e8348e1b3eb6514 /* PKCoupon.h */,
 				a70751f385a2a12a67b9aeef /* PKCoupon.m */,
 				9a7bda1cb16900e8b102ba49 /* PKCouponCampaign.h */,
@@ -454,14 +407,10 @@
 				8a876bfc4e2016f9427e3c04 /* PKCouponVisibility.m */,
 				caba168945575511f1ab1444 /* PKCustomer.h */,
 				f72df4d9c9d0cda215f1b702 /* PKCustomer.m */,
-				5ba684ef639ddca4f29b37cf /* PKCustomerDevice.h */,
-				dc0e85e9f453091205c38969 /* PKCustomerDevice.m */,
 				ffe5753adf8fbe7684d40100 /* PKEntityAnnotation.h */,
 				2db3c1797f056dd11021304d /* PKEntityAnnotation.m */,
 				8e15322143e2aab5df148815 /* PKEverybodyTarget.h */,
 				dc102a552bdacecf50d2d133 /* PKEverybodyTarget.m */,
-				92f49a4cf74db6fc5b77138c /* PKFeedbackItem.h */,
-				6e778c3fa60a53a04e7cd758 /* PKFeedbackItem.m */,
 				8cf01ab1055e3802d49b2c76 /* PKFirstVisitTarget.h */,
 				86f19ff6f4371f4da96267b8 /* PKFirstVisitTarget.m */,
 				4311e00b89734e9b68104511 /* PKIdleCustomerTarget.h */,
@@ -478,8 +427,6 @@
 				a83bf54468600c7f3dd27296 /* PKMerchant.m */,
 				d79b4bf41640c88b590ea6c9 /* PKMerchantCapability.h */,
 				ce9b8edcc31971ac8aa705ce /* PKMerchantCapability.m */,
-				f7d403d300067fa8260c39be /* PKMerchantDashboardMessage.h */,
-				811851d8fee3c1a5c16da292 /* PKMerchantDashboardMessage.m */,
 				f80e6d5c005f721ebc1e67e7 /* PKMerchantDevice.h */,
 				885488a72cbc5feaff850f93 /* PKMerchantDevice.m */,
 				27fcf05ae48a550ac9ddc782 /* PKMerchantLocation.h */,
@@ -488,8 +435,6 @@
 				817e564bee74b5655f4a74c6 /* PKMerchantUser.m */,
 				89e74ec582ed1d68cff3f619 /* PKNobodyTarget.h */,
 				3baa457fa159b8ca1b46d37c /* PKNobodyTarget.m */,
-				1b5ce15eaff3ea466d5bdf23 /* PKOutboundMessage.h */,
-				a7e1fcbfdb0e85f2e78be90b /* PKOutboundMessage.m */,
 				d630b9023ecb3eaf8fec34e0 /* PKParticipationTarget.h */,
 				47537a57e7bca31bcb779501 /* PKParticipationTarget.m */,
 				3b9a21bac0eed24579a19b08 /* PKPhysicalRedemptionTarget.h */,
@@ -508,8 +453,6 @@
 				db3d4ef8871611cce735b0f7 /* PKProgramType.m */,
 				05051cd7a9994b39609924b8 /* PKPunchRewardConfirmation.h */,
 				b9b245461a0ceeaa141aa001 /* PKPunchRewardConfirmation.m */,
-				8c9c076faa3a66804a51ce62 /* PKPushMessage.h */,
-				206b9beaedf5b04bedb0fca8 /* PKPushMessage.m */,
 				9f81c53d7e876476002a92ff /* PKRedemptionCouponConfirmation.h */,
 				c990a7ea3e26cc9744cbf2b8 /* PKRedemptionCouponConfirmation.m */,
 				8772d6d83da2066ead031d5d /* PKRedemptionRewardConfirmation.h */,
@@ -522,8 +465,6 @@
 				ea5d18f2885c0f1da1061989 /* PKRewardGrant.m */,
 				98661e17c581ffb060b17108 /* PKSmsMessage.h */,
 				9baa3c6d973fbd80e9feec58 /* PKSmsMessage.m */,
-				bc762df92426e1b2c84d9f4c /* PKSmsOutboundMessage.h */,
-				26e556f50529a0e27a1b9214 /* PKSmsOutboundMessage.m */,
 				666920baff908ff946444ff5 /* PKSocialListTarget.h */,
 				23dbc89c01b42fb26c08722f /* PKSocialListTarget.m */,
 				5a31c3860540b7ac277830a4 /* PKSocialServiceSubscription.h */,
@@ -546,8 +487,34 @@
 				863f7d511f508997f13c63e7 /* PKWeatherTarget.m */,
 				6115e9fec1cd79886a93190c /* PKYieldManagementTarget.h */,
 				fb98cd0b5326a2c545140525 /* PKYieldManagementTarget.m */,
+				9edef742418a6f4862003ce6 /* PKResetRewardConfirmation.h */,
+				c906f13d2cd4fa0f409d23f0 /* PKResetRewardConfirmation.m */,
 			);
 			path = generated;
+			sourceTree = "<group>";
+		};
+		D835B8F116F9F2CF00166E3C /* runner */ = {
+			isa = PBXGroup;
+			children = (
+				D835B8FA16F9F2CF00166E3C /* PKAppDelegate.h */,
+				D835B8FB16F9F2CF00166E3C /* PKAppDelegate.m */,
+				D835B8F216F9F2CF00166E3C /* Supporting Files */,
+			);
+			path = runner;
+			sourceTree = "<group>";
+		};
+		D835B8F216F9F2CF00166E3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D835B8F316F9F2CF00166E3C /* runner-Info.plist */,
+				D835B8F416F9F2CF00166E3C /* InfoPlist.strings */,
+				D835B8F716F9F2CF00166E3C /* main.m */,
+				D835B8F916F9F2CF00166E3C /* runner-Prefix.pch */,
+				D835B8FD16F9F2CF00166E3C /* Default.png */,
+				D835B8FF16F9F2CF00166E3C /* Default@2x.png */,
+				D835B90116F9F2CF00166E3C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D86AC2A3168B85F5005793FE /* Products */ = {
@@ -566,6 +533,7 @@
 				D86AC2A2168B85F5005793FE /* flatpack-objc.xcodeproj */,
 				D8A8A5C01678E66D008DDF39 /* perka-client-objc */,
 				D8A8A5D51678E66D008DDF39 /* perka-client-objcTests */,
+				D835B8F116F9F2CF00166E3C /* runner */,
 				D8A8A5BD1678E66D008DDF39 /* Frameworks */,
 				D8A8A5BC1678E66D008DDF39 /* Products */,
 			);
@@ -576,6 +544,7 @@
 			children = (
 				D8A8A5BB1678E66D008DDF39 /* libperka-client-objc.a */,
 				D8A8A5CC1678E66D008DDF39 /* perka-client-objcTests.octest */,
+				D835B8EC16F9F2CF00166E3C /* runner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -586,6 +555,7 @@
 				D8A8A5BE1678E66D008DDF39 /* Foundation.framework */,
 				D8A8A5CD1678E66D008DDF39 /* SenTestingKit.framework */,
 				D8A8A5CF1678E66D008DDF39 /* UIKit.framework */,
+				D835B8EF16F9F2CF00166E3C /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -633,6 +603,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D835B8EB16F9F2CF00166E3C /* runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D835B90316F9F2CF00166E3C /* Build configuration list for PBXNativeTarget "runner" */;
+			buildPhases = (
+				D835B8E816F9F2CF00166E3C /* Sources */,
+				D835B8E916F9F2CF00166E3C /* Frameworks */,
+				D835B8EA16F9F2CF00166E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D835B94E16F9F39C00166E3C /* PBXTargetDependency */,
+			);
+			name = runner;
+			productName = runner;
+			productReference = D835B8EC16F9F2CF00166E3C /* runner.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D8A8A5BA1678E66D008DDF39 /* perka-client-objc */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8A8A5E01678E66D008DDF39 /* Build configuration list for PBXNativeTarget "perka-client-objc" */;
@@ -698,6 +686,7 @@
 			targets = (
 				D8A8A5BA1678E66D008DDF39 /* perka-client-objc */,
 				D8A8A5CB1678E66D008DDF39 /* perka-client-objcTests */,
+				D835B8EB16F9F2CF00166E3C /* runner */,
 			);
 		};
 /* End PBXProject section */
@@ -727,6 +716,17 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D835B8EA16F9F2CF00166E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D835B8F616F9F2CF00166E3C /* InfoPlist.strings in Resources */,
+				D835B8FE16F9F2CF00166E3C /* Default.png in Resources */,
+				D835B90016F9F2CF00166E3C /* Default@2x.png in Resources */,
+				D835B90216F9F2CF00166E3C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8A8A5C91678E66D008DDF39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -754,92 +754,36 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D835B8E816F9F2CF00166E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D835B8F816F9F2CF00166E3C /* main.m in Sources */,
+				D835B8FC16F9F2CF00166E3C /* PKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8A8A5B71678E66D008DDF39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4cb99d93f555a5a5a5a16026 /* (null) in Sources */,
-				c5e16e0ecd70d8cd19066b36 /* (null) in Sources */,
-				ae9fc2cc5bcd7ecde7d21f8f /* (null) in Sources */,
-				6271b14d44611a97cd0db687 /* (null) in Sources */,
-				e7cf5802d4ef85cacbad41d4 /* (null) in Sources */,
-				6ba661ad2ae75017fbba1da3 /* (null) in Sources */,
-				d9a093b395749ba82b8e0207 /* (null) in Sources */,
-				402352bb8fca8ceb615ca738 /* (null) in Sources */,
-				351fc61240d81c054593ee82 /* (null) in Sources */,
-				2f5ddec44ad56a51a91a2f5b /* (null) in Sources */,
-				640edf3b6dcae85fccd4b7f7 /* (null) in Sources */,
-				2b613f0193c270dcc03aeb47 /* (null) in Sources */,
-				8250d9dd4e44ba881c40765c /* (null) in Sources */,
-				baa35f1bd4c37394347676b5 /* (null) in Sources */,
-				7e4fa93728ca2a5f81ab9072 /* (null) in Sources */,
-				fb5f3e166ca93b3f21b336a8 /* (null) in Sources */,
-				ae78bc4ce4db413b5dd8e2cb /* (null) in Sources */,
-				f7bb248d521e2932abe55ef7 /* (null) in Sources */,
-				7dfdcb35ad18c05ad67c8288 /* (null) in Sources */,
-				5801a2fcfde4a8e8c41f77f7 /* (null) in Sources */,
-				9d88e2c4d94ebade10e1fded /* (null) in Sources */,
-				8f0a133f5fb0053d5ece99d4 /* (null) in Sources */,
-				d14f2a7f0f1ca4fb2eebefe4 /* (null) in Sources */,
-				9ae0d68b7dca41df64ba06d4 /* (null) in Sources */,
-				6eb8ea3ec7425747d3570366 /* (null) in Sources */,
-				ba6f307195fa0a5fb4460f71 /* (null) in Sources */,
-				170efc52093b20f6edd18214 /* (null) in Sources */,
-				caf6c87c000d5444a91a243e /* (null) in Sources */,
-				199b74c3705abbac3b7ba2a6 /* (null) in Sources */,
-				e8095c5704461063d3db665c /* (null) in Sources */,
-				0ee3acfdce538f3934c684e9 /* (null) in Sources */,
-				199a924754f56a0cf2e6246b /* (null) in Sources */,
-				9aa4a89ec844754917ee0723 /* (null) in Sources */,
-				b718b4c84e7b3b1137a9c466 /* (null) in Sources */,
-				5422507cc8d5ebe293f90cf7 /* (null) in Sources */,
-				639bb6c7630422e19f1b27cf /* (null) in Sources */,
-				343bdf8482be3533e7f5233c /* (null) in Sources */,
-				88e049a73114facfffc88e86 /* (null) in Sources */,
-				bb27007240b8b489ca10ec4a /* (null) in Sources */,
-				717c3f730c8f2e1d036c71f0 /* (null) in Sources */,
-				6cfe20c1929911a4153c97c8 /* (null) in Sources */,
-				d37382b80bcc30c1abd71d9a /* (null) in Sources */,
-				d7fdef487585e3dc7691eee2 /* (null) in Sources */,
-				900d4b4014383cf858828615 /* (null) in Sources */,
-				b2603d4a8941aaa780703dcd /* (null) in Sources */,
-				59a31a229231cfe770ebf06a /* (null) in Sources */,
-				104a9a99590a8f640a83f13e /* (null) in Sources */,
-				b3ba714a7b0add4588671b7a /* (null) in Sources */,
-				a7a2b82155e8a6c8192d6b39 /* (null) in Sources */,
-				8dce03434b58dde567e8bb9d /* (null) in Sources */,
-				01b1d7a1fd9c1e5c5d59923c /* (null) in Sources */,
-				1e320c620277736eb118db28 /* (null) in Sources */,
-				f99b017fc17247fb27264de4 /* (null) in Sources */,
-				cff720253a06de5c8a687144 /* (null) in Sources */,
-				3704ae4c66958e480757d6e6 /* (null) in Sources */,
-				7f1626eb5b07800118c574a3 /* (null) in Sources */,
-				cf2282ed0cd0b2dddcb3f9c5 /* (null) in Sources */,
-				574be51766422da06164f2ca /* (null) in Sources */,
-				80b526310e37fa10bab8512b /* (null) in Sources */,
-				96d1f738aba8c9b796d29ca7 /* (null) in Sources */,
 				D81D88EE168103F40042DB2C /* PKClientApi.m in Sources */,
-				347b18ae7f094f28b39e2d41 /* (null) in Sources */,
 				D81D8910168114810042DB2C /* PKTokenRequest.m in Sources */,
 				11ead2210b450781652d0d94 /* PKAbstractRewardConfirmation.m in Sources */,
 				afda4b7b03d8737d2b04450d /* PKAbstractUser.m in Sources */,
 				1dd94817b9e9d42a756838de /* PKBaseApi.m in Sources */,
 				04d7cbf756ef29a1698b2239 /* PKBaseEntityGlobal.m in Sources */,
 				f00a030ad99ad014560203d3 /* PKBounceBackTarget.m in Sources */,
-				76ad1a091bb15cc011ae5729 /* PKCannedEmailOutboundMessage.m in Sources */,
 				4bfd5ceb618b1454ddd3c698 /* PKClerk.m in Sources */,
 				3e019fdb17e6fe0dbdf2a72e /* PKCompositeTarget.m in Sources */,
-				d7558a776c90ca8ac4041822 /* PKConsoleMessage.m in Sources */,
 				9122d961ed9db9e7c7390e1b /* PKCoupon.m in Sources */,
 				2abc94fec2c86f67ee9eff73 /* PKCouponCampaign.m in Sources */,
 				1f5035998617cd537a1af32b /* PKCouponRedemption.m in Sources */,
 				da3dc8d6b482824ad48a934a /* PKCouponTarget.m in Sources */,
 				949aa1b6abcb08657b95e170 /* PKCouponVisibility.m in Sources */,
 				75a835e29755910b5bab8a15 /* PKCustomer.m in Sources */,
-				74b69175b541ef92c3836a6b /* PKCustomerDevice.m in Sources */,
 				2c5cac0d3c56b24a2f9d8a6e /* PKEntityAnnotation.m in Sources */,
 				9eb01fc7f728f0b453720510 /* PKEverybodyTarget.m in Sources */,
-				5d20fab869e8a656b38d8b4f /* PKFeedbackItem.m in Sources */,
 				c2e8ef1756326c021d19efcb /* PKFirstVisitTarget.m in Sources */,
 				95006853fa403090c6674f57 /* PKIdleCustomerTarget.m in Sources */,
 				40e490cf2fd9bcc63d22715f /* PKIntegratorUser.m in Sources */,
@@ -848,12 +792,10 @@
 				4a18e67cb88e9ca76d5ebd17 /* PKListTarget.m in Sources */,
 				50b8d2989e9819c88d388ab1 /* PKMerchant.m in Sources */,
 				96f2f75f062b3cd50c62babd /* PKMerchantCapability.m in Sources */,
-				2e1a5639961a4b35603b0533 /* PKMerchantDashboardMessage.m in Sources */,
 				109203910f62f571a96da7f3 /* PKMerchantDevice.m in Sources */,
 				140ffb1d83e80e7901ef7272 /* PKMerchantLocation.m in Sources */,
 				cd50fe8cf7ecd8ef485d4150 /* PKMerchantUser.m in Sources */,
 				e45847974133cb95fa337e16 /* PKNobodyTarget.m in Sources */,
-				b940efe5eb71246820d2a8a7 /* PKOutboundMessage.m in Sources */,
 				ca2e273ba97bb42eca21e7e1 /* PKParticipationTarget.m in Sources */,
 				10073bc89641162393b335ce /* PKPhysicalRedemptionTarget.m in Sources */,
 				5bb42b208ea095e235657c30 /* PKPointsActivity.m in Sources */,
@@ -863,14 +805,12 @@
 				44bc7279ffeb03fafb206b7a /* PKProgramTier.m in Sources */,
 				c8436dce1e25fbb374a0f018 /* PKProgramType.m in Sources */,
 				3bcc6ce44ed744a45a268c21 /* PKPunchRewardConfirmation.m in Sources */,
-				7eed568686ee68c462eb6a6b /* PKPushMessage.m in Sources */,
 				7631c8cbd23988245f07f1ca /* PKRedemptionCouponConfirmation.m in Sources */,
 				9d787ab2ff8e49a439a3e2da /* PKRedemptionRewardConfirmation.m in Sources */,
 				af018e631fd22af851e15cb3 /* PKReward.m in Sources */,
 				4c495176e736b549aa624082 /* PKRewardAdvancement.m in Sources */,
 				fa52023d9510712a3bf45d3f /* PKRewardGrant.m in Sources */,
 				8bef9c3a1f40eadcca710f9a /* PKSmsMessage.m in Sources */,
-				ed71509cfb508687b98b6774 /* PKSmsOutboundMessage.m in Sources */,
 				257f2a8fe059add2dcecb6f1 /* PKSocialListTarget.m in Sources */,
 				0e4e22eb63099c251897764b /* PKSocialServiceSubscription.m in Sources */,
 				1682bc98f29a28b650dde414 /* PKStreetAddress.m in Sources */,
@@ -897,6 +837,7 @@
 				9f3da252cf040f52d727e3d2 /* FPPacker.m in Sources */,
 				898ce28489e0e81d77fadd59 /* FPProperty.m in Sources */,
 				dd53974a7c67bb4a28cb8078 /* FPUnpacker.m in Sources */,
+				353b2320b09345cf2126426c /* PKResetRewardConfirmation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -911,6 +852,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D835B94E16F9F39C00166E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8A8A5BA1678E66D008DDF39 /* perka-client-objc */;
+			targetProxy = D835B94D16F9F39C00166E3C /* PBXContainerItemProxy */;
+		};
 		D8A8A5D31678E66D008DDF39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D8A8A5BA1678E66D008DDF39 /* perka-client-objc */;
@@ -919,6 +865,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D835B8F416F9F2CF00166E3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D835B8F516F9F2CF00166E3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		D8A8A5D81678E66D008DDF39 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -930,6 +884,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D835B90416F9F2CF00166E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "runner/runner-Prefix.pch";
+				INFOPLIST_FILE = "runner/runner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D835B90516F9F2CF00166E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "runner/runner-Prefix.pch";
+				INFOPLIST_FILE = "runner/runner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		D8A8A5DE1678E66D008DDF39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1048,6 +1047,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D835B90316F9F2CF00166E3C /* Build configuration list for PBXNativeTarget "runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D835B90416F9F2CF00166E3C /* Debug */,
+				D835B90516F9F2CF00166E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D8A8A5B51678E66D008DDF39 /* Build configuration list for PBXProject "perka-client-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

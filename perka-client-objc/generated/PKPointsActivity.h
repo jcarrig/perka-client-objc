@@ -23,6 +23,6 @@
 
 @property (strong) PKPointsCatalogItem *redeemed;
 
-@property (strong) PKVisit *visit;
+@property (weak) PKVisit *visit;
 
 @end

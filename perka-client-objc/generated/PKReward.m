@@ -82,6 +82,14 @@ static NSMutableArray *_allProperties;
                       @"impliedProperty":[FPProperty propertyForUuid:@"4aa06b21-bcd2-3b6a-8745-8f9dc3c1e9b9"]
                     }]];
 
+  // skuRedeemed
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"12cae622-02e4-38db-ac64-a6eb60a091e4"
+                    withDictionary:@{
+                      @"name":@"skuRedeemed",
+                      @"kind":[NSString class]
+                    }]];
+
   // transferredAt
   [_allProperties addObject:
     [FPProperty setPropertyForUuid:@"c0ffedaf-be1a-3442-8042-1857aa4e654c"

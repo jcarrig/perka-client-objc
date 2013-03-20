@@ -18,6 +18,10 @@
 
 @property (strong) NSString *city;
 
+/** Possible values: AU, CA, KY, IE, MX, PA, PR, ZA, UK, US
+*/
+@property (strong) NSString *country;
+
 @property (strong) NSString *state;
 
 @property (strong) NSString *zip;

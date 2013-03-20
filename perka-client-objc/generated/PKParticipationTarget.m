@@ -9,6 +9,7 @@
 
 @implementation PKParticipationTarget
 
+@synthesize metric = _metric;
 @synthesize programType = _programType;
 
 static FPEntityDescription *_entityDescription;
@@ -18,6 +19,14 @@ static NSMutableArray *_allProperties;
   [super load];
 
   _allProperties = [NSMutableArray array];
+  // metric
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"7f8cb1b8-70db-3dbe-9ca5-2612b2a4cca5"
+                    withDictionary:@{
+                      @"name":@"metric",
+                      @"kind":[NSString class]
+                    }]];
+
   // programType
   [_allProperties addObject:
     [FPProperty setPropertyForUuid:@"1b6275fb-34bf-3dd3-9ac1-5a31b77231b1"

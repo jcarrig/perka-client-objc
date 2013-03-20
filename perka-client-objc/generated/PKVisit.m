@@ -2,7 +2,6 @@
 
 #import "PKCouponRedemption.h"
 #import "PKCustomer.h"
-#import "PKFeedbackItem.h"
 #import "PKMerchantLocation.h"
 #import "PKPointsActivity.h"
 #import "PKRewardAdvancement.h"
@@ -16,7 +15,6 @@
 
 @synthesize currentPointsActivity = _currentPointsActivity;
 @synthesize customer = _customer;
-@synthesize feedbackItem = _feedbackItem;
 @synthesize merchantLocation = _merchantLocation;
 @synthesize couponRedemptions = _couponRedemptions;
 @synthesize pointsActivities = _pointsActivities;
@@ -53,14 +51,6 @@ static NSMutableArray *_allProperties;
                       @"name":@"customer",
                       @"kind":[PKCustomer class],
                       @"impliedProperty":[FPProperty propertyForUuid:@"5fbef852-421f-3951-9337-2dac4d623338"]
-                    }]];
-
-  // feedbackItem
-  [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"1ab83244-8f99-3688-80c8-2ea584ead5ab"
-                    withDictionary:@{
-                      @"name":@"feedbackItem",
-                      @"kind":[PKFeedbackItem class]
                     }]];
 
   // merchantLocation

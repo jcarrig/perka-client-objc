@@ -13,9 +13,9 @@
 */
 @interface PKTierTraversal : PKBaseEntityGlobal
 
-@property (strong) PKCustomer *customer;
+@property (weak) PKCustomer *customer;
 
-@property (strong) PKProgramTier *programTier;
+@property (weak) PKProgramTier *programTier;
 
 @property (strong) NSNumber *visitCount;
 

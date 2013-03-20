@@ -3,7 +3,6 @@
 #import "PKClerk.h"
 #import "PKMerchant.h"
 #import "PKMerchantLocation.h"
-#import "PKOutboundMessage.h"
 #import "FPBaseHasUuid.h"
 #import "FPEntityDescription.h"
 #import "FPProperty.h"
@@ -13,7 +12,6 @@
 
 @synthesize merchant = _merchant;
 @synthesize merchantLocations = _merchantLocations;
-@synthesize outboundMessages = _outboundMessages;
 
 static FPEntityDescription *_entityDescription;
 static NSMutableArray *_allProperties;
@@ -55,14 +53,6 @@ static NSMutableArray *_allProperties;
                       @"kind":[NSMutableArray class]
                     }]];
 
-  // outboundMessages
-  [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"265b40d5-0ac7-3a60-8346-85489dcef62d"
-                    withDictionary:@{
-                      @"name":@"outboundMessages",
-                      @"kind":[NSMutableArray class]
-                    }]];
-
   // unconfirmedEmail
   [_allProperties addObject:
     [FPProperty setPropertyForUuid:@"9d277711-fa04-38f6-aeff-8491680cc665"
@@ -90,7 +80,6 @@ static NSMutableArray *_allProperties;
   self = [super init];
   if(self != nil) {
     _merchantLocations = [NSMutableArray new];
-    _outboundMessages = [NSMutableArray new];
   }
   return self;
 }
@@ -115,17 +104,6 @@ static NSMutableArray *_allProperties;
 }
 - (void)addItemToMerchantLocations:(PKMerchantLocation *)item {
   [_merchantLocations addObject:item];
-}
-
-// outboundMessages one-to-many accessors to maintain bi-directional relationships
-- (NSMutableArray *)outboundMessages {
-  return _outboundMessages;
-}
-- (void)setOutboundMessages:(NSMutableArray *)outboundMessages {
-  _outboundMessages = [outboundMessages mutableCopy];
-}
-- (void)addItemToOutboundMessages:(PKOutboundMessage *)item {
-  [_outboundMessages addObject:item];
 }
 
 @end

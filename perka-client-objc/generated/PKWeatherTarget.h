@@ -22,6 +22,14 @@
 */
 @property (strong) NSString *localMetricAt;
 
+/** Possible values: PUNCH_COUNT, TOP_N, TOP_PCT, VISIT_COUNT
+*/
+@property (strong) NSString *metric;
+
+/** Possible values: AND, NOT, OR
+*/
+@property (strong) NSString *operation;
+
 @property (strong) NSNumber *threshold;
 
 @end

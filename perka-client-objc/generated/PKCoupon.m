@@ -62,22 +62,6 @@ static NSMutableArray *_allProperties;
                       @"kind":[NSString class]
                     }]];
 
-  // notifyMinutesBefore
-  [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"a1e1390d-6d31-345f-95f1-ce689a866e6b"
-                    withDictionary:@{
-                      @"name":@"notifyMinutesBefore",
-                      @"kind":[NSNumber class]
-                    }]];
-
-  // perkId
-  [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"0c29c488-eee8-37e4-9f88-117061985f19"
-                    withDictionary:@{
-                      @"name":@"perkId",
-                      @"kind":[NSString class]
-                    }]];
-
   // pushEnabled
   [_allProperties addObject:
     [FPProperty setPropertyForUuid:@"8e23c911-3f9e-3a94-9bec-820c21a67b68"

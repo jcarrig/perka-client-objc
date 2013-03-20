@@ -28,6 +28,14 @@ static NSMutableArray *_allProperties;
                       @"kind":[PKCustomer class]
                     }]];
 
+  // effectiveAt
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"1169a008-a877-3de6-ad28-146a66c44d23"
+                    withDictionary:@{
+                      @"name":@"effectiveAt",
+                      @"kind":[NSString class]
+                    }]];
+
   // rewardConfirmations
   [_allProperties addObject:
     [FPProperty setPropertyForUuid:@"c05c6ea5-5014-3c3e-aef6-71b10ec3668f"

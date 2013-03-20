@@ -1,5 +1,6 @@
 // Generated File - DO NOT EDIT
 
+#import "PKProgram.h"
 #import "PKProgramType.h"
 #import "FPBaseHasUuid.h"
 #import "FPEntityDescription.h"
@@ -8,6 +9,7 @@
 
 @implementation PKProgramType
 
+@synthesize programs = _programs;
 
 static FPEntityDescription *_entityDescription;
 static NSMutableArray *_allProperties;
@@ -48,6 +50,23 @@ static NSMutableArray *_allProperties;
                       @"kind":[NSNumber class]
                     }]];
 
+  // programs
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"a2ca494a-56fd-35e5-b4d7-d382208b2731"
+                    withDictionary:@{
+                      @"name":@"programs",
+                      @"kind":[NSMutableArray class],
+                      @"impliedProperty":[FPProperty propertyForUuid:@"acc11868-2193-3611-8a20-cdecce735aee"]
+                    }]];
+
+  // shared
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"5a41c277-84ca-3d76-8446-8fd442d5bf88"
+                    withDictionary:@{
+                      @"name":@"shared",
+                      @"kind":[NSNumber class]
+                    }]];
+
   // stampId
   [_allProperties addObject:
     [FPProperty setPropertyForUuid:@"8e7b220f-76e5-3221-94c7-470d01b0e624"
@@ -68,6 +87,30 @@ static NSMutableArray *_allProperties;
 
 + (FPEntityDescription *)entityDescription {
   return _entityDescription;
+}
+
+// initialize collection properties
+- (id)init {
+  self = [super init];
+  if(self != nil) {
+    _programs = [NSMutableArray new];
+  }
+  return self;
+}
+
+// programs one-to-many accessors to maintain bi-directional relationships
+- (NSMutableArray *)programs {
+  return _programs;
+}
+- (void)setPrograms:(NSMutableArray *)programs {
+  _programs = [programs mutableCopy];
+  [_programs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+    [obj setValue:self forKey:@"programType"];
+  }];
+}
+- (void)addItemToPrograms:(PKProgram *)item {
+  [_programs addObject:item];
+  [item setValue:self forKey:@"programType"];
 }
 
 @end

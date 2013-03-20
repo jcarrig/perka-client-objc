@@ -16,6 +16,6 @@
 
 @property (strong) NSString *redeemedAt;
 
-@property (strong) PKVisit *visit;
+@property (weak) PKVisit *visit;
 
 @end

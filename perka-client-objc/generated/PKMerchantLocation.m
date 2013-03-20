@@ -59,14 +59,6 @@ static NSMutableArray *_allProperties;
                       @"kind":[NSNumber class]
                     }]];
 
-  // geoLocation
-  [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"1b499958-b96f-3ae9-85b5-6a0428d5955a"
-                    withDictionary:@{
-                      @"name":@"geoLocation",
-                      @"kind":[NSObject class]
-                    }]];
-
   // latitude
   [_allProperties addObject:
     [FPProperty setPropertyForUuid:@"2e5ebe42-283e-302c-bdf6-9a1070fb3f6a"

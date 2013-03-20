@@ -130,6 +130,11 @@
       return self;
     }
 
+   -(PKGetCustomerVisitValidateRequest *)withFastPoll:(NSString *)fastPoll {
+      [self setQueryParameterWithName:@"fastPoll" value:fastPoll];
+      return self;
+    }
+
   -(NSArray *)execute {
     return [self baseExecute];
   }

@@ -8,6 +8,7 @@
 
 @implementation PKStreetAddress
 
+@synthesize country = _country;
 
 static FPEntityDescription *_entityDescription;
 static NSMutableArray *_allProperties;
@@ -37,6 +38,14 @@ static NSMutableArray *_allProperties;
     [FPProperty setPropertyForUuid:@"ef486fc5-cb3d-310d-a7cf-0c6ce659d14d"
                     withDictionary:@{
                       @"name":@"city",
+                      @"kind":[NSString class]
+                    }]];
+
+  // country
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"e393351a-bfb4-3496-939c-401f28e9982e"
+                    withDictionary:@{
+                      @"name":@"country",
                       @"kind":[NSString class]
                     }]];
 

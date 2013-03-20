@@ -1,8 +1,6 @@
 // Generated File - DO NOT EDIT
 
 #import "PKCustomer.h"
-#import "PKCustomerDevice.h"
-#import "PKIntegratorUser.h"
 #import "PKMerchantLocation.h"
 #import "PKReward.h"
 #import "PKSmsMessage.h"
@@ -16,9 +14,7 @@
 
 @implementation PKCustomer
 
-@synthesize managedBy = _managedBy;
 @synthesize waitingMerchantLocation = _waitingMerchantLocation;
-@synthesize customerDevices = _customerDevices;
 @synthesize rewards = _rewards;
 @synthesize smsMessages = _smsMessages;
 @synthesize socialServiceSubscriptions = _socialServiceSubscriptions;
@@ -40,29 +36,12 @@ static NSMutableArray *_allProperties;
                       @"kind":[NSString class]
                     }]];
 
-  // customerDevices
-  [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"f2e46fe5-9a3a-33d4-b596-9c2e786866fd"
-                    withDictionary:@{
-                      @"name":@"customerDevices",
-                      @"kind":[NSMutableArray class],
-                      @"impliedProperty":[FPProperty propertyForUuid:@"b268ca77-a404-3bbc-a1fd-2e2d656081bd"]
-                    }]];
-
   // email
   [_allProperties addObject:
     [FPProperty setPropertyForUuid:@"df85ea92-7b07-3486-bd03-e6ec4d303e38"
                     withDictionary:@{
                       @"name":@"email",
                       @"kind":[NSString class]
-                    }]];
-
-  // managedBy
-  [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"3ba35b5e-2fdb-370f-974b-902eaf8fd9b2"
-                    withDictionary:@{
-                      @"name":@"managedBy",
-                      @"kind":[PKIntegratorUser class]
                     }]];
 
   // rewards
@@ -152,7 +131,6 @@ static NSMutableArray *_allProperties;
 - (id)init {
   self = [super init];
   if(self != nil) {
-    _customerDevices = [NSMutableArray new];
     _rewards = [NSMutableArray new];
     _smsMessages = [NSMutableArray new];
     _socialServiceSubscriptions = [NSMutableArray new];
@@ -160,21 +138,6 @@ static NSMutableArray *_allProperties;
     _visits = [NSMutableArray new];
   }
   return self;
-}
-
-// customerDevices one-to-many accessors to maintain bi-directional relationships
-- (NSMutableArray *)customerDevices {
-  return _customerDevices;
-}
-- (void)setCustomerDevices:(NSMutableArray *)customerDevices {
-  _customerDevices = [customerDevices mutableCopy];
-  [_customerDevices enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-    [obj setValue:self forKey:@"customer"];
-  }];
-}
-- (void)addItemToCustomerDevices:(PKCustomerDevice *)item {
-  [_customerDevices addObject:item];
-  [item setValue:self forKey:@"customer"];
 }
 
 // rewards one-to-many accessors to maintain bi-directional relationships

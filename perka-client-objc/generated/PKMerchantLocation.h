@@ -29,13 +29,11 @@
 
 @property (strong) NSNumber *distanceInMeters;
 
-@property (strong) NSObject *geoLocation;
-
 @property (strong) NSNumber *latitude;
 
 @property (strong) NSNumber *longitude;
 
-@property (strong) PKMerchant *merchant;
+@property (weak) PKMerchant *merchant;
 
 @property (strong) NSMutableArray *merchantDevices;
 

@@ -14,11 +14,15 @@
 
 @implementation PKMerchant
 
+@synthesize loyaltyType = _loyaltyType;
+@synthesize merchantState = _merchantState;
+@synthesize parentMerchant = _parentMerchant;
 @synthesize clerks = _clerks;
 @synthesize merchantCapabilities = _merchantCapabilities;
 @synthesize merchantLocations = _merchantLocations;
 @synthesize merchantUsers = _merchantUsers;
 @synthesize pointsCatalogItems = _pointsCatalogItems;
+@synthesize possibleMerchantStates = _possibleMerchantStates;
 @synthesize programTiers = _programTiers;
 
 static FPEntityDescription *_entityDescription;
@@ -45,12 +49,20 @@ static NSMutableArray *_allProperties;
                       @"kind":[NSString class]
                     }]];
 
-  // lastActionAt
+  // loyaltyType
   [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"b88ac023-cd2d-3b85-862f-817d0b15be6d"
+    [FPProperty setPropertyForUuid:@"705dac16-44d0-3f79-b133-80f4e907ae95"
                     withDictionary:@{
-                      @"name":@"lastActionAt",
+                      @"name":@"loyaltyType",
                       @"kind":[NSString class]
+                    }]];
+
+  // managed
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"fca40eed-0e24-3506-857d-f5f520cf9a88"
+                    withDictionary:@{
+                      @"name":@"managed",
+                      @"kind":[NSNumber class]
                     }]];
 
   // merchantCapabilities
@@ -71,6 +83,14 @@ static NSMutableArray *_allProperties;
                       @"impliedProperty":[FPProperty propertyForUuid:@"789fa31e-209d-3b34-842b-8ba8f92a11f5"]
                     }]];
 
+  // merchantState
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"99a63fa0-c4f1-3326-ae14-f6a227e81d4e"
+                    withDictionary:@{
+                      @"name":@"merchantState",
+                      @"kind":[NSString class]
+                    }]];
+
   // merchantUsers
   [_allProperties addObject:
     [FPProperty setPropertyForUuid:@"cb3bc90e-389e-376b-a3a9-c9c1f71a5214"
@@ -88,12 +108,12 @@ static NSMutableArray *_allProperties;
                       @"kind":[NSString class]
                     }]];
 
-  // notes
+  // parentMerchant
   [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"9603a33c-6363-38e1-89dc-5cb1f9eb5c06"
+    [FPProperty setPropertyForUuid:@"d8f176b6-d483-3eae-9c8a-933f85982de1"
                     withDictionary:@{
-                      @"name":@"notes",
-                      @"kind":[NSString class]
+                      @"name":@"parentMerchant",
+                      @"kind":[PKMerchant class]
                     }]];
 
   // pointsCatalogItems
@@ -111,6 +131,14 @@ static NSMutableArray *_allProperties;
                     withDictionary:@{
                       @"name":@"pointsSignupBonus",
                       @"kind":[NSObject class]
+                    }]];
+
+  // possibleMerchantStates
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"f74b1a37-52f9-381b-ac58-1aee9578f277"
+                    withDictionary:@{
+                      @"name":@"possibleMerchantStates",
+                      @"kind":[NSMutableArray class]
                     }]];
 
   // programTiers
@@ -177,6 +205,7 @@ static NSMutableArray *_allProperties;
     _merchantLocations = [NSMutableArray new];
     _merchantUsers = [NSMutableArray new];
     _pointsCatalogItems = [NSMutableArray new];
+    _possibleMerchantStates = [NSMutableArray new];
     _programTiers = [NSMutableArray new];
   }
   return self;
@@ -255,6 +284,17 @@ static NSMutableArray *_allProperties;
 - (void)addItemToPointsCatalogItems:(PKPointsCatalogItem *)item {
   [_pointsCatalogItems addObject:item];
   [item setValue:self forKey:@"merchant"];
+}
+
+// possibleMerchantStates one-to-many accessors to maintain bi-directional relationships
+- (NSMutableArray *)possibleMerchantStates {
+  return _possibleMerchantStates;
+}
+- (void)setPossibleMerchantStates:(NSMutableArray *)possibleMerchantStates {
+  _possibleMerchantStates = [possibleMerchantStates mutableCopy];
+}
+- (void)addItemToPossibleMerchantStates:(NSString *)item {
+  [_possibleMerchantStates addObject:item];
 }
 
 // programTiers one-to-many accessors to maintain bi-directional relationships

@@ -5,7 +5,6 @@
 
 @class PKCouponRedemption;
 @class PKCustomer;
-@class PKFeedbackItem;
 @class PKMerchantLocation;
 @class PKPointsActivity;
 @class PKRewardAdvancement;
@@ -16,8 +15,6 @@
 */
 @interface PKVisit : PKBaseEntityGlobal
 
-/** The \link PKCoupon Coupons \endlink that were redeemed during the visit.
-*/
 @property (strong) NSMutableArray *couponRedemptions;
 
 /** The latest \link PKPointsActivity PointsActivity \endlink for the Visit's \link 
@@ -27,18 +24,12 @@
 */
 @property (strong) PKPointsActivity *currentPointsActivity;
 
-@property (strong) PKCustomer *customer;
-
-/** Any feedback left by the Customer after the Visit was validated.
-*/
-@property (strong) PKFeedbackItem *feedbackItem;
+@property (weak) PKCustomer *customer;
 
 /** Where the Visit occurred.
 */
 @property (strong) PKMerchantLocation *merchantLocation;
 
-/** The PointsActivities associated with the visit.
-*/
 @property (strong) NSMutableArray *pointsActivities;
 
 /** The punches earned during the Visit, broken out by \link PKReward Reward \endlink.

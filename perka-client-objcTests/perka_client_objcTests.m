@@ -36,13 +36,13 @@
 #import "FPPacker.h"
 #import "PKEntityAnnotation.h"
 
-//static NSString *INTEGRATOR_ID = @"e475e342-a542-11e1-9f8d-cde92706a93d";
-//static NSString *INTEGRATOR_SECRET = @"integrator";
-//static NSString *API_BASE = @"http://localhost";
+static NSString *INTEGRATOR_ID = @"e475e342-a542-11e1-9f8d-cde92706a93d";
+static NSString *INTEGRATOR_SECRET = @"integrator";
+static NSString *API_BASE = @"http://localhost";
 
-static NSString *INTEGRATOR_ID = @"44ff7a20-cb63-11e1-9b23-0800200c9a66";
-static NSString *INTEGRATOR_SECRET = @"foobar";
-static NSString *API_BASE = @"https://sandbox.getperka.com";
+//static NSString *INTEGRATOR_ID = @"44ff7a20-cb63-11e1-9b23-0800200c9a66";
+//static NSString *INTEGRATOR_SECRET = @"foobar";
+//static NSString *API_BASE = @"https://sandbox.getperka.com";
 
 static PKClientApi *api;
 

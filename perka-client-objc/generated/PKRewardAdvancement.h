@@ -15,10 +15,10 @@
 
 @property (strong) NSNumber *punchesEarned;
 
-@property (strong) PKReward *reward;
+@property (weak) PKReward *reward;
 
 @property (strong, getter=isTransfer) NSNumber *transfer;
 
-@property (strong) PKVisit *visit;
+@property (weak) PKVisit *visit;
 
 @end

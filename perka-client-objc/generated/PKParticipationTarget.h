@@ -11,6 +11,10 @@
 */
 @interface PKParticipationTarget : PKListTarget
 
+/** Possible values: PUNCH_COUNT, TOP_N, TOP_PCT, VISIT_COUNT
+*/
+@property (strong) NSString *metric;
+
 /** The program type for which punches should be found.
 */
 @property (strong) PKProgramType *programType;

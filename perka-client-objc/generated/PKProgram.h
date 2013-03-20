@@ -18,9 +18,9 @@
 
 @property (strong) NSString *perkId;
 
-@property (strong) PKProgramTier *programTier;
+@property (weak) PKProgramTier *programTier;
 
-@property (strong) PKProgramType *programType;
+@property (weak) PKProgramType *programType;
 
 @property (strong) NSNumber *punchesNeeded;
 

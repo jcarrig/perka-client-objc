@@ -21,17 +21,26 @@
 
 @property (strong) NSString *headline;
 
-@property (strong) NSString *lastActionAt;
+/** Possible values: POINT, PUNCHCARD
+*/
+@property (strong) NSString *loyaltyType;
+
+@property (strong, getter=isManaged) NSNumber *managed;
 
 @property (strong) NSMutableArray *merchantCapabilities;
 
 @property (strong) NSMutableArray *merchantLocations;
 
+/** Possible values: SHARED_PARENT, SIGNUP, PRELIMINARY, DESIGNING, CHANGES_REQUESTED, 
+*   TRIAL, LIVE, PAUSED, SUSPENDED, SHUTDOWN, OFF
+*/
+@property (strong) NSString *merchantState;
+
 @property (strong) NSMutableArray *merchantUsers;
 
 @property (strong) NSString *name;
 
-@property (strong) NSString *notes;
+@property (strong) PKMerchant *parentMerchant;
 
 /** Points-based merchants will define one or more catalog items for which points 
 *   can be redeemed.
@@ -42,6 +51,10 @@
 *   up.
 */
 @property (strong) NSObject *pointsSignupBonus;
+
+/** Returns the MerchantStates that the Merchant user may transition to.
+*/
+@property (strong) NSMutableArray *possibleMerchantStates;
 
 @property (strong) NSMutableArray *programTiers;
 
@@ -76,6 +89,11 @@
 /** Adds an item to the pointsCatalogItems collection while maintaining a proper bi-directional association
 */
 - (void)addItemToPointsCatalogItems:(PKPointsCatalogItem *)item;
+
+
+/** Adds an item to the possibleMerchantStates collection while maintaining a proper bi-directional association
+*/
+- (void)addItemToPossibleMerchantStates:(NSString *)item;
 
 
 /** Adds an item to the programTiers collection while maintaining a proper bi-directional association

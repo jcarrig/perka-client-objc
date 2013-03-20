@@ -10,6 +10,8 @@
 @implementation PKSocialServiceSubscription
 
 @synthesize customer = _customer;
+@synthesize socialAction = _socialAction;
+@synthesize socialService = _socialService;
 
 static FPEntityDescription *_entityDescription;
 static NSMutableArray *_allProperties;
@@ -25,6 +27,22 @@ static NSMutableArray *_allProperties;
                       @"name":@"customer",
                       @"kind":[PKCustomer class],
                       @"impliedProperty":[FPProperty propertyForUuid:@"a0d269f1-33f8-3a6d-821f-8ee78eb47e26"]
+                    }]];
+
+  // socialAction
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"bb3899c9-7d5b-397b-91b9-86ce46e92a0a"
+                    withDictionary:@{
+                      @"name":@"socialAction",
+                      @"kind":[NSString class]
+                    }]];
+
+  // socialService
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"eee73745-6f3a-39a1-8638-137b843bd990"
+                    withDictionary:@{
+                      @"name":@"socialService",
+                      @"kind":[NSString class]
                     }]];
 
   _entityDescription = [FPEntityDescription newWithDictionary:@{

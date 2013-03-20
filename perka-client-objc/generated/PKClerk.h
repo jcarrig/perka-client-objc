@@ -6,7 +6,6 @@
 @class PKClerk;
 @class PKMerchant;
 @class PKMerchantLocation;
-@class PKOutboundMessage;
 
 /** A Clerk represents either an employee identity or a role identity used by the 
 *   validator app. <p> Two distinct classes of Clerks exist: <ul> <li>Named clerks, 
@@ -27,23 +26,16 @@
 
 /** The \link PKMerchant Merchant \endlink that owns the clerk account.
 */
-@property (strong) PKMerchant *merchant;
+@property (weak) PKMerchant *merchant;
 
 /** The locations that the clerk is allowed to interact with.
 */
 @property (strong) NSMutableArray *merchantLocations;
-
-@property (strong) NSMutableArray *outboundMessages;
 
 @property (strong) NSString *unconfirmedEmail;
 
 /** Adds an item to the merchantLocations collection while maintaining a proper bi-directional association
 */
 - (void)addItemToMerchantLocations:(PKMerchantLocation *)item;
-
-
-/** Adds an item to the outboundMessages collection while maintaining a proper bi-directional association
-*/
-- (void)addItemToOutboundMessages:(PKOutboundMessage *)item;
 
 @end

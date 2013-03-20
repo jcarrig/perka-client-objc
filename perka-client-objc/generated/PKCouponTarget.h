@@ -17,6 +17,6 @@
 /** An optional child-to-parent relationship that allows behaviors to be aggregated 
 *   together.
 */
-@property (strong) PKCompositeTarget *parent;
+@property (weak) PKCompositeTarget *parent;
 
 @end

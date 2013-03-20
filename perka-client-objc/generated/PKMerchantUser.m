@@ -2,8 +2,6 @@
 
 #import "PKMerchant.h"
 #import "PKMerchantUser.h"
-#import "PKOutboundMessage.h"
-#import "PKSmsMessage.h"
 #import "FPBaseHasUuid.h"
 #import "FPEntityDescription.h"
 #import "FPProperty.h"
@@ -12,8 +10,6 @@
 @implementation PKMerchantUser
 
 @synthesize merchant = _merchant;
-@synthesize outboundMessages = _outboundMessages;
-@synthesize smsMessages = _smsMessages;
 
 static FPEntityDescription *_entityDescription;
 static NSMutableArray *_allProperties;
@@ -37,22 +33,6 @@ static NSMutableArray *_allProperties;
                       @"name":@"merchant",
                       @"kind":[PKMerchant class],
                       @"impliedProperty":[FPProperty propertyForUuid:@"cb3bc90e-389e-376b-a3a9-c9c1f71a5214"]
-                    }]];
-
-  // outboundMessages
-  [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"9735088d-740f-327c-b26e-4915a4ee0fc8"
-                    withDictionary:@{
-                      @"name":@"outboundMessages",
-                      @"kind":[NSMutableArray class]
-                    }]];
-
-  // smsMessages
-  [_allProperties addObject:
-    [FPProperty setPropertyForUuid:@"e962d5c4-ae83-36ba-877c-d4033ee633ce"
-                    withDictionary:@{
-                      @"name":@"smsMessages",
-                      @"kind":[NSMutableArray class]
                     }]];
 
   // unconfirmedEmail
@@ -85,15 +65,6 @@ static NSMutableArray *_allProperties;
   return _entityDescription;
 }
 
-// initialize collection properties
-- (id)init {
-  self = [super init];
-  if(self != nil) {
-    _outboundMessages = [NSMutableArray new];
-    _smsMessages = [NSMutableArray new];
-  }
-  return self;
-}
 
 // merchant many-to-one accessors to maintain bi-directional relationships
 - (PKMerchant *)merchant{
@@ -104,28 +75,6 @@ static NSMutableArray *_allProperties;
   if(![[_merchant merchantUsers] containsObject:self]) {
     [[_merchant merchantUsers] addObject:self];
   }
-}
-
-// outboundMessages one-to-many accessors to maintain bi-directional relationships
-- (NSMutableArray *)outboundMessages {
-  return _outboundMessages;
-}
-- (void)setOutboundMessages:(NSMutableArray *)outboundMessages {
-  _outboundMessages = [outboundMessages mutableCopy];
-}
-- (void)addItemToOutboundMessages:(PKOutboundMessage *)item {
-  [_outboundMessages addObject:item];
-}
-
-// smsMessages one-to-many accessors to maintain bi-directional relationships
-- (NSMutableArray *)smsMessages {
-  return _smsMessages;
-}
-- (void)setSmsMessages:(NSMutableArray *)smsMessages {
-  _smsMessages = [smsMessages mutableCopy];
-}
-- (void)addItemToSmsMessages:(PKSmsMessage *)item {
-  [_smsMessages addObject:item];
 }
 
 @end

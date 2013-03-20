@@ -25,7 +25,7 @@
 
 /** The merchant that owns the item.
 */
-@property (strong) PKMerchant *merchant;
+@property (weak) PKMerchant *merchant;
 
 /** The number of points required to redeem the item.
 */

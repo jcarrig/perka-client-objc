@@ -13,6 +13,10 @@
 
 @property (strong) NSMutableArray *children;
 
+/** Possible values: AND, NOT, OR
+*/
+@property (strong) NSString *operation;
+
 /** Adds an item to the children collection while maintaining a proper bi-directional association
 */
 - (void)addItemToChildren:(PKCouponTarget *)item;

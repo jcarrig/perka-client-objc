@@ -4,8 +4,6 @@
 #import "PKAbstractUser.h"
 
 @class PKCustomer;
-@class PKCustomerDevice;
-@class PKIntegratorUser;
 @class PKMerchantLocation;
 @class PKReward;
 @class PKSmsMessage;
@@ -20,13 +18,7 @@
 
 @property (strong) NSString *avatarUrl;
 
-@property (strong) NSMutableArray *customerDevices;
-
 @property (strong) NSString *email;
-
-/** The integrator that created the Customer object.
-*/
-@property (strong) PKIntegratorUser *managedBy;
 
 @property (strong) NSMutableArray *rewards;
 
@@ -38,18 +30,11 @@
 
 @property (strong) NSMutableArray *tierTraversals;
 
-/** You probably want #lastVisit().
-*/
 @property (strong) NSMutableArray *visits;
 
 @property (strong) PKMerchantLocation *waitingMerchantLocation;
 
 @property (strong) NSString *waitingNameSince;
-
-/** Adds an item to the customerDevices collection while maintaining a proper bi-directional association
-*/
-- (void)addItemToCustomerDevices:(PKCustomerDevice *)item;
-
 
 /** Adds an item to the rewards collection while maintaining a proper bi-directional association
 */

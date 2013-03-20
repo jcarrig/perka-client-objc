@@ -26,6 +26,14 @@ static NSMutableArray *_allProperties;
                       @"kind":[PKReward class]
                     }]];
 
+  // sku
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"dfc2f09b-6a29-36a6-86be-35beb473bbf1"
+                    withDictionary:@{
+                      @"name":@"sku",
+                      @"kind":[NSString class]
+                    }]];
+
   _entityDescription = [FPEntityDescription newWithDictionary:@{
     @"typeName":@"redemptionRewardConfirmation",
     @"superType":[PKAbstractRewardConfirmation entityDescription],

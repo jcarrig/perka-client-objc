@@ -18,7 +18,7 @@
 
 @property (strong) NSString *activatedAt;
 
-@property (strong) PKCustomer *customer;
+@property (weak) PKCustomer *customer;
 
 @property (strong) PKMerchant *merchant;
 
@@ -29,6 +29,8 @@
 @property (strong) NSString *redeemedAt;
 
 @property (strong) NSMutableArray *rewardAdvancements;
+
+@property (strong) NSString *skuRedeemed;
 
 @property (strong) NSString *transferredAt;
 

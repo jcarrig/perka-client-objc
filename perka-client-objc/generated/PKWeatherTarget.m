@@ -8,6 +8,8 @@
 
 @implementation PKWeatherTarget
 
+@synthesize metric = _metric;
+@synthesize operation = _operation;
 
 static FPEntityDescription *_entityDescription;
 static NSMutableArray *_allProperties;
@@ -29,6 +31,22 @@ static NSMutableArray *_allProperties;
     [FPProperty setPropertyForUuid:@"1ff06cb2-7e82-3255-ab55-cf0f558e021a"
                     withDictionary:@{
                       @"name":@"localMetricAt",
+                      @"kind":[NSString class]
+                    }]];
+
+  // metric
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"7db24165-82bf-36fc-a62d-8e811d9ac8f4"
+                    withDictionary:@{
+                      @"name":@"metric",
+                      @"kind":[NSString class]
+                    }]];
+
+  // operation
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"a7625a0b-c25c-3c0d-957e-4f1761ab12aa"
+                    withDictionary:@{
+                      @"name":@"operation",
                       @"kind":[NSString class]
                     }]];
 

@@ -11,6 +11,14 @@
 */
 @interface PKSocialServiceSubscription : PKBaseEntityGlobal
 
-@property (strong) PKCustomer *customer;
+@property (weak) PKCustomer *customer;
+
+/** Possible values: POST_CHECKINS, POST_REWARDS
+*/
+@property (strong) NSString *socialAction;
+
+/** Possible values: FACEBOOK, TWITTER, FOURSQUARE
+*/
+@property (strong) NSString *socialService;
 
 @end

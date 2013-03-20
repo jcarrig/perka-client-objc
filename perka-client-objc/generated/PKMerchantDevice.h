@@ -14,7 +14,7 @@
 
 @property (strong) NSString *make;
 
-@property (strong) PKMerchantLocation *merchantLocation;
+@property (weak) PKMerchantLocation *merchantLocation;
 
 @property (strong) NSString *model;
 

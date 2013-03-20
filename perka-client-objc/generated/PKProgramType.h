@@ -3,6 +3,7 @@
 #import <Foundation/Foundation.h>
 #import "PKBaseEntityGlobal.h"
 
+@class PKProgram;
 @class PKProgramType;
 
 /** A ProgramType defines a single kind of offer made by the Merchant. For example, 
@@ -22,6 +23,14 @@
 
 @property (strong) NSNumber *position;
 
+@property (strong) NSMutableArray *programs;
+
+@property (strong, getter=isShared) NSNumber *shared;
+
 @property (strong) NSString *stampId;
+
+/** Adds an item to the programs collection while maintaining a proper bi-directional association
+*/
+- (void)addItemToPrograms:(PKProgram *)item;
 
 @end

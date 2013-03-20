@@ -9,6 +9,7 @@
 
 @implementation PKCompositeTarget
 
+@synthesize operation = _operation;
 @synthesize children = _children;
 
 static FPEntityDescription *_entityDescription;
@@ -25,6 +26,14 @@ static NSMutableArray *_allProperties;
                       @"name":@"children",
                       @"kind":[NSMutableArray class],
                       @"impliedProperty":[FPProperty propertyForUuid:@"8ae3806b-dca7-35ad-ade3-97ec2b3cdc3e"]
+                    }]];
+
+  // operation
+  [_allProperties addObject:
+    [FPProperty setPropertyForUuid:@"6a48e5f2-1212-3bfd-8379-6f7cb1645f69"
+                    withDictionary:@{
+                      @"name":@"operation",
+                      @"kind":[NSString class]
                     }]];
 
   _entityDescription = [FPEntityDescription newWithDictionary:@{

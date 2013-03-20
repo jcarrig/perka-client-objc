@@ -13,7 +13,7 @@
 
 /** The parent CouponCampaign that aggregates related Coupons.
 */
-@property (strong) PKCouponCampaign *couponCampaign;
+@property (weak) PKCouponCampaign *couponCampaign;
 
 /** The CouponVisibilites that control where and to whom the Coupon is available.
 */
@@ -34,10 +34,6 @@
 /** See note on #localBeginsAt() on how to interpret this.
 */
 @property (strong) NSString *localEndsAt;
-
-@property (strong) NSNumber *notifyMinutesBefore;
-
-@property (strong) NSString *perkId;
 
 /** Indicates whether or not the Coupon will be actively pushed to customer devices, 
 *   or if it is a passive coupon.
