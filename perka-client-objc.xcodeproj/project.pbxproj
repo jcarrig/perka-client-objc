@@ -1054,6 +1054,7 @@
 				D835B90516F9F2CF00166E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8A8A5B51678E66D008DDF39 /* Build configuration list for PBXProject "perka-client-objc" */ = {
 			isa = XCConfigurationList;
